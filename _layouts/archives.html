@@ -1,0 +1,30 @@
+---
+layout: default
+title: Archives
+---
+<article class="page">
+<h1>{{ page.title }}</h1>
+  <p>
+    Down below you'll find this site's full archive, split up in to either tags or monthly sections with links to each and every single post.
+  </p>
+  <h2>Tags</h2>
+    <ul class="list-hz border-none">
+      {% for tag in site.tags %}      
+        <li>
+          <a href="/blog/tag/{{ tag[0] }}/" alt="{{ tag[0] }}" title="{{ tag[0] }}">{{ tag[0] }}</a>
+        </li>
+      {% endfor %}
+    </ul><!-- .list-hz .border-none -->
+  <h2>Posts</h2>  
+  {% for month in page.months %}
+    <h3>{{ month | date:"%B" }} {{ month | date:"%Y" }}</h3>
+      <ul class="border-none">
+      {% for post in page.posts_by_month[month] %}
+        <li>
+          <span class="italic">{{ post.date | date: "%b %e, %Y" }} // </span>
+          <a href="{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">{{ post.title | truncatewords: 7 }}</a>
+        </li>
+      {% endfor %}
+      </ul><!-- .border-none -->
+  {% endfor %}
+</article><!-- .page -->

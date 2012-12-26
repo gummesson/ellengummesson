@@ -1,0 +1,21 @@
+﻿/* TEAM */
+
+Everything: Ellen Gummesson
+      Site: http://ellengummesson.com/
+   Twitter: @pratnarkoman
+  Location: Sweden
+
+/* SITE */
+
+Last Update: 26/12/2012
+  Standards: HTML5 and CSS3
+ Components: HTML5Shiv
+   Software: SublimeText 2 (http://www.sublimetext.com/)
+             Jekyll        (http://www.jekyllrb.com/)
+             kramdown      (http://kramdown.rubyforge.org/)
+    Hosting: GitHub Pages  (http://pages.github.com/)
+
+/* THANKS */
+
+Tom Preston-Werner (http://tom.preston-werner.com/)
+            GitHub (http://www.github.com/)
