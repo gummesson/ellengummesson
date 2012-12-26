@@ -36,7 +36,7 @@ task :post, :title do |t, args|
   end
 end
 
-# rake transfer
+# rake transfer[command]
 desc "Transfer the _site directory to it's local git repository"
 task :transfer, :command do |t, args|
   command = args[:command]
