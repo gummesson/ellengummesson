@@ -1,5 +1,6 @@
-# For the configuration
-require 'yaml'
+# Requirements
+require 'rake' # For the rake tasks
+require 'yaml' # For the configuration
 
 # Load the configuration file
 config = YAML.load_file("_config.yml")
@@ -52,5 +53,22 @@ task :transfer, :command do |t, args|
     puts "The _site directory was transfered."
   else
     raise "#{command} isn't a valid file transfer command."
+  end
+end
+
+# rake deploy["Commit message"]
+desc "Deploy the site to it's remote git repository"
+task :deploy, :message do |t, args|
+  message = args[:message]
+  if message.nil?
+    system "git add ."
+    system "git commit -m \"Updated.\""
+    system "git push origin master"
+    puts "The site was deployed."
+  else
+    system "git add ."
+    system "git commit -m \"#{message}\""
+    system "git push origin master"
+    puts "The site was deployed."
   end
 end

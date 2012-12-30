@@ -2,6 +2,7 @@
 layout: default
 title: Archives
 ---
+
 <article class="page">
 <h1>{{ page.title }}</h1>
   <p>
@@ -21,7 +22,7 @@ title: Archives
       <ul class="border-none">
       {% for post in page.posts_by_month[month] %}
         <li>
-          <span class="italic">{{ post.date | date: "%b %e, %Y" }} // </span>
+        <span class="italic">{{ post.date | date: "%b %e, %Y" }} // </span>
           <a href="{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">{{ post.title | truncatewords: 7 }}</a>
         </li>
       {% endfor %}

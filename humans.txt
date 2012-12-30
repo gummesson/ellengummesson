@@ -7,7 +7,7 @@ Everything: Ellen Gummesson
 
 /* SITE */
 
-Last Update: 26/12/2012
+Last Update: 30/12/2012
   Standards: HTML5 and CSS3
  Components: HTML5Shiv
    Software: SublimeText 2 (http://www.sublimetext.com/)

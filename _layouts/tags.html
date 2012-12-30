@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <article class="page">
   <h1>{{page.title}}</h1>
     <ul class="border-none">
@@ -8,7 +9,7 @@ layout: default
         {% for tag in post.tags %}
           {% if tag == page.tag %}
             <li>
-              <span class="italic">{{ post.date | date: "%b %e, %Y" }} // </span>
+            <span class="italic">{{ post.date | date: "%b %e, %Y" }} // </span>
               <a href="{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">{{ post.title | truncatewords: 7 }}</a>
             </li>
           {% endif %}
