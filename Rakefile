@@ -30,6 +30,33 @@ task :post, :title do |t, args|
   end
 end
 
+# rake page["Page title"]
+# rake page["Page title","Path/to/folder"]
+desc "Create a page (with an optional filepath)"
+task :page, :title, :path do |t, args|
+  title = args[:title]
+  filepath = args[:path]
+  template = config["page"]["template"]
+  extension = config["page"]["extension"]
+  editor = config["editor"]
+  if title.nil? or title.empty?
+    raise "Please add a title to your page."
+  end
+  if filepath.nil? or filepath.empty?
+    filepath = "./"
+  else
+    FileUtils.mkdir_p("#{filepath}") unless File.exists?("#{filepath}")
+  end
+  filename = "#{title.gsub(/[^[:alnum:]]+/, "-").downcase}.#{extension}"
+  content = File.read(template)
+  File.open("#{filepath}/#{filename}","w") { |file|
+    file.puts("#{content.gsub("title:", "title: #{title}")}") }
+  puts "#{filename} was created in #{filepath}."
+  unless editor.nil? or editor.empty?
+    system "#{editor} #{filepath}/#{filename}"
+  end
+end
+
 # rake build
 # rake build[number]
 desc "Generate the site (with an optional post limit)"
