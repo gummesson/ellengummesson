@@ -1,5 +1,5 @@
 ---
-title: A Better Structure
+title: "A Better Structure"
 tags: [Tech, Apps]
 layout: post
 comments: true

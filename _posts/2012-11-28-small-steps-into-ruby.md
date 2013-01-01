@@ -1,5 +1,5 @@
 ---
-title: Small Steps Into Ruby
+title: "Small Steps Into Ruby"
 tags: [Code, Ruby]
 layout: post
 comments: true

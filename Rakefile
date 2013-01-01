@@ -1,23 +1,13 @@
 # Requirements
-require 'rake' # For the rake tasks
-require 'yaml' # For the configuration
+require 'rake'       # For the rake tasks
+require 'yaml'       # For reading the configuration file
+require 'fileutils'  # For creating recursive directories
 
 # Load the configuration file
 config = YAML.load_file("_config.yml")
 
-# Set build as default
+# Set "rake build" as default task
 task :default => :build
-
-# rake build or rake build[number]
-desc "Generate the site (with an optional post limit)"
-task :build, :number do |t, args|
-  number = args[:number]
-  if number.nil?
-    system "jekyll --auto --server"
-  else
-    system "jekyll --auto --server --limit_posts=#{number}"
-  end
-end
 
 # rake post["Post title"]
 desc "Create a post in the _posts directory"
@@ -25,16 +15,41 @@ task :post, :title do |t, args|
   title = args[:title]
   template = config["post"]["template"]
   extension = config["post"]["extension"]
-  date = Time.now.strftime("%Y-%m-%d")
-  if title.nil?
+  editor = config["editor"]
+  if title.nil? or title.empty?
     raise "Please add a title to your post."
-  else
-    filename = "#{date}-#{title.gsub(/\s/, "-").downcase}.#{extension}"
-    content = File.read(template)
-    File.open("_posts/#{filename}","w") { |file|
-      file.puts("#{content.gsub("title:", "title: #{title}")}") }
-    puts "#{filename} was created."
   end
+  date = Time.now.strftime("%Y-%m-%d")
+  filename = "#{date}-#{title.gsub(/[^[:alnum:]]+/, "-").downcase}.#{extension}"
+  content = File.read(template)
+  File.open("_posts/#{filename}","w") { |file|
+    file.puts("#{content.gsub("title:", "title: #{title}")}") }
+  puts "#{filename} was created."
+  unless editor.nil? or editor.empty?
+    system "#{editor} _posts/#{filename}"
+  end
+end
+
+# rake build
+# rake build[number]
+desc "Generate the site (with an optional post limit)"
+task :build, :number do |t, args|
+  number = args[:number]
+  if number.nil? or number.empty?
+    system "jekyll --auto --server"
+  else
+    system "jekyll --auto --server --limit_posts=#{number}"
+  end
+end
+
+# rake preview
+desc "Launch a preview of the site in the browser"
+task :preview do
+  require 'Launchy'  # For launching the browser
+  puts "Launching browser for preview..."
+  sleep 2 #seconds
+  Launchy.open("http://localhost:4000")
+  Rake::Task[:build].invoke
 end
 
 # rake transfer[command]

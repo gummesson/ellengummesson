@@ -1,5 +1,5 @@
 ---
-title: My New Writing App
+title: "My New Writing App"
 tags: [Tech, Apps]
 layout: post
 comments: true

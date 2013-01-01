@@ -1,5 +1,5 @@
 --- 
-title: Squarespace Note
+title: "Squarespace Note"
 tags: [Tech, Apps, iOS]
 layout: post
 comments: true

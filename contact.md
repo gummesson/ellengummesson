@@ -1,6 +1,6 @@
 ---
+title: "Contact"
 layout: page
-title: Contact
 ---
 
 There's several ways to contact and to keep in touch with me. Feel free to use any of the following channels to either read, rant, rave or to simply talk to me.

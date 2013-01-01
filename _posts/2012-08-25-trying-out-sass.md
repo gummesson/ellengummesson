@@ -1,5 +1,5 @@
 ---
-title: Trying Out SASS
+title: "Trying Out SASS"
 layout: post
 tags: [Code, CSS, SASS]
 comments: true

@@ -1,5 +1,5 @@
 ---
-title: Jekyll Rake Boilerplate
+title: "Jekyll Rake Boilerplate"
 tags: [Code, Ruby, Jekyll]
 layout: post
 comments: true

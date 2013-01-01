@@ -1,5 +1,5 @@
 --- 
-title: The One About Markdown
+title: "The One About Markdown"
 tags: [Writing, Markdown, Plain Text]
 layout: post
 comments: true

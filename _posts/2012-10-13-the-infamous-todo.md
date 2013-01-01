@@ -1,5 +1,5 @@
 --- 
-title: The Infamous Todo
+title: "The Infamous Todo"
 tags: [Productivity, Apps, Plain Text]
 layout: post
 comments: true

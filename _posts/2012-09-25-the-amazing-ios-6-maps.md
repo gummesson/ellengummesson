@@ -1,5 +1,5 @@
 --- 
-title: The Amazing iOS 6 Maps
+title: "The Amazing iOS 6 Maps"
 tags: [Web, Tech, iOS]
 layout: post
 comments: true

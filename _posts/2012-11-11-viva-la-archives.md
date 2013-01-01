@@ -1,5 +1,5 @@
 --- 
-title: Viva La Archives
+title: "Viva La Archives"
 tags: [Code, Jekyll]
 layout: post
 comments: true

@@ -1,5 +1,5 @@
 ---
-title: Configuring Crunchbang
+title: "Configuring Crunchbang"
 tags: [Tech, Linux, Crunchbang]
 layout: post
 comments: true

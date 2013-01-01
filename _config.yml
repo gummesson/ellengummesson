@@ -8,7 +8,7 @@ tag_dir: blog/tag
 paginate: 5
 paginate_path: blog/page/:num
 post:
-  template: _template.txt
+  template: _post.txt
   extension: md
 transfer:
   robocopy: _site\ D:\Git\gummesson.github.com\ /e

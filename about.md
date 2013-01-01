@@ -1,6 +1,6 @@
 ---
+title: "About"
 layout: page
-title: About
 ---
 
 My name is Ellen Gummesson and I love communication and the web, especially when the two of them get together. I recently graduated from Umeå University, located in the north of Sweden, where I recieved a Degree of Bachelor of Arts in Media and Communication Studies with a specialisation in strategic communication. I've previously worked as a writer and reviewer for the magazine Nöjesmagasinet City and I'm getting more and more into web design and front-end development, mainly HTML5, CSS3 and a little bit of [jQuery](http://jquery.com/ "jQuery"). I've also started to learn the programming language [Ruby](http://www.ruby-lang.org/ "Ruby"). You can check out [my projects](/projects/) if you'd like.

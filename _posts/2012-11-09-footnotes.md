@@ -1,5 +1,5 @@
 ---
-title: Footnotes
+title: "Footnotes"
 tags: [Jekyll, Markdown]
 layout: post
 comments: true

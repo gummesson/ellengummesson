@@ -1,5 +1,5 @@
 ---
-title: My Adventure With Crunchbang
+title: "My Adventure With Crunchbang"
 tags: [Tech, Linux, Crunchbang]
 layout: post
 comments: true

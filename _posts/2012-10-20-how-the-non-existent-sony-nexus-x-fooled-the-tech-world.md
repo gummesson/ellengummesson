@@ -1,5 +1,5 @@
 ---
-title: How The Non-Existent Sony Nexus X Fooled The Tech World
+title: "How The Non-Existent Sony Nexus X Fooled The Tech World"
 tags: [Web, Tech]
 layout: post
 comments: true

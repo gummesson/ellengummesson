@@ -1,5 +1,5 @@
 ---
-title: Stumbling Upon A Good Solution
+title: "Stumbling Upon A Good Solution"
 tags: [Code, CSS]
 layout: post
 comments: true

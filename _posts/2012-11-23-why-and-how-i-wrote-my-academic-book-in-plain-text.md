@@ -1,5 +1,5 @@
 ---
-title: Why (And How) I Wrote My Academic Book In Plain Text
+title: "Why (And How) I Wrote My Academic Book In Plain Text"
 tags: [Writing, Plain Text]
 layout: post
 comments: true

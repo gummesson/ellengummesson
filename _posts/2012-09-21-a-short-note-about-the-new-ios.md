@@ -1,5 +1,5 @@
 ---
-title: A Short Note About The New iOS
+title: "A Short Note About The New iOS"
 tags: [Tech, iOS]
 layout: post
 comments: true

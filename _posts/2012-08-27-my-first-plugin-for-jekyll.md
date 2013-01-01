@@ -1,5 +1,5 @@
 ---
-title: My First Plugin For Jekyll
+title: "My First Plugin For Jekyll"
 tags: [Code, Jekyll]
 layout: post
 comments: true

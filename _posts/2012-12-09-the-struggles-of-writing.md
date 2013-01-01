@@ -1,5 +1,5 @@
 ---
-title: The Struggles Of Writing
+title: "The Struggles Of Writing"
 tags: [General, Writing]
 layout: post
 comments: true

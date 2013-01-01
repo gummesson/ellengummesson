@@ -1,5 +1,5 @@
 ---
-title: The Hassles Of Media Queries
+title: "The Hassles Of Media Queries"
 tags: [Code, CSS, HTML]
 layout: post
 comments: true

@@ -1,5 +1,5 @@
 ---
-title: Markdown Hostrings (For AutoHotKey)
+title: "Markdown Hostrings (For AutoHotKey)"
 tags: [Code, Markdown]
 layout: post
 comments: true

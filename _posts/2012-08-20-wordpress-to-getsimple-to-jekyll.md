@@ -1,5 +1,5 @@
 ---
-title: WordPress To GetSimple To Jekyll
+title: "WordPress To GetSimple To Jekyll"
 tags: [Code, Jekyll]
 layout: post
 comments: true

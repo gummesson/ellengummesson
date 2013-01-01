@@ -1,5 +1,5 @@
 ---
-title: Redesigning
+title: "Redesigning"
 tags: [Code, Design]
 layout: post
 comments: true

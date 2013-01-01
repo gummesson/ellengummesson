@@ -1,5 +1,5 @@
 ---
-title: To Re-Redesign Or Not
+title: "To Re-Redesign Or Not"
 tags: [Design, Thoughts]
 layout: post
 comments: true

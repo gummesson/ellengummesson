@@ -1,5 +1,5 @@
 ---
-title: My Big Fat Git Failure
+title: "My Big Fat Git Failure"
 tags: [Code, Git]
 layout: post
 comments: true

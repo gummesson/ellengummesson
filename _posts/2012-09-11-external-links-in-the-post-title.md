@@ -1,5 +1,5 @@
 ---
-title: External Links In The Post Title
+title: "External Links In The Post Title"
 tags: [Code, Jekyll]
 layout: post
 comments: true

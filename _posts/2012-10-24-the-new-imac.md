@@ -1,5 +1,5 @@
 --- 
-title: The New iMac
+title: "The New iMac"
 tags: [Tech, Apple]
 layout: post
 comments: true

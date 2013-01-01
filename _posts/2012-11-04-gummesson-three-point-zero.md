@@ -1,5 +1,5 @@
 ---
-title: Gummesson 3.0
+title: "Gummesson 3.0"
 tags: [Code, Design]
 layout: post
 comments: true

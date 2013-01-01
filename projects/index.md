@@ -1,7 +1,8 @@
 ---
+title: "Projects"
 layout: page
-title: Projects
 ---
+
 Here's my humble collection of projects (or rather, demos and snippets).
 
 ## Begrider

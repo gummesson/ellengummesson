@@ -1,5 +1,5 @@
 ---
-title: Automated Markdown Links And Better Footnotes
+title: "Automated Markdown Links And Better Footnotes"
 tags: [Code, Markdown]
 layout: post
 comments: true

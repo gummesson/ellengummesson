@@ -1,5 +1,5 @@
 --- 
-title: My New Twitter Client
+title: "My New Twitter Client"
 tags: [Tech, Apps]
 layout: post
 comments: true

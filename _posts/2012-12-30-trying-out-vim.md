@@ -1,5 +1,5 @@
 ---
-title: Trying Out Vim
+title: "Trying Out Vim"
 tags: [Code, Vim]
 layout: post
 comments: true
@@ -12,7 +12,7 @@ I'm still very new to using it, so if I decided to really dive in to it I'm sure
 
 ## My (g)Vim Config
 
-I naturally wanted to add some settings to make the experience slightly better[^20121230-2] and thanks to a lot of different people[^20121230-3] across the web I was able to change quite a whole lot to my liking. I also installed a plugin called [NERDTree](https://github.com/scrooloose/nerdtree "NERDTree") which adds a sidebar where you can see the files in your project directory. [Pathogen](https://github.com/tpope/vim-pathogen "Pathogen") is also very helpful when it comes to managing all your plugins. It's of course available on [my GitHub page](https://github.com/gummesson/dotfiles/blob/master/.vimrc "My .vimrc on GitHub") and it's loaded with comments.
+I naturally wanted to add some settings to make the experience slightly better[^20121230-2] and thanks to a lot of different people[^20121230-3] across the web I was able to change quite a whole lot to my liking. I also installed a plugin called [NERDTree](https://github.com/scrooloose/nerdtree "NERDTree") which adds a sidebar where you can see the files in your project directory. [Pathogen](https://github.com/tpope/vim-pathogen "Pathogen") is also very helpful when it comes to managing all your plugins. It's of course available on [my GitHub page](https://github.com/gummesson/vimfiles/blob/master/.vimrc "My .vimrc on GitHub") and it's loaded with comments.
 
 ## Resources
 

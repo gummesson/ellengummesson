@@ -1,5 +1,5 @@
 ---
-title: Changes Coming For Echofon Desktop Users
+title: "Changes Coming For Echofon Desktop Users"
 tags: [Web, Tech, Apps]
 layout: post
 comments: true

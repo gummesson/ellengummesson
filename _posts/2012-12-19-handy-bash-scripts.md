@@ -1,5 +1,5 @@
 ---
-title: Handy Bash Scripts
+title: "Handy Bash Scripts"
 tags: [Tech, Linux, Bash]
 layout: post
 comments: true

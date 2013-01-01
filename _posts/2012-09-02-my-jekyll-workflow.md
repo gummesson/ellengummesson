@@ -1,5 +1,5 @@
 ---
-title: My Jekyll Workflow
+title: "My Jekyll Workflow"
 tags: [Code, Jekyll]
 layout: post
 comments: true

@@ -1,5 +1,5 @@
 ---
-title: A Hard (Drive) Failure
+title: "A Hard (Drive) Failure"
 tags: [Tech, Hardware]
 layout: post
 comments: true

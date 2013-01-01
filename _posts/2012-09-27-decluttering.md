@@ -1,5 +1,5 @@
 --- 
-title: Decluttering
+title: "Decluttering"
 tags: [Tech]
 layout: post
 comments: true

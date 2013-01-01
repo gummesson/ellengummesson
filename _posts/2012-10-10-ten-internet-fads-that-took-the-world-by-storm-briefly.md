@@ -1,5 +1,5 @@
 --- 
-title: 10 Internet Fads That Took The World By Storm Briefly
+title: "10 Internet Fads That Took The World By Storm Briefly"
 tags: [Web]
 layout: post
 comments: true

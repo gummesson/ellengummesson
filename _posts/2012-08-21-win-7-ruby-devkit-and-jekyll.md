@@ -1,5 +1,5 @@
 ---
-title: Windows 7, Ruby, DevKit And Jekyll
+title: "Windows 7, Ruby, DevKit And Jekyll"
 tags: [Code, Jekyll]
 layout: post
 comments: true

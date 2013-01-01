@@ -1,5 +1,5 @@
 ---
-title: More Additions
+title: "More Additions"
 tags: [Code, CSS]
 layout: post
 comments: true
