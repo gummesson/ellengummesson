@@ -1,5 +1,5 @@
 ﻿---
-title: ""
+title: 
 tags: []
 layout: post
 comments: true

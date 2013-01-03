@@ -21,14 +21,6 @@ Here's my humble collection of projects (or rather, demos and snippets).
 
 [Download](https://github.com/gummesson/clean-slate-gs/zipball/master "Download Clean Slate for GetSimple CMS") / [GitHub](https://github.com/gummesson/clean-slate-gs "Clean Slate on Github")
 
-## Simple jQuery Scrolling
-
-<p class="margin-small small centered italic">jQuery/HTML/CSS</p>
-
-*Simple jQuery Scrolling* is a demo with of a simple snippet for a very basic *jQuery* scrolling function.
-
-[Download](https://github.com/gummesson/simple-jquery-scrolling/zipball/master "Download Simple jQuery Scrolling") / [GitHub](https://github.com/gummesson/simple-jquery-scrolling "Simple jQuery Scrolling on Github")
-
 ## Jekyll Rake Boilerplate
 
 <p class="margin-small small centered italic">Ruby</p>
@@ -44,14 +36,6 @@ Here's my humble collection of projects (or rather, demos and snippets).
 *Jekyll Vimeo Plugin* is a plugin for [Jekyll](http://www.jekyllrb.com/ "Jekyll") that makes it easy to embed videos from Vimeo by using a simple Liquid tag. It's based of the [Youtube plugin/gist](http://www.portwaypoint.co.uk/jekyll-youtube-liquid-template-tag-gist/ "Jekyll Youtube Liquid Template Tag Gist") from Portway Point.
 
 [Download](https://github.com/gummesson/jekyll-vimeo-plugin/zipball/master "Download Jekyll Vimeo Plugin") / [GitHub](https://github.com/gummesson/jekyll-vimeo-plugin "Jekyll Vimeo Plugin on Github")
-
-## Append Text (for Launchy)
-
-<p class="margin-small small centered italic">Ruby</p>
-
-*Append Text* is a simple Ruby script for appending text to a text file directly from within the application launcher [Launchy](http://launchy.net/ "Launchy").
-
-[Download](https://github.com/gummesson/append-text/zipball/master "Download Append Text (for Launchy)") / [GitHub](https://github.com/gummesson/append-text "Append Text (for Launchy) on GitHub")
 
 ## Markdown Hostrings (for AutoHotKey)
 
@@ -73,6 +57,6 @@ Here's my humble collection of projects (or rather, demos and snippets).
 
 <p class="margin-small small centered italic">FocusWriter Theme Files</p>
 
-*FocusWriter Themes* is a comlletion of a couple of themes I created for the excellent free text editor [FocusWriter](http://gottcode.org/focuswriter/ "FocusWriter"). They're based on some popular color schemes from various other editors.
+*FocusWriter Themes* is a collection of a couple of themes I created for the excellent free text editor [FocusWriter](http://gottcode.org/focuswriter/ "FocusWriter"). They're based on some popular color schemes from various other editors.
 
 [Screenshots](/projects/focuswriter-themes/ "FocusWriter Themes") / [Download](https://github.com/gummesson/focuswriter-themes/zipball/master "Download the FocusWriter Themes") / [GitHub](https://github.com/gummesson/focuswriter-themes "FocusWriter Themes on GitHub")

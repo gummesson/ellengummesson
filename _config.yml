@@ -10,6 +10,7 @@ paginate_path: blog/page/:num
 post:
   template: _post.txt
   extension: md
+editor: gvim
 transfer:
   robocopy: _site\ D:\Git\gummesson.github.com\ /e
   rsync: -av _site/ ~/Git/gummesson.github.com/
