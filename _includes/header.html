@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>{{ page.title }} // {{ site.name }}</title>
+  <title>{{ page.title }}: {{ site.name }}</title>
     <meta name="description" content="{{ site.name }} - {{ site.description }}">
     <meta name="author" content="Ellen Gummesson">
     <link rel="author" href="/humans.txt" type="text/plain">
@@ -10,8 +10,8 @@
   <link rel="canonical" href="http://ellengummesson.com/">
     <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="{{ site.name }} / {{ site.description }} / RSS Feed">
     <link rel="sitemap" href="/sitemap.xml" type="application/xml" title="{{ site.name }} / {{ site.description }} / Sitemap">
-  <link rel="stylesheet" href="/assets/css/reset.css" type="text/css">
-  <link rel="stylesheet" href="/assets/css/global.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/reset.min.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/global.min.css" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Tinos:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="/assets/icons/favicon.png" type="img/png">
@@ -22,6 +22,6 @@
 <body>
   <div class="container">
     <header class="branding">
-      <a href="/" title="{{ site.name }} // {{ site.description }}" alt="{{ site.name }} // {{ site.description }}">
+      <a href="/" title="{{ site.name }}: {{ site.description }}" alt="{{ site.name }}: {{ site.description }}">
         <img src="/assets/logo/logo.png" class="logo" />
       </a>

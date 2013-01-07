@@ -24,13 +24,18 @@ task :post, :title do |t, args|
   date = Time.now.strftime("%Y-%m-%d")
   filename = "#{date}-#{title.gsub(/[^[:alnum:]]+/, "-").downcase}.#{extension}"
   content = File.read(template)
-  
-  File.open("_posts/#{filename}","w") { |file|
-    file.puts("#{content.gsub("title:", "title: \"#{title}\"")}") }
-  puts "#{filename} was created."
-  
-  unless editor.nil? or editor.empty?
-    system "#{editor} _posts/#{filename}"
+ 
+  if File.exists?("_posts/#{filename}")
+    raise "The post already exists."
+  else
+    File.open("_posts/#{filename}","w") { |file|
+      file.puts("#{content.gsub("title:", "title: \"#{title}\"")}") }
+    puts "#{filename} was created."
+
+    if editor && !editor.nil?
+      sleep 2 # seconds
+      system "#{editor} _posts/#{filename}"
+    end
   end
 end
 
@@ -61,7 +66,9 @@ task :preview do
   puts "Launching browser for preview..."
   sleep 2 #seconds
 
-  Launchy.open("http://localhost:4000")
+  Thread.new do
+    Launchy.open("http://localhost:4000")
+  end
   Rake::Task[:watch].invoke
 end
 

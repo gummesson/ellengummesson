@@ -10,7 +10,7 @@ title: Archives
   </p>
   <h2>Tags</h2>
     <ul class="list-hz border-none">
-      {% for tag in site.tags %}      
+      {% for tag in site.tags %}
         <li>
           <a href="/blog/tag/{{ tag[0] }}/" alt="{{ tag[0] }}" title="{{ tag[0] }}">{{ tag[0] }}</a>
         </li>
@@ -22,7 +22,7 @@ title: Archives
       <ul class="border-none">
       {% for post in page.posts_by_month[month] %}
         <li>
-        <span class="italic">{{ post.date | date: "%b %e, %Y" }} // </span>
+        <span class="bold">{{ post.date | date: "%b %e, %Y" }}: </span>
           <a href="{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">{{ post.title | truncatewords: 7 }}</a>
         </li>
       {% endfor %}
