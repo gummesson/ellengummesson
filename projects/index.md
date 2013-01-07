@@ -13,6 +13,14 @@ Here's my humble collection of projects (or rather, demos and snippets).
 
 [Download](https://github.com/gummesson/begrider/zipball/master "Download Begrider") / [GitHub](https://github.com/gummesson/begrider "Begrider on Github")
 
+## Gridy
+
+<p class="margin-small small centered italic">CSS/SCSS</p>
+
+*Gridy* is a small SCSS grid framework. It can be used both as base for a class-based grid system or applied directly on the markup.
+
+[Download](https://github.com/gummesson/gridy/zipball/master "Download Gridy") / [GitHub](https://github.com/gummesson/gridy "Gridy on Github")
+
 ## Clean Slate For GetSimple CMS
 
 <p class="margin-small small centered italic">CSS/HTML/PHP</p>
