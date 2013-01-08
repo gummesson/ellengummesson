@@ -1,13 +1,13 @@
 ﻿/* TEAM */
 
-Everything: Ellen Gummesson
-      Site: http://ellengummesson.com/
-   Twitter: @pratnarkoman
-  Location: Sweden
+Jack of all trades: Ellen Gummesson
+              Site: http://ellengummesson.com/
+           Twitter: @pratnarkoman
+          Location: Sweden
 
 /* SITE */
 
-Last Update: 2013/01/07
+Last update: 2013/01/08
   Standards: HTML5 and CSS3
  Components: HTML5Shiv
    Software: SublimeText 2 (http://www.sublimetext.com/)
@@ -20,3 +20,4 @@ Last Update: 2013/01/07
 
 Tom Preston-Werner (http://tom.preston-werner.com/)
             GitHub (http://www.github.com/)
+            Heroku (http://www.heroku.com/)

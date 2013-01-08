@@ -70,11 +70,11 @@ html {
 }
 
 .branding {
-  margin-top: 2.5em;
+  margin-top: 3em;
 }
 
 .content {
-  margin-top: 2em;
+  margin-top: 2.5em;
 }
 
   .menu {
@@ -143,6 +143,7 @@ code {
 
 i, .italic,
 em, .em,
+h1, h2, h3, h4, h5, h6,
 blockquote,
 q,
 cite,

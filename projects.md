@@ -3,7 +3,31 @@ title: "Projects"
 layout: page
 ---
 
-Here's my humble collection of projects (or rather, demos and snippets).
+Down below you'll find my humble collection of apps, projects, demos and snippets written Ruby, PHP, HTML and CSS, a couple of handy [AutoHotKey](http://www.autohotkey.com/ "AutoHotKey") scripts and some themes for the app [FocusWriter](http://gottcode.org/focuswriter/ "FocusWriter").
+
+## Kramit!
+
+<p class="margin-small small centered italic">Ruby/Sinatra</p>
+
+*Kramit!* is a [Markdown](http://daringfireball.net/projects/markdown/ "Markdown") preview app built with [Sinatra](http://www.sinatrarb.com/ "Sinatra") and [kramdown](http://kramdown.rubyforge.org/ "kramdown"). It's deployed with and hosted on [Heroku](http://www.heroku.com/ "Heroku").
+
+[Try it!](http://kramit.ellengummesson.com/ "Kramit!") / [Download](https://github.com/gummesson/kramit/zipball/master "Download Kramit!") / [GitHub](https://github.com/gummesson/kramit "Kramit! on GitHub")
+
+## Jekyll Rake Boilerplate
+
+<p class="margin-small small centered italic">Ruby</p>
+
+*Jekyll Rake Boilerplate* is a small rake "boilerplate" for doing common tasks with the static site generator [Jekyll](http://jekyllrb.com/ "Jekyll"), such as generating your site (with an optional post limit), creating a new post from a default template and deploying it to it's remote git repository.
+
+[Download](https://github.com/gummesson/jekyll-rake-boilerplate/zipball/master "Download Jekyll Rake Boilerplate") / [GitHub](https://github.com/gummesson/jekyll-rake-boilerplate "Jekyll Rake Boilerplate on GitHub")
+
+## Jekyll Vimeo Plugin
+
+<p class="margin-small small centered italic">Ruby</p>
+
+*Jekyll Vimeo Plugin* is a plugin for [Jekyll](http://www.jekyllrb.com/ "Jekyll") that makes it easy to embed videos from Vimeo by using a simple Liquid tag. It's based of the [Youtube plugin/gist](http://www.portwaypoint.co.uk/jekyll-youtube-liquid-template-tag-gist/ "Jekyll Youtube Liquid Template Tag Gist") from Portway Point.
+
+[Download](https://github.com/gummesson/jekyll-vimeo-plugin/zipball/master "Download Jekyll Vimeo Plugin") / [GitHub](https://github.com/gummesson/jekyll-vimeo-plugin "Jekyll Vimeo Plugin on Github")
 
 ## Begrider
 
@@ -29,22 +53,6 @@ Here's my humble collection of projects (or rather, demos and snippets).
 
 [Download](https://github.com/gummesson/clean-slate-gs/zipball/master "Download Clean Slate for GetSimple CMS") / [GitHub](https://github.com/gummesson/clean-slate-gs "Clean Slate on Github")
 
-## Jekyll Rake Boilerplate
-
-<p class="margin-small small centered italic">Ruby</p>
-
-*Jekyll Rake Boilerplate* is a small rake "boilerplate" for doing common tasks with the static site generator [Jekyll](http://jekyllrb.com/ "Jekyll"), such as generating your site (with an optional post limit), creating a new post from a default template and deploying it to it's remote git repository or a remote host/server.
-
-[Download](https://github.com/gummesson/jekyll-rake-boilerplate/zipball/master "Download Jekyll Rake Boilerplate") / [GitHub](https://github.com/gummesson/jekyll-rake-boilerplate "Jekyll Rake Boilerplate on GitHub")
-
-## Jekyll Vimeo Plugin
-
-<p class="margin-small small centered italic">Ruby</p>
-
-*Jekyll Vimeo Plugin* is a plugin for [Jekyll](http://www.jekyllrb.com/ "Jekyll") that makes it easy to embed videos from Vimeo by using a simple Liquid tag. It's based of the [Youtube plugin/gist](http://www.portwaypoint.co.uk/jekyll-youtube-liquid-template-tag-gist/ "Jekyll Youtube Liquid Template Tag Gist") from Portway Point.
-
-[Download](https://github.com/gummesson/jekyll-vimeo-plugin/zipball/master "Download Jekyll Vimeo Plugin") / [GitHub](https://github.com/gummesson/jekyll-vimeo-plugin "Jekyll Vimeo Plugin on Github")
-
 ## Markdown Hostrings (for AutoHotKey)
 
 <p class="margin-small small centered italic">AutoHotKey</p>
@@ -67,4 +75,4 @@ Here's my humble collection of projects (or rather, demos and snippets).
 
 *FocusWriter Themes* is a collection of a couple of themes I created for the excellent free text editor [FocusWriter](http://gottcode.org/focuswriter/ "FocusWriter"). They're based on some popular color schemes from various other editors.
 
-[Screenshots](/projects/focuswriter-themes/ "FocusWriter Themes") / [Download](https://github.com/gummesson/focuswriter-themes/zipball/master "Download the FocusWriter Themes") / [GitHub](https://github.com/gummesson/focuswriter-themes "FocusWriter Themes on GitHub")
+[Download](https://github.com/gummesson/focuswriter-themes/zipball/master "Download the FocusWriter Themes") / [GitHub](https://github.com/gummesson/focuswriter-themes "FocusWriter Themes on GitHub")
