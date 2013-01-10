@@ -7,7 +7,7 @@ Jack of all trades: Ellen Gummesson
 
 /* SITE */
 
-Last update: 2013/01/08
+Last update: 2013/01/10
   Standards: HTML5 and CSS3
  Components: HTML5Shiv
    Software: SublimeText 2 (http://www.sublimetext.com/)
