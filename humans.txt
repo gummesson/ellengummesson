@@ -1,23 +1,26 @@
-﻿/* TEAM */
+﻿/* THE TEAM */
 
-Jack of all trades: Ellen Gummesson
-              Site: http://ellengummesson.com/
+Jack of All Trades: Ellen Gummesson
+           Website: http://ellengummesson.com/
            Twitter: @pratnarkoman
           Location: Sweden
 
-/* SITE */
+/* THE SITE */
 
-Last update: 2013/01/10
-  Standards: HTML5 and CSS3
- Components: HTML5Shiv
-   Software: SublimeText 2 (http://www.sublimetext.com/)
-             gVim          (http://www.vim.org/)
-             Jekyll        (http://www.jekyllrb.com/)
-             kramdown      (http://kramdown.rubyforge.org/)
-    Hosting: GitHub Pages  (http://pages.github.com/)
+Last Updated: 2013/01/12
+   Standards: HTML5 & CSS3
+  Components: HTML5Shiv
+    Software: gVim         (http://www.vim.org/)
+              Jekyll       (http://www.jekyllrb.com/)
+              kramdown     (http://kramdown.rubyforge.org/)
+     Hosting: GitHub Pages (http://pages.github.com/)
 
-/* THANKS */
+/* THANK YOU! */
 
 Tom Preston-Werner (http://tom.preston-werner.com/)
             GitHub (http://www.github.com/)
-            Heroku (http://www.heroku.com/)
+
+/* STUFF I LIKE */
+
+Sinatra (http://www.sinatrarb.com/)
+ Heroku (http://www.heroku.com/)

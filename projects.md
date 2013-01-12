@@ -29,6 +29,22 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 [Download](https://github.com/gummesson/jekyll-vimeo-plugin/zipball/master "Download Jekyll Vimeo Plugin") / [GitHub](https://github.com/gummesson/jekyll-vimeo-plugin "Jekyll Vimeo Plugin on Github")
 
+## Smallwork
+
+<p class="margin-small small centered italic">CSS/SCSS</p>
+
+*Smallwork* is a small and extendable [SCSS](http://sass-lang.com/ "Sass/SCSS") framework which consists of mixins, variables and partials that serves as a good starting point for various projects.
+
+[Download](https://github.com/gummesson/smallwork/zipball/master "Download Smallwork") / [GitHub](https://github.com/gummesson/smallwork "Smallwork on Github")
+
+## Gridy
+
+<p class="margin-small small centered italic">CSS/SCSS</p>
+
+*Gridy* is a small [SCSS](http://sass-lang.com/ "Sass/SCSS") grid framework. It can be used both as base for a class-based grid system or applied directly on the markup.
+
+[Download](https://github.com/gummesson/gridy/zipball/master "Download Gridy") / [GitHub](https://github.com/gummesson/gridy "Gridy on Github")
+
 ## Begrider
 
 <p class="margin-small small centered italic">CSS/HTML</p>
@@ -36,14 +52,6 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 *Begrider* is a simple, fluid twelve column and ten units grid system with a 1140px fixed width. It works great in Chrome and Firefox and looks alright in Internet Explorer 9. It works in Opera too if you don’t mind that some of the columns are a tiny bit off. The goal behind it was creating something that I could actually use and to make it as simple as possible.
 
 [Download](https://github.com/gummesson/begrider/zipball/master "Download Begrider") / [GitHub](https://github.com/gummesson/begrider "Begrider on Github")
-
-## Gridy
-
-<p class="margin-small small centered italic">CSS/SCSS</p>
-
-*Gridy* is a small SCSS grid framework. It can be used both as base for a class-based grid system or applied directly on the markup.
-
-[Download](https://github.com/gummesson/gridy/zipball/master "Download Gridy") / [GitHub](https://github.com/gummesson/gridy "Gridy on Github")
 
 ## Clean Slate For GetSimple CMS
 
