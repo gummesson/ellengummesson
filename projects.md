@@ -13,6 +13,14 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 [Try it!](http://kramit.ellengummesson.com/ "Kramit!") / [Download](https://github.com/gummesson/kramit/zipball/master "Download Kramit!") / [GitHub](https://github.com/gummesson/kramit "Kramit! on GitHub")
 
+## Journal
+
+<p class="margin-small small centered italic">Ruby/Sinatra</p>
+
+A simple journal/diary app built with [Sinatra](http://www.sinatrarb.com/ "Sinatra") which uses [DataMapper](http://datamapper.org "DataMapper") along with [SQLite3](http://www.sqlite.org/ "SQLite3") for storing everything in a database. It also uses `Rack::Basic:Auth` for basic user authenication.
+
+[Download](https://github.com/gummesson/journal/zipball/master "Download Journal") / [GitHub](https://github.com/gummesson/journal "Journal on GitHub")
+
 ## Jekyll Rake Boilerplate
 
 <p class="margin-small small centered italic">Ruby</p>
