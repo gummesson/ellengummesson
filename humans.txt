@@ -7,7 +7,7 @@ Jack of All Trades: Ellen Gummesson
 
 /* THE SITE */
 
-Last Updated: 2013/01/14
+Last Updated: 2013/01/15
    Standards: HTML5 & CSS3
   Components: HTML5Shiv
     Software: gVim         (http://www.vim.org/)
