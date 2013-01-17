@@ -3,6 +3,8 @@ title: "About"
 layout: page
 ---
 
+<img src="/assets/self/self.jpg" title="Me, myself and I" alt="Me, myself and I" class="self" />
+
 My name is Ellen Gummesson and I love communication and the web, especially when the two of them get together. I recently graduated from Umeå University, located in the north of Sweden, where I recieved a degree in media and communication studies. I've previously worked as a writer and reviewer for the magazine Nöjesmagasinet City and I'm getting more and more into web design and front-end development, mainly HTML5, CSS3 and a little bit of [jQuery](http://jquery.com/ "jQuery"). 
 
 I've also started to learn the programming language [Ruby](http://www.ruby-lang.org/ "Ruby") and I'm hoping that one day I'll conquer the [Ruby on Rails](http://rubyonrails.org/ "Ruby on Rails") framework. In the meantime I'm having fun with micro framework [Sinatra](http://www.sinatrarb.com/ "Sinatra"). You can check out [my projects](/projects) if you'd like.
