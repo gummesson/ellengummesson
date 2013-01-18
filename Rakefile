@@ -12,21 +12,22 @@ task :default => :watch
 # rake post["Post title"]
 desc "Create a post in the _posts directory"
 task :post, :title do |t, args|
-  title = args[:title]
-  template = config["post"]["template"]
+  title     = args[:title]
+  template  = config["post"]["template"]
   extension = config["post"]["extension"]
-  editor = config["editor"]
+  editor    = config["editor"]
 
   if title.nil? or title.empty?
     raise "Please add a title to your post."
   end
 
-  date = Time.now.strftime("%Y-%m-%d")
-  filename = "#{date}-#{title.gsub(/[^[:alnum:]]+/, "-").downcase}.#{extension}"
-  content = File.read(template)
- 
+  date     = Time.now.strftime("%Y-%m-%d")
+  filename = "#{date}-#{title.gsub(/('|!|\?|\s\z)/,"").gsub(/\s/,"-").downcase}.#{extension}"
+  content  = File.read(template)
+
   if File.exists?("_posts/#{filename}")
     raise "The post already exists."
+
   else
     File.open("_posts/#{filename}","w") { |file|
       file.puts("#{content.gsub("title:", "title: \"#{title}\"")}") }
@@ -50,9 +51,10 @@ end
 desc "Generate and watch the site (with an optional post limit)"
 task :watch, :number do |t, args|
   number = args[:number]
-  
+
   if number.nil? or number.empty?
     system "jekyll --auto --server"
+
   else
     system "jekyll --auto --server --limit_posts=#{number}"
   end
@@ -67,28 +69,31 @@ task :preview do
   sleep 2 #seconds
 
   Thread.new do
-    Launchy.open("http://localhost:4000")
+    Launchy.open("http://localhost:4000/")
   end
+
   Rake::Task[:watch].invoke
 end
 
 # rake transfer[command]
 desc "Transfer the _site directory to it's local git repository"
 task :transfer, :command do |t, args|
-  command = args[:command]
+  command           = args[:command]
   robocopy_settings = config["transfer"]["robocopy"]
-  rsync_settings = config["transfer"]["rsync"]
+  rsync_settings    = config["transfer"]["rsync"]
 
   if command.nil?
     raise "Please choose a file transfer command."
 
   elsif command == "robocopy"
     Rake::Task[:build].invoke
+
     system "robocopy #{robocopy_settings}"
     puts "The _site directory was transfered."
 
   elsif command == "rsync"
     Rake::Task[:build].invoke
+
     system "rsync #{rsync_settings}"
     puts "The _site directory was transfered."
 
@@ -106,12 +111,14 @@ task :deploy, :message do |t, args|
     system "git add ."
     system "git commit -m \"Updated.\""
     system "git push origin master"
-    puts "The site was deployed."
+
+    puts "The repo was deployed."
 
   else
     system "git add ."
     system "git commit -m \"#{message}\""
     system "git push origin master"
-    puts "The site was deployed."
+
+    puts "The repo was deployed."
   end
 end
