@@ -11,7 +11,7 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 *Kramit!* is a [Markdown](http://daringfireball.net/projects/markdown/ "Markdown") preview app built with [Sinatra](http://www.sinatrarb.com/ "Sinatra") and [kramdown](http://kramdown.rubyforge.org/ "kramdown"). It's deployed with and hosted on [Heroku](http://www.heroku.com/ "Heroku").
 
-[Try it!](http://kramit.ellengummesson.com/ "Kramit!") / [Download](https://github.com/gummesson/kramit/zipball/master "Download Kramit!") / [GitHub](https://github.com/gummesson/kramit "Kramit! on GitHub")
+[Try it](http://kramit.ellengummesson.com/ "Kramit!") / [Download](https://github.com/gummesson/kramit/zipball/master "Download Kramit!") / [GitHub](https://github.com/gummesson/kramit "Kramit! on GitHub")
 
 ## Slugize
 
@@ -19,7 +19,7 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 *Slugize* is a small web app built with [Sinatra](http://www.sinatrarb.com/ "Sinatra") that transforms a blog post title or any other kind of string into a slug.
 
-[Try it!](http://slugize.ellengummesson.com/ "Slugize") / [Download](https://github.com/gummesson/slugize/zipball/master "Download Slugize") / [GitHub](https://github.com/gummesson/slugize "Slugize on GitHub")
+[Try it](http://slugize.ellengummesson.com/ "Slugize") / [Download](https://github.com/gummesson/slugize/zipball/master "Download Slugize") / [GitHub](https://github.com/gummesson/slugize "Slugize on GitHub")
 
 ## Journal
 
@@ -28,6 +28,14 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 *Journal* is a simple journal/diary app built with [Sinatra](http://www.sinatrarb.com/ "Sinatra") which uses [DataMapper](http://datamapper.org "DataMapper") along with [SQLite3](http://www.sqlite.org/ "SQLite3") for storing everything in a database. It also uses `Rack::Basic:Auth` for basic user authenication.
 
 [Download](https://github.com/gummesson/journal/zipball/master "Download Journal") / [GitHub](https://github.com/gummesson/journal "Journal on GitHub")
+
+## Serve
+
+<p class="margin-small small centered italic">Ruby</p>
+
+*Serve* is probably the ugliest static site generator in the world but hey, it gets the job done. It's also my first real attempt at writing a more complete and useful Ruby "app".
+
+[Download](https://github.com/gummesson/serve/zipball/master "Download Serve") / [GitHub](https://github.com/gummesson/serve "Serve on GitHub")
 
 ## Jekyll Rake Boilerplate
 

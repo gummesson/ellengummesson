@@ -40,6 +40,36 @@ task :post, :title do |t, args|
   end
 end
 
+# rake draft["Post title"]
+desc "Create a post in _drafts"
+task :draft, :title do |t, args|
+  title     = args[:title]
+  template  = config["post"]["template"]
+  extension = config["post"]["extension"]
+  editor    = config["editor"]
+
+  if title.nil? or title.empty?
+    raise "Please add a title to your post."
+  end
+
+  filename = "#{title.gsub(/('|!|\?|\s\z)/,"").gsub(/\s/,"-").downcase}.#{extension}"
+  content  = File.read(template)
+
+  if File.exists?("_drafts/#{filename}")
+    raise "The post already exists."
+
+  else
+    File.open("_drafts/#{filename}","w") { |file|
+      file.puts("#{content.gsub("title:", "title: \"#{title}\"")}") }
+    puts "#{filename} was created."
+
+    if editor && !editor.nil?
+      sleep 2 # seconds
+      system "#{editor} _drafts/#{filename}"
+    end
+  end
+end
+
 # rake build
 desc "Generate the site (no server)"
 task :build do
