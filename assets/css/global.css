@@ -372,6 +372,11 @@ hr, .hr  {
   margin-bottom: 1.5em;
 }
 
+.margin-medium,
+.footnotes li p {
+  margin-bottom: 1em;
+}
+
 .margin-small,
 q {
   margin-bottom: 0.5em;
@@ -382,8 +387,7 @@ q {
 }
 
 .margin-none,
-.nav,
-.footnotes li p {
+.nav {
   margin-bottom: 0;
 }
 
@@ -492,6 +496,10 @@ img {
     font-size: 125.5%;
   }
 
+    .footnotes li p {
+      margin-bottom: 0.75em;
+    }
+
 }
 
 @media screen and (max-width: 640px), screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -499,10 +507,6 @@ img {
   body {
     font-size: 112.5%;
   }
-
-    .footnotes li p {
-      margin-bottom: 0.25em;
-    }
 
 }
 
