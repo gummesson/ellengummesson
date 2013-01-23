@@ -10,7 +10,7 @@ layout: default
           {% if tag == page.tag %}
             <li>
             <span class="bold">{{ post.date | date: "%b %e, %Y" }}: </span>
-              <a href="{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">{{ post.title | truncatewords: 7 }}</a>
+            <a href="{{ site.url }}{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">{{ post.title | truncatewords: 7 }}</a>
             </li>
           {% endif %}
         {% endfor %}
