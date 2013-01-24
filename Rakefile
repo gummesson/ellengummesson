@@ -83,10 +83,10 @@ task :watch, :number do |t, args|
   number = args[:number]
 
   if number.nil? or number.empty?
-    system "jekyll --auto --server"
+    system "jekyll --auto --server --url http://localhost:4000/"
 
   else
-    system "jekyll --auto --server --limit_posts=#{number}"
+    system "jekyll --auto --server --url http://localhost:4000/ --limit_posts=#{number}"
   end
 end
 

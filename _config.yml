@@ -1,7 +1,7 @@
 ﻿name: Ellen Gummesson
-description: Random Ramblings, Overall Geekiness And Other Musings
+description: Random ramblings, overall geekiness and other musings
 url: http://ellengummesson.com/
-exclude: [Rakefile, README.md, reset.css, global.css]
+exclude: [Rakefile, README.md, global.css]
 markdown: kramdown
 permalink: blog/:year/:month/:day/:title
 tag_dir: blog/tag
