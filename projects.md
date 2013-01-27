@@ -37,6 +37,14 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 [Download](https://github.com/gummesson/serve/zipball/master "Download Serve") / [GitHub](https://github.com/gummesson/serve "Serve on GitHub")
 
+## Render
+
+<p class="margin-small small centered italic">Ruby</p>
+
+*Render* is a [Mardown](http://daringfireball.net/projects/markdown/ "Mardown") parser/preview tool. The default parser is the [kramdown](http://kramdown.rubyforge.org/ "kramdown") gem, but it can also use [Redcarpet](https://github.com/vmg/redcarpet "Redcarpet"), [RDiscount](https://github.com/rtomayko/rdiscount "RDiscount") or [Maruku](http://maruku.rubyforge.org/ "Maruku").
+
+[Download](https://github.com/gummesson/render/zipball/master "Download Render") / [GitHub](https://github.com/gummesson/render "Render on GitHub")
+
 ## Jekyll Rake Boilerplate
 
 <p class="margin-small small centered italic">Ruby</p>
