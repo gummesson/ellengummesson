@@ -7,7 +7,7 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 ## Kramit!
 
-<p class="margin-small small centered italic">Ruby/Sinatra</p>
+<p class="smallprint margin-small">Ruby/Sinatra</p>
 
 *Kramit!* is a [Markdown](http://daringfireball.net/projects/markdown/ "Markdown") preview app built with [Sinatra](http://www.sinatrarb.com/ "Sinatra") and [kramdown](http://kramdown.rubyforge.org/ "kramdown"). It's deployed with and hosted on [Heroku](http://www.heroku.com/ "Heroku").
 
@@ -15,7 +15,7 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 ## Slugize
 
-<p class="margin-small small centered italic">Ruby/Sinatra</p>
+<p class="smallprint margin-small">Ruby/Sinatra</p>
 
 *Slugize* is a small web app built with [Sinatra](http://www.sinatrarb.com/ "Sinatra") that transforms a blog post title or any other kind of string into a slug.
 
@@ -23,7 +23,7 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 ## Journal
 
-<p class="margin-small small centered italic">Ruby/Sinatra</p>
+<p class="smallprint margin-small">Ruby/Sinatra</p>
 
 *Journal* is a simple journal/diary app built with [Sinatra](http://www.sinatrarb.com/ "Sinatra") which uses [DataMapper](http://datamapper.org "DataMapper") along with [SQLite3](http://www.sqlite.org/ "SQLite3") for storing everything in a database. It also uses `Rack::Basic:Auth` for basic user authenication.
 
@@ -31,7 +31,7 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 ## Serve
 
-<p class="margin-small small centered italic">Ruby</p>
+<p class="smallprint margin-small">Ruby</p>
 
 *Serve* is probably the ugliest static site generator in the world but hey, it gets the job done. It's also my first real attempt at writing a more complete and useful Ruby "app".
 
@@ -39,7 +39,7 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 ## Render
 
-<p class="margin-small small centered italic">Ruby</p>
+<p class="smallprint margin-small">Ruby</p>
 
 *Render* is a [Mardown](http://daringfireball.net/projects/markdown/ "Mardown") parser/preview tool. The default parser is the [kramdown](http://kramdown.rubyforge.org/ "kramdown") gem, but it can also use [Redcarpet](https://github.com/vmg/redcarpet "Redcarpet"), [RDiscount](https://github.com/rtomayko/rdiscount "RDiscount") or [Maruku](http://maruku.rubyforge.org/ "Maruku").
 
@@ -47,15 +47,23 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 ## Jekyll Rake Boilerplate
 
-<p class="margin-small small centered italic">Ruby</p>
+<p class="smallprint margin-small">Ruby</p>
 
 *Jekyll Rake Boilerplate* is a small rake "boilerplate" for doing common tasks with the static site generator [Jekyll](http://jekyllrb.com/ "Jekyll"), such as generating your site (with an optional post limit), creating a new post from a default template and deploying it to it's remote git repository.
 
 [Download](https://github.com/gummesson/jekyll-rake-boilerplate/zipball/master "Download Jekyll Rake Boilerplate") / [GitHub](https://github.com/gummesson/jekyll-rake-boilerplate "Jekyll Rake Boilerplate on GitHub")
 
+## Jekyll Wordcount Plugin
+
+<p class="smallprint margin-small">Ruby</p>
+
+*Jekyll Wordcount* is a small plugin for adding a word count to your [Jekyll](http://jekyllrb.com/ "Jekyll") blog posts. It's essentially a simple [Liquid](http://liquidmarkup.org/ "Liquid") filter that just strips the content from all HTML tags and then counts the words. It can also calculate how long it takes to read the post based on the counted words.
+
+[Download](https://github.com/gummesson/jekyll-wordcount/zipball/master "Download Jekyll Wordcount") / [GitHub](https://github.com/gummesson/jekyll-wordcount "Jekyll Wordcount on GitHub")
+
 ## Jekyll Vimeo Plugin
 
-<p class="margin-small small centered italic">Ruby</p>
+<p class="smallprint margin-small">Ruby</p>
 
 *Jekyll Vimeo Plugin* is a plugin for [Jekyll](http://www.jekyllrb.com/ "Jekyll") that makes it easy to embed videos from Vimeo by using a simple Liquid tag. It's based of the [Youtube plugin/gist](http://www.portwaypoint.co.uk/jekyll-youtube-liquid-template-tag-gist/ "Jekyll Youtube Liquid Template Tag Gist") from Portway Point.
 
@@ -63,7 +71,7 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 ## Smallwork
 
-<p class="margin-small small centered italic">CSS/SCSS</p>
+<p class="smallprint margin-small">CSS/SCSS</p>
 
 *Smallwork* is a small and extendable [SCSS](http://sass-lang.com/ "Sass/SCSS") framework which consists of mixins, variables and partials that serves as a good starting point for various projects.
 
@@ -71,7 +79,7 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 ## Gridy
 
-<p class="margin-small small centered italic">CSS/SCSS</p>
+<p class="smallprint margin-small">CSS/SCSS</p>
 
 *Gridy* is a small [SCSS](http://sass-lang.com/ "Sass/SCSS") grid framework. It can be used both as base for a class-based grid system or applied directly on the markup.
 
@@ -79,7 +87,7 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 ## Begrider
 
-<p class="margin-small small centered italic">CSS/HTML</p>
+<p class="smallprint margin-small">CSS/HTML</p>
 
 *Begrider* is a simple, fluid twelve column and ten units grid system with a 1140px fixed width. It works great in Chrome and Firefox and looks alright in Internet Explorer 9. It works in Opera too if you don’t mind that some of the columns are a tiny bit off. The goal behind it was creating something that I could actually use and to make it as simple as possible.
 
@@ -87,7 +95,7 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 ## Clean Slate For GetSimple CMS
 
-<p class="margin-small small centered italic">CSS/HTML/PHP</p>
+<p class="smallprint margin-small">CSS/HTML/PHP</p>
 
 *Clean Slate* is a bare bones starter theme for [GetSimple CMS](http://www.get-simple.info/ "GetSimple CMS"). It contains some minimal markup, a basic reset and a couple of [OOCSS](https://github.com/stubbornella/oocss/wiki "Object Oriented CSS")-inspired classes to get you started, but that's it.
 
@@ -95,7 +103,7 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 ## Markdown Hostrings (for AutoHotKey)
 
-<p class="margin-small small centered italic">AutoHotKey</p>
+<p class="smallprint margin-small">AutoHotKey</p>
 
 *Markdown Hostrings* is a collection of AutoHotKey scripts that helps you to write Markdown even more faster. It also includes hotstrings for footnotes and comments.
 
@@ -103,16 +111,8 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 ## Markdown Keybindings (for AutoHotKey)
 
-<p class="margin-small small centered italic">AutoHotKey</p>
+<p class="smallprint margin-small">AutoHotKey</p>
 
 *Markdown Keybindings* is a small collection of keybindings for streamlining your Markdown writing.
 
 [Download](https://github.com/gummesson/markdown-keybindings/zipball/master "Download Markdown Keybindings (for AutoHotKey)") / [GitHub](https://github.com/gummesson/markdown-keybindings "Markdown Keybindings (for AutoHotKey) on GitHub")
-
-## FocusWriter Themes
-
-<p class="margin-small small centered italic">FocusWriter Theme Files</p>
-
-*FocusWriter Themes* is a collection of a couple of themes I created for the excellent free text editor [FocusWriter](http://gottcode.org/focuswriter/ "FocusWriter"). They're based on some popular color schemes from various other editors.
-
-[Download](https://github.com/gummesson/focuswriter-themes/zipball/master "Download the FocusWriter Themes") / [GitHub](https://github.com/gummesson/focuswriter-themes "FocusWriter Themes on GitHub")
