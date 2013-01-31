@@ -1,5 +1,5 @@
-<section class="pagination">
-  <p class="small centered italic">
+<nav class="pagination">
+  <p class="smallprint">
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
       <a href="/" alt="Previous" title="Previous">&larr; Previous</a>
@@ -7,13 +7,13 @@
       <a href="/blog/page/{{paginator.previous_page}}" alt="Previous" title="Previous">&larr; Previous</a>
     {% endif %}
       {% else %}
-      <span class="gray">&larr; Previous</span>
+      <span class="special-link">&larr; Previous</span>
     {% endif %}
       <span class="separator">{{ paginator.page }} ... {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
       <a href="/blog/page/{{paginator.next_page}}" alt="Next" title="Next">Next &rarr;</a>
       {% else %}
-      <span class="gray">Next &rarr;</span>
+      <span class="special-link">Next &rarr;</span>
     {% endif %}
-  </p><!-- .small .centered .italic -->
-</section><!-- .pagination -->
+  </p><!-- .smallprint -->
+</nav><!-- .pagination -->

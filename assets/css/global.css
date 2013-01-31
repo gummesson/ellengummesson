@@ -136,15 +136,15 @@ html {
   margin: 0 auto;
 }
 
-.branding {
+.site-header {
   margin-top: 3em;
 }
 
-.content {
+.site-content {
   margin-top: 2.5em;
 }
 
-  .menu,
+  .site-nav,
   .self {
     margin-top: 1em;
   }
@@ -196,25 +196,30 @@ h6, .zeta {
 
 /* Sizes */
 
-small, .small,
-blockquote {
+.mega {
+  font-size: 4em;
+}
+
+small,
+blockquote,
+.smallprint {
   font-size: 0.875em;
 }
 
-.mini,
-.footnotes,
-code {
+code,
+.miniprint,
+.footnotes {
   font-size: 0.75em;
 }
 
 /* Annotations */
 
 i, .italic,
-em, .em,
+em, .emphasize,
 h1, h2, h3, h4, h5, h6,
 blockquote,
-q,
-cite,
+.smallprint,
+.miniprint,
 .footnotes {
   font-style: italic;
 }
@@ -233,12 +238,15 @@ hr {
 
 /* Alignments */
 
-.centered,
+.smallprint,
+.miniprint,
+.site-nav,
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.justified {
+.post-content,
+.page-content {
   text-align: justify;
 }
 
@@ -261,19 +269,20 @@ a:active {
   top     : 1px;
 }
 
-  .border-none, .border-none a, 
-  .menu a,
+  .border-none, 
+  .border-none a, 
+  .site-nav a,
   h1 a,
   a[rel="footnote"],
   a[rel="reference"] {
     border-bottom: 1px solid transparent;
   }
 
-  .small a {
+  .small-print a {
     padding-bottom: 2px;
   }
 
-  .mini a,
+  .miniprint a,
   .footnotes a {
     padding-bottom: 1px;
   }
@@ -296,34 +305,6 @@ a[rel="reference"] {
 
 /* Quotes */
 
-q {
-  font-size  : 125%;
-  text-indent: -0.6em;
-}
-
-  q:before {
-    content: open-quote;
-  }
-
-  q:after {
-    content: close-quote;
-  }
-
-  q:before, q:after {
-    font-size  : 150%;
-    line-height: 0;
-    color      : #ccc;
-  }
-
-q,
-cite {
-  display: block;
-}
-
-  cite:before {
-    content: "\2014 \00A0";
-  }
-
 blockquote {
   padding: 0 1.5em;
 }
@@ -336,11 +317,12 @@ pre {
 /* Code */
 
 pre {
-  word-wrap  : normal;
-  overflow   : auto; 
-  line-height: 1;
-  padding    : 0.2em 0.4em 0.4em;
-  margin-top : 0.4em;
+  word-wrap       : normal;
+  overflow        : auto;
+  line-height     : 1;
+  background-color: #ddd;
+  padding         : 0.2em 0.4em 0.4em;
+  margin-top      : 0.4em;
 }
 
 code {
@@ -348,14 +330,9 @@ code {
   padding    : 0.10em 0.25em;
 }
 
-pre,
-code {
-  background-color: #ddd;
-}
-
-  pre > code {
-    background: none;
-    padding   : 0;
+pre > code {
+  background: none;
+  padding   : 0;
 }
 
 /*=============
@@ -368,7 +345,7 @@ ul,
 ol,
 blockquote,
 pre,
-hr, .hr  {
+hr {
   margin-bottom: 1.5em;
 }
 
@@ -429,12 +406,12 @@ ul {
   display: inline-block;
 }
 
-  .menu li,
+  .site-nav li,
   .list-hz li {
     margin-right: 1.25em;
   }
 
-  .menu li:last-child {
+  .site-nav li:last-child {
     margin-right: 0;
   }
 
@@ -444,7 +421,8 @@ ul {
   padding: 0 2em;
 }
 
-.gray, .gray a {
+.special-link,
+.special-link a {
   color: #ccc;
 }
 
@@ -457,13 +435,6 @@ img {
   margin   : 0 auto;
   max-width: 100%;
   height   : auto;
-}
-
-/* Logo */
-
-.logo {
-  width : 128px;
-  height: 128px;
 }
 
 /* Self */
@@ -516,24 +487,19 @@ img {
     font-size: 87.5%;
   }
 
-  .logo {
-    width : 96px;
-    height: 96px;
-  }
-
   .self {
     width : 120px;
     height: 120px;
   }
 
   a,
-  .small a,
-  .mini a,
+  .smallprint a,
+  .miniprint a,
   .footnotes a {
     padding-bottom: 2px;
   }
 
-    .menu li {
+    .site-nav li {
       margin-right: 1em;
     }
 
@@ -547,11 +513,6 @@ img {
 
   .container {
     width: 90%;
-  }
-
-  .logo {
-    width : 112px;
-    height: 112px;
   }
 
   .self {
