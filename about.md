@@ -3,7 +3,7 @@ title: "About"
 layout: page
 ---
 
-<img src="/assets/images/self/self.jpg" title="Me, myself and I" alt="Me, myself and I" class="self" />
+<img src="/assets/images/self/self.jpg" title="Me, myself and I" alt="Me, myself and I" class="img-self">
 
 My name is Ellen Gummesson and I love communication and the web, especially when the two of them get together. I recently graduated from Umeå University, located in the north of Sweden, where I recieved a degree in media and communication studies. I've previously worked as a writer and reviewer for the magazine Nöjesmagasinet City and I'm getting more and more into web design and front-end development, mainly HTML5, CSS3 and a little bit of [jQuery](http://jquery.com/ "jQuery"). 
 

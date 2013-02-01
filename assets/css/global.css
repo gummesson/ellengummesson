@@ -98,7 +98,6 @@ html {
   -moz-box-sizing         : border-box; 
   -webkit-box-sizing      : border-box;
   box-sizing              : border-box;
-  -webkit-font-smoothing  : antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust    : 100%;
 }
@@ -145,7 +144,7 @@ html {
 }
 
   .site-nav,
-  .self {
+  .img-self {
     margin-top: 1em;
   }
 
@@ -174,7 +173,8 @@ h1, .alpha {
   font-size: 2em;
 }
 
-h2, .beta {
+h2, .beta,
+.site-nav {
   font-size: 1.75em;
 }
 
@@ -269,8 +269,7 @@ a:active {
   top     : 1px;
 }
 
-  .border-none, 
-  .border-none a, 
+  .list-links a,
   .site-nav a,
   h1 a,
   a[rel="footnote"],
@@ -339,7 +338,6 @@ pre > code {
     Margins
 =============*/
 
-.margin-standard,
 p,
 ul,
 ol,
@@ -349,22 +347,16 @@ hr {
   margin-bottom: 1.5em;
 }
 
-.margin-medium,
 .footnotes li p {
   margin-bottom: 1em;
 }
 
-.margin-small,
-q {
+.p-license {
   margin-bottom: 0.5em;
 }
 
-.margin-mini {
-  margin-bottom: 0.25em;
-}
-
-.margin-none,
-.nav {
+.nav,
+.p-copy {
   margin-bottom: 0;
 }
 
@@ -387,13 +379,8 @@ ul {
     margin-left: 1.25em;
   }
 
-.list-none {
-  list-style: none;
-}
-
 .nav,
-.list-hz,
-.list-none {
+.list-horizontal {
   margin-left: 0;
 }
 
@@ -402,12 +389,12 @@ ul {
 ================*/
 
 .nav li,
-.list-hz li {
+.list-horizontal li {
   display: inline-block;
 }
 
   .site-nav li,
-  .list-hz li {
+  .list-horizontal li {
     margin-right: 1.25em;
   }
 
@@ -439,7 +426,7 @@ img {
 
 /* Self */
 
-.self {
+.img-self {
   width        : 220px;
   height       : 220px;
   border-radius: 50%;
