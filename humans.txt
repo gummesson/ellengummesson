@@ -7,10 +7,10 @@ Jack of all trades: Ellen Gummesson
 
 /* THE SITE */
 
-Last update: 31/01/2013
+Last update: 2013/02/04
   Standards: HTML5 & CSS3
  Components: HTML5Shiv
-   Software: gVim         (http://www.vim.org/)
+   Software: (g)Vim       (http://www.vim.org/)
              Jekyll       (http://www.jekyllrb.com/)
              kramdown     (http://kramdown.rubyforge.org/)
     Hosting: GitHub Pages (http://pages.github.com/)

@@ -273,7 +273,8 @@ a:active {
   .site-nav a,
   h1 a,
   a[rel="footnote"],
-  a[rel="reference"] {
+  a[rel="reference"],
+  .special-link {
     border-bottom: 1px solid transparent;
   }
 
@@ -408,8 +409,7 @@ ul {
   padding: 0 2em;
 }
 
-.special-link,
-.special-link a {
+.special-link {
   color: #ccc;
 }
 
