@@ -3,7 +3,7 @@ title: "Projects"
 layout: page
 ---
 
-Down below you'll find my humble collection of apps, projects, demos and snippets written Ruby, PHP, HTML and CSS, a couple of handy [AutoHotKey](http://www.autohotkey.com/ "AutoHotKey") scripts and some themes for the app [FocusWriter](http://gottcode.org/focuswriter/ "FocusWriter").
+Down below you'll find my humble collection of apps, projects, demos and snippets written Ruby, PHP, HTML and CSS.
 
 ## Kramit!
 
@@ -36,6 +36,14 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 *Serve* is probably the ugliest static site generator in the world but hey, it gets the job done. It's also my first real attempt at writing a more complete and useful Ruby "app".
 
 [Download](https://github.com/gummesson/serve/zipball/master "Download Serve") / [GitHub](https://github.com/gummesson/serve "Serve on GitHub")
+
+## Fetch
+
+<p class="smallprint">Ruby</p>
+
+*Fetch* is a "ghetto" web development component catcher. By adding a component's name, filename and url in the config file you can then fetch and download it by running `fetch component-name`.
+
+[Download](https://github.com/gummesson/fetch/zipball/master "Download Fetch") / [GitHub](https://github.com/gummesson/fetch "Fetch on GitHub")
 
 ## Render
 
@@ -100,19 +108,3 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 *Clean Slate* is a bare bones starter theme for [GetSimple CMS](http://www.get-simple.info/ "GetSimple CMS"). It contains some minimal markup, a basic reset and a couple of [OOCSS](https://github.com/stubbornella/oocss/wiki "Object Oriented CSS")-inspired classes to get you started, but that's it.
 
 [Download](https://github.com/gummesson/clean-slate-gs/zipball/master "Download Clean Slate for GetSimple CMS") / [GitHub](https://github.com/gummesson/clean-slate-gs "Clean Slate on Github")
-
-## Markdown Hostrings
-
-<p class="smallprint">AutoHotKey</p>
-
-*Markdown Hostrings* is a collection of AutoHotKey scripts that helps you to write Markdown even more faster. It also includes hotstrings for footnotes and comments.
-
-[Download](https://github.com/gummesson/markdown-hotstrings/zipball/master "Download Markdown Hostrings (for AutoHotKey)") / [GitHub](https://github.com/gummesson/markdown-hotstrings "Markdown Hostrings (for AutoHotKey) on GitHub")
-
-## Markdown Keybindings
-
-<p class="smallprint">AutoHotKey</p>
-
-*Markdown Keybindings* is a small collection of keybindings for streamlining your Markdown writing.
-
-[Download](https://github.com/gummesson/markdown-keybindings/zipball/master "Download Markdown Keybindings (for AutoHotKey)") / [GitHub](https://github.com/gummesson/markdown-keybindings "Markdown Keybindings (for AutoHotKey) on GitHub")
