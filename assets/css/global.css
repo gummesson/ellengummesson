@@ -278,7 +278,7 @@ a:active {
     border-bottom: 1px solid transparent;
   }
 
-  .small-print a {
+  .smallprint a {
     padding-bottom: 2px;
   }
 
@@ -326,8 +326,7 @@ pre {
 }
 
 code {
-  font-family: Consolas, Monaco, Andale Mono, monospace;
-  padding    : 0.10em 0.25em;
+  font-family: "Liberation Mono", Consolas, "DejaVu Sans Mono", "Menlo", Monaco, "Andale Mono", monospace;
 }
 
 pre > code {
