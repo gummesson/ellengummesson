@@ -77,6 +77,30 @@ Down below you'll find my humble collection of apps, projects, demos and snippet
 
 [Download](https://github.com/gummesson/jekyll-vimeo-plugin/zipball/master "Download Jekyll Vimeo Plugin") / [GitHub](https://github.com/gummesson/jekyll-vimeo-plugin "Jekyll Vimeo Plugin on Github")
 
+## easysession.vim
+
+<p class="smallprint">Vimscript</p>
+
+*easysession.vim* is a plugin for easily managing sessions in [Vim](http://www.vim.org/ "Vim").
+
+[Download](https://github.com/gummesson/easysession.vim/zipball/master "Download easysession.vim") / [GitHub](https://github.com/gummesson/easysession.vim "easysession.vim on Github")
+
+## voutliner.vim
+
+<p class="smallprint">Vimscript</p>
+
+*voutliner.vim* is a simple outliner for [Vim](http://www.vim.org/ "Vim").
+
+[Download](https://github.com/gummesson/voutliner.vim/zipball/master "Download voutliner.vim") / [GitHub](https://github.com/gummesson/voutliner.vim "voutliner.vim on Github")
+
+## footnotes.vim
+
+<p class="smallprint">Vimscript</p>
+
+*footnotes.vim* is a small plugin for appending the current date to (Multi)Markdown footnotes in [Vim](http://www.vim.org/ "Vim").
+
+[Download](https://github.com/gummesson/footnotes.vim/zipball/master "Download footnotes.vim") / [GitHub](https://github.com/gummesson/footnotes.vim.vim "footnotes.vim on Github")
+
 ## Smallwork
 
 <p class="smallprint">CSS/SCSS</p>

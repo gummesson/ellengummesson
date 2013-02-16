@@ -15,16 +15,15 @@
 module Jekyll
   module WordCount
     def count_words(input)
-      return calculate(input)
+      calculate(input)
     end
 
     def count_seconds(input)
-      return calculate(input) / 5
+      calculate(input) / 5
     end
 
     def calculate(input)
-      content = input.gsub(/<\/?[^>]*>/, "")
-      return content.split.size
+      input.gsub(/<\/?[^>]*>/, "").split.size
     end
   end
 end
