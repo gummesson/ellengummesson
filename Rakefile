@@ -1,10 +1,20 @@
-# Requirements 
-require 'rake'       # For the rake tasks
-require 'yaml'       # For reading the configuration file
-require 'fileutils'  # For creating recursive directories
+# Requirements
+require 'rake'
+require 'yaml'
+require 'fileutils'
+require 'rbconfig'
 
 # Load the configuration file
 config = YAML.load_file("_config.yml")
+
+# Language encoding
+LANG = "sv_SV.UTF-8"
+
+if RbConfig::CONFIG["host_os"] =~ /mswin|mingw/
+  SET = "set"
+else
+  SET = "export"
+end
 
 # Set "rake watch" as default task
 task :default => :watch
@@ -73,7 +83,7 @@ end
 # rake build
 desc "Generate the site (no server)"
 task :build do
-  system "jekyll --no-server"
+  system "#{SET} LANG=#{LANG} && jekyll --no-server"
 end
 
 # rake watch
@@ -83,10 +93,10 @@ task :watch, :number do |t, args|
   number = args[:number]
 
   if number.nil? or number.empty?
-    system "jekyll --auto --server --url http://localhost:4000/"
+    system "#{SET} LANG=#{LANG} && jekyll --auto --server --url http://localhost:4000/"
 
   else
-    system "jekyll --auto --server --url http://localhost:4000/ --limit_posts=#{number}"
+    system "#{SET} LANG=#{LANG} && jekyll --auto --server --url http://localhost:4000/ --limit_posts=#{number}"
   end
 end
 
