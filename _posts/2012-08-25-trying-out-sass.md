@@ -1,7 +1,7 @@
 ---
-title: "Trying Out SASS"
+title: "Trying Out Sass"
 layout: post
-tags: [Code, CSS, SASS]
+tags: [Code, CSS, Sass]
 comments: true
 ---
 
