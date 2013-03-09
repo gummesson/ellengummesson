@@ -23,7 +23,7 @@ title: Archives
       {% for post in page.posts_by_month[month] %}
         <li>
           <span class="date">{{ post.date | date: "%b %e, %Y" }}:</span>
-          <a href="{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">{{ post.title | truncatewords: 7 }}</a>
+          <a href="{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">{{ post.title }}</a>
         </li>
       {% endfor %}
       </ul>
