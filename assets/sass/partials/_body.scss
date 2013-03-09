@@ -1,0 +1,38 @@
+/*==========
+    Body
+==========*/
+
+@import "compass/css3/box-sizing";
+
+* {
+  @include box-sizing(border-box);
+}
+
+/*----------
+    HTML
+----------*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/*----------
+    Body
+----------*/
+
+body {
+  margin: 0 0 3px; // For the "sticky" line at the bottom.
+  font: $body-font-weight #{$body-font-size}/#{$body-line-height} $body-font-face;
+  color: $body-font-color;
+  background-color: $body-bg-color;
+  text-shadow: 0 1px 0 $body-alt-color;
+}
+
+/*---------------
+    Selection
+---------------*/
+
+::selection {
+  background-color: $site-color-brand;
+}

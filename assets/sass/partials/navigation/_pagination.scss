@@ -1,0 +1,12 @@
+/*----------------
+    Pagination
+----------------*/
+
+.pagination {
+  margin-top: $spacing-unit-base;
+  @extend .smallprint;
+}
+
+.pagination-separator {
+  padding: 0 $spacing-unit-base * 2;
+}

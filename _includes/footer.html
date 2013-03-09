@@ -1,23 +1,19 @@
-    <footer class="site-footer">
-      <p class="miniprint p-copy">
-        Copyright &copy; 
-        <a href="/" title="{{ site.name }}: {{ site.description }}" alt="{{ site.name }}: {{ site.description }}">
-          {{ site.name }}
-        </a> 
-        {{ site.time | date: "%Y" }}
-      </p><!-- .miniprint .p-copy -->
-      <p class="miniprint p-license">
-        Licensed Under 
-        <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" alt="Creative Commons BY-NC-SA 3.0" title="Creative Commons BY-NC-SA 3.0">
-          CC BY-NC-SA 3.0
-        </a>
-      </p><!-- .miniprint .p-license -->
-      <p class="miniprint">
-        <a href="/feed.xml" title="Subscribe" alt="Subscribe">
-          Subscribe
-        </a>
-      </p><!-- .miniprint -->
-    </footer><!-- .site-footer -->
-  </div><!-- .container -->
-</body>
+        <div class="row">
+          <div class="column-twelve">
+            <footer class="site-footer">
+              <p class="smallprint">
+                Copyright &copy;
+                <a href="/" title="{{ site.name }}: {{ site.description }}" alt="{{ site.name }}: {{ site.description }}">
+                  {{ site.name }}
+                </a>
+                  {{ site.time | date: "%Y" }}.
+                <a href="/feed.xml" title="Subscribe" alt="Subscribe">Subscribe</a>.
+              </p>
+            </footer><!-- .site-footer -->
+          </div><!-- .column-twelve -->
+        </div><!-- .row -->
+      </div><!-- .grid -->
+    </div><!-- .container -->
+    <div class="line-bottom"></div>
+  </body>
 </html>

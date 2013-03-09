@@ -1,0 +1,11 @@
+/*-------------
+    Quotes
+-------------*/
+
+blockquote {
+  border-left: 3px solid $site-color-brand;
+  padding: 0 $spacing-unit-base;
+  @extend %small;
+  @extend %italic;
+  @extend %spacing-base-bottom;  
+}

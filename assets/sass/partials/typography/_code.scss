@@ -1,0 +1,30 @@
+/*----------
+    Code
+----------*/
+@import "compass/css3/border-radius";
+
+pre {
+  padding: 0.4em;
+  overflow: auto;
+  word-wrap: normal;
+  @extend %spacing-base-bottom;
+}
+
+code {
+  padding: 0.2em;
+  font-family: $code-font-face;
+  color: $site-color-brand;
+  @extend %mini;
+}
+
+pre,
+code {
+  line-height: 1;
+  background-color: $body-alt-color;
+  @include border-radius(0.25em);
+}
+
+pre > code {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,28 @@
+/*============
+    Rulers
+============*/
+
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: $site-color-accent;
+  border: none;
+  @extend %spacing-base-bottom;
+}
+
+%line {
+  min-width: 100%;
+  height: 3px;
+  background-color: $site-color-brand;
+}
+
+.line-top {
+  @extend %line;
+}
+
+.line-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  @extend %line;
+}

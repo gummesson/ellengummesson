@@ -1,0 +1,18 @@
+/*-----------------
+    Smallprint
+----------------*/
+
+small,
+%small {
+  font-size: $base-font-size * 0.875;
+}
+
+%mini {
+  font-size: $base-font-size * 0.75;
+}
+
+.smallprint,
+%smallprint {
+  @extend %small;
+  @extend %bold;
+}

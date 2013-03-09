@@ -1,0 +1,20 @@
+//========
+//  Body
+//========
+
+//--------
+//  Font
+//--------
+
+$body-font-face: "Roboto", Helvetica, Arial, Sans-serif;
+$body-font-size: 125%;
+$body-font-weight: 400;
+$body-font-color: #e6e6e6;
+$body-line-height: 1.5;
+
+//--------------
+//  Background
+//--------------
+
+$body-bg-color: #4c4c4c;
+$body-alt-color: darken($body-bg-color, 2.5%);

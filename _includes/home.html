@@ -2,11 +2,11 @@
   {% if post.external-link %}
     <h1>
       <a href="{{ post.external-link }}" alt="{{ post.title }}" title="{{ post.title }}">
-        {{ post.title }} <span class="special-link">&rarr;</span>
+        {{ post.title }} <span class="invisible">&rarr;</span>
       </a>
     </h1>
     <p class="smallprint">
-    Posted on {{ post.date | date: "%B %e, %Y" }} {% if post.tags %} in {% for tag in post.tags %} <a href="/blog/tag/{{ tag }}" alt="{{ tag }}" title="{{ tag }}">{{ tag }}</a>{% if forloop.last %} {% else %},{% endif %}{% endfor %} {% endif %} <a href="{{ site.url }}{{ post.url }}" alt="Permalink: {{ post.title }}" title="Permalink: {{ post.title }}" class="special-link">&#8734;</a>
+    Posted on {{ post.date | date: "%B %e, %Y" }} {% if post.tags %} in {% for tag in post.tags %} <a href="/blog/tag/{{ tag }}" alt="{{ tag }}" title="{{ tag }}">{{ tag }}</a>{% if forloop.last %} {% else %},{% endif %}{% endfor %} {% endif %} <a href="{{ site.url }}{{ post.url }}" alt="Permalink: {{ post.title }}" title="Permalink: {{ post.title }}" class="link-invisible">&#8734;</a>
     </p><!-- .smallprint -->
   {% else %}
     <h1>

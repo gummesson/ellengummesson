@@ -7,7 +7,7 @@ Jack of all trades: Ellen Gummesson
 
 /* THE SITE */
 
-Last update: 2013/03/05
+Last update: 2013/03/09
   Standards: HTML5 & CSS3
  Components: HTML5Shiv
    Software: (g)Vim       (http://www.vim.org/)
@@ -15,10 +15,12 @@ Last update: 2013/03/05
              kramdown     (http://kramdown.rubyforge.org/)
     Hosting: GitHub Pages (http://pages.github.com/)
 
-/* THANK YOU! */
+/* THANKS */
 
 Tom Preston-Werner (http://tom.preston-werner.com/)
             GitHub (http://www.github.com/)
+Egržvýd Chálobodor (http://mystrd.at/)
+    Noah Frederick (http://noahfrederick.com/)
 
 /* STUFF I LIKE */
 

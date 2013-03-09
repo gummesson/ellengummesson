@@ -1,0 +1,13 @@
+/*----------------
+    Navigation
+----------------*/
+
+.site-nav a {
+  margin-right: $spacing-unit-half;
+
+  &:last-child {
+    @extend %spacing-zero-right;
+  }
+
+  @extend %bold;
+}

@@ -1,0 +1,22 @@
+/*----------------
+    Footnotes
+    (kramdown)
+----------------*/
+
+a[rel="footnote"],
+a[rel="reference"] {
+  @extend %link-invisible;
+}
+
+a[rel="footnote"],
+a[rel="reference"] {
+  margin-left: 0.15em;
+}
+
+.footnotes {
+  @extend %mini;
+}
+
+.footnotes li p {
+  margin-bottom: $spacing-unit-small;
+}

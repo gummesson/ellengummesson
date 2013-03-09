@@ -4,12 +4,12 @@ layout: default
 
 <article class="page">
   <h1>{{ page.title }}</h1>
-    <ul class="list-links">
+    <ul>
       {% for post in site.posts %}
         {% for tag in post.tags %}
           {% if tag == page.tag %}
             <li>
-            <span class="italic">{{ post.date | date: "%b %e, %Y" }}: </span>
+            <span class="date">{{ post.date | date: "%b %e, %Y" }}:</span>
             <a href="{{ site.url }}{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">{{ post.title | truncatewords: 7 }}</a>
             </li>
           {% endif %}

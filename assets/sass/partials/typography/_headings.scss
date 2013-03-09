@@ -1,0 +1,58 @@
+/*--------------
+    Headings
+--------------*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: $heading-base-margin;
+  line-height: $heading-line-height;
+  font-family: $heading-font-face;
+  font-weight: $heading-font-weight;
+  text-shadow: 0 2px 0 $body-alt-color;
+}
+
+h1,
+%alpha {
+  font-size: $base-font-size * 2;
+}
+
+h2,
+%beta {
+  font-size: $base-font-size * 1.75;
+}
+
+h3,
+%gamma {
+  font-size: $base-font-size * 1.5;
+}
+
+h4,
+%delta {
+  font-size: $base-font-size * 1.25;
+}
+
+h5,
+%epsilon {
+  font-size: $base-font-size * 1.125;
+}
+
+h6,
+%zeta {
+  font-size: $base-font-size;
+}
+
+/* "Logo" */
+
+.logo {
+  @extend %mega;
+}
+
+/*Comments */
+
+.comments h1 {
+  margin-bottom: $spacing-unit-mini;
+}
+
+/* Links */
+h1 a {
+  @extend %link-invisible;
+}

@@ -5,7 +5,7 @@ layout: default
 <article class="post">
   {% if page.external-link %}
     <h1>
-      <a href="{{ page.external-link }}" alt="{{ page.title }}" title="{{ page.title }}">{{ page.title }} <span class="special-link">&rarr;</span></a>
+      <a href="{{ page.external-link }}" alt="{{ page.title }}" title="{{ page.title }}">{{ page.title }} &rarr;</a>
     </h1>
   {% else %}
     <h1>{{ page.title }}</h1>
@@ -16,7 +16,6 @@ layout: default
     <section class="post-content">
       {{ content }}
     </section><!-- .post-content -->
-    {% include notes.html %}
 {% if page.comments %}
   {% include comments.html %}
 {% endif %}

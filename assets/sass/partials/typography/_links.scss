@@ -1,0 +1,30 @@
+/*-----------
+    Links
+-----------*/
+
+@import "compass/css3/transition";
+
+a {
+  color: $body-font-color;
+  border-bottom: 1px solid $site-color-brand;
+  @include single-transition(all, 125ms, linear, 0);
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-bottom: 1px solid $site-color-accent;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+
+}
+
+/* Invisible link */
+
+%link-invisible,
+.invisible {
+  border-bottom: 1px solid transparent;
+}

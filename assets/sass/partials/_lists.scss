@@ -1,0 +1,61 @@
+/*===========
+    Lists
+===========*/
+
+//-----------
+//  Ordered
+//-----------
+
+ol {
+  list-style: decimal;
+  @extend %spacing-base-left;
+  @extend %spacing-base-bottom;
+}
+
+//-------------
+//  Unordered
+//-------------
+
+ul {
+  list-style: circle;
+  @extend %spacing-base-left;
+  @extend %spacing-base-bottom;
+}
+
+//--------------
+//  Definition
+//--------------
+
+dl {
+  @extend %spacing-base-bottom;
+}
+
+dt {
+  @extend %bold;
+}
+
+dd {
+  @extend %spacing-base-left;
+}
+
+/*----------
+    Tags
+----------*/
+
+.tags {
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin-right: $spacing-unit-half;
+  }
+
+  li:last-child {
+    @extend %spacing-zero-right;
+  }
+
+}
+
+.date {
+  @extend %bold;
+}

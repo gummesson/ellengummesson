@@ -1,0 +1,18 @@
+/*---------
+    Row
+---------*/
+
+.row {
+  @extend %clearfix;
+}
+
+[class^="column-"] {
+  margin-right: $grid-gutter-width;
+  min-height: 1px;
+  @extend %layout-left;
+
+  &:last-child {
+    @extend %spacing-zero-right;
+  }
+
+}

@@ -1,0 +1,15 @@
+//=================
+//  Media Queries
+//=================
+
+//--------------
+//  Breakpoint
+//--------------
+
+@mixin breakpoint($property, $point) {
+
+  @media only screen and (#{$property}-width: $point) {
+    @content;
+  }
+
+}
