@@ -3,7 +3,7 @@
 -------------*/
 
 blockquote {
-  border-left: 3px solid $site-color-brand;
+  border-left: 3px solid $color-brand;
   padding: 0 $spacing-unit-base;
   @extend %small;
   @extend %italic;
