@@ -1,5 +1,5 @@
 ---
-title: "WEBrick And Cygwin" 
+title: "WEBrick and Cygwin" 
 tags: [Code, Ruby]
 layout: post
 comments: true

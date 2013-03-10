@@ -1,12 +1,13 @@
 ---
-title: "Stumbling Upon A Good Solution"
+title: "Stumbling upon a good solution"
 tags: [Code, CSS]
 layout: post
 comments: true
+external-link: false
 ---
 As some of you may know, I've built my own grid system with the world's most horrible name, [Begrider](/projects/begrider/ "Begrider is a simple, twelve column 1140px fluid grid system"). One thing that always bothered me with it was that at when you wanted to the row to end you'd had to add a class named `.last`.  I added this because it was a simple solution to my problem. I've experimented with adding negative margins, but I never got it to function properly. Yesterday I found the perfect solution for my needs. 
 
-## The Solution
+## The solution
 
 Begrider uses an attribute selector to target all of the column classes rather than adding all the properties and values to them by hand or having to declare all of the classes twice. So I did some experimenting and for some reason tried this simple trick:
 

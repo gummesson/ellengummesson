@@ -1,5 +1,5 @@
 ---
-title: "Smalify: Minification On The Fly"
+title: "Smalify: minification on the fly"
 tags: [Apps, Code]
 layout: post
 comments: true

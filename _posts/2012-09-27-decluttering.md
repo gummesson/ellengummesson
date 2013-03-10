@@ -1,4 +1,4 @@
---- 
+---
 title: "Decluttering"
 tags: [Tech]
 layout: post

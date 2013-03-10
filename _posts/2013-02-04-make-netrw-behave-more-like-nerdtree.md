@@ -1,5 +1,5 @@
 ---
-title: "Make Netrw Behave More Like NERDTree" 
+title: "Make Netrw behave more like NERDTree" 
 tags: [Code, Vim]
 layout: post
 comments: true

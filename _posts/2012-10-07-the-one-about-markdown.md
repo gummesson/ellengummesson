@@ -1,5 +1,5 @@
 ---
-title: "The One About Markdown"
+title: "The one about Markdown"
 tags: [Writing, Markdown, Plain Text]
 layout: post
 comments: true
@@ -44,7 +44,7 @@ There's three ways to create a link. The rule of thumb is that the word you want
 
 **Side note:** The second example is useful when you don't want to clutter your text with the URL and the title.
 
-### Unordered Lists
+### Unordered lists
 
     - One 
     - Two
@@ -53,7 +53,7 @@ There's three ways to create a link. The rule of thumb is that the word you want
 
 **Side note:** You can also use `*` or `+` when you're dealing with an unordered list.
 
-### Ordered Lists
+### Ordered lists
 
     1. One 
     2. Two
@@ -96,7 +96,7 @@ I do think that WriteMonkey looks good too, but I'm not too fond of the idea of 
 
 If you're looking for a way to start intergrating plain text into your workflow, Markdown is the way to go. The formatting syntax is simple and you're never going to be tied down to one specific tool for your writing. All in all, it's easy to use and it's future proof.
 
-## Further Reading
+## Further reading
 
 - *Brett Terpstra:* [Why Markdown? A Two Minute Explanation](http://brettterpstra.com/why-markdown-a-two-minute-explanation/ "Why Markdown? A Two Minute Explanation") 
 - *The Hiltmon:* [The Markdown Mindset](http://www.hiltmon.com/blog/2012/02/20/the-markdown-mindset/ "The Markdown Mindset")

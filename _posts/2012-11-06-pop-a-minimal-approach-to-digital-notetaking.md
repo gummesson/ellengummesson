@@ -1,5 +1,5 @@
 ---
-title: "Pop - A Minimal Approach To Digital Notetaking"
+title: "Pop - a minimal approach to digital notetaking"
 tags: [Tech, Apps, iOS]
 layout: post
 comments: true

@@ -1,8 +1,9 @@
 ---
-title: "My Big Fat Git Failure"
+title: "My big fat git failure"
 tags: [Code, Git]
 layout: post
 comments: true
+external-link: false
 ---
 
 **Note:** this isn't critism, rather a documentation of my own stupidity.

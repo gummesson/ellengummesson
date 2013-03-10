@@ -1,5 +1,5 @@
 ---
-title: "Cleaning Up"
+title: "Cleaning up"
 tags: [Web, Tech]
 layout: post
 comments: true

@@ -1,5 +1,5 @@
 ---
-title: "Hotstrings And Markdown"
+title: "Hotstrings and Markdown"
 tags: [Tech, Apps, Markdown]
 layout: post
 comments: true
@@ -8,7 +8,7 @@ external-link: false
 
 Since yesterday I've been messing around with an small but powerful app called [AutoHotKey](http://www.autohotkey.com/ "AutoHotKey"). I guess you can call it a poor man's [TextExpander](http://smilesoftware.com/TextExpander/index.html "TextExpander"), but the fact is that it's capable of doing much more. Not only does it support text expansions for abbreviations but you can also create scripts with so called hotkeys and other things for anything and everything. When I say everything I do mean it. The learning curve is pretty steep for the more advanced functions since there's no GUI for it but for creating some simple text expansions it's as easy as scripting gets. The [documentation](http://www.autohotkey.com/docs/ "AutoHotKey Documentation") is really great too if you want to dive in deeper.
 
-## Abbreviate All The Things
+## Abbreviate all the things
 
 One of the strengths of an app like this is that it works great for repetitive writing tasks like phone numbers, email adresses and signatures. Instead of having to repeat essentially the same phrase several times a day you just write a simple keyword and it'll automatically transform into the right thing. Since it's as just a script it works universally across all of your apps too, which is another thing that's great. I can use the same abbreviations whether I'm surfing the web in Chrome or writing a blog post in FocusWriter or ResophNotes.
 
@@ -18,7 +18,7 @@ The basic structure of a simple text expansion script/hotstring looks like this:
 
 **Side note:** the `oc` in the script tells the app to not add a blank space after the expansion and that the script is in fact case-sensitive. Just remove them if you want neither of those things to happen.
 
-### Markdown Automation
+### Markdown automation
 
 Since I use Markdown almost exclusively while writing these days I of course had to create a couple abbreviations for a more smooth writing experience. Even though the Markdown syntax is really easy it can sometimes slow you down when you have the insert certain characters like `[]` and `()`. Instead of having to type out all of the characters when I want to create link I only have to type `.mdlnk` thanks to this simple hotstring:
 

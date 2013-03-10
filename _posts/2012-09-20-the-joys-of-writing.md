@@ -1,5 +1,5 @@
 ---
-title: "The Joys Of Writing"
+title: "The joys of writing"
 tags: [General, Writing]
 layout: post
 comments: true

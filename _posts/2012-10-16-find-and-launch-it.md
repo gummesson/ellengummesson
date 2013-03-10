@@ -1,5 +1,5 @@
---- 
-title: "Find And Launch It"
+---
+title: "Find and launch it"
 tags: [Tech, Apps]
 layout: post
 comments: true

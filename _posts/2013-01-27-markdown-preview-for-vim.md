@@ -1,5 +1,5 @@
 ---
-title: "Markdown Preview For Vim"
+title: "Markdown preview for Vim"
 tags: [Code, Markdown, Vim]
 layout: post
 comments: true

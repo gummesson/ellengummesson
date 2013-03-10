@@ -3,6 +3,7 @@ title: "Redesigning"
 tags: [Code, Design]
 layout: post
 comments: true
+external-link: false
 ---
 
 Even though this site isn't even a month old I'm having serious thoughts about redesigning it. In fact, I already have a design that's about 99% finished. I'm having a hard time deciding if I really should switch or not though. One minute I'm liking the current design (atleast the basic structure of it) and the next I dislike it. One thing I really don't like with it is that the default typeface used for the body copy ([Vollkorn](http://www.google.com/webfonts/specimen/Vollkorn)) looks really nice as long as you don't use the bold and italic font styles on your text. The bold looks really heavy compared to the normal weight and that bugs me quite much. The italic version looks okay, but I'm not totally happy with it. The typography is a big part of this site's design (if not the only part) since I'm not a really graphical designer (I wouldn't even call myself a designer, to be honest). 

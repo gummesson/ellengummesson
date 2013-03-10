@@ -1,5 +1,5 @@
---- 
-title: "A Tech Support Scammer Dials Ars Technica"
+---
+title: "A tech support scammer dials Ars Technica"
 tags: [Web, Tech]
 layout: post
 comments: true

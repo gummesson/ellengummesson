@@ -1,5 +1,5 @@
 ---
-title: "My New Writing App"
+title: "My new writing app"
 tags: [Tech, Apps]
 layout: post
 comments: true
@@ -18,6 +18,6 @@ One thing I really hate about distraction-free/full screen editors is that I oft
 
 So far I've only been using it for about two or three days, but I have a feeling that it'll stick around for a much longer period.
 
-### A Side Note
+### A side note
 
 To my suprise I first found an app for Ubuntu (who would've thought?) called [UberWriter]( http://uberwriter.wolfvollprecht.de/ "UberWriter"). It looks **exactly** like [iA Writer](http://www.iawriter.com/ "iA Writer") (apart from some minor color details), which means that it's incredibly gorgeous. You should try it out if you get the chance.

@@ -1,5 +1,5 @@
 ---
-title: "Automated Markdown Links And Better Footnotes"
+title: "Automated Markdown links and better footnotes"
 tags: [Code, Markdown]
 layout: post
 comments: true
@@ -8,7 +8,7 @@ external-link: false
 
 I've finally updated [my Markdown Hostrings repo](https://github.com/gummesson/markdown-hotstrings "Markdown Hotstrings on GitHub") I wrote about earlier with a couple of new things that I came up with after some tinkering. I've tried them and they've been really helpful for me, so I hope that somebody will also find them useful.
 
-## Automated Links
+## Automated links
 
 I finally figured out how to paste an URL from the clipboard directly into a Markdown-formatted link. I've looked and looked around the web but I felt that all the solutions I found were a bit to "complicated" for such a basic thing. I figured that a simple script for copying and pasting an URL into a simple text string surely wouldn't need 7-10 lines of code? For once, my instincts were right. Here's the hotstring in just three lines of code:
 

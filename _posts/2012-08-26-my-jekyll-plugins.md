@@ -1,8 +1,9 @@
 ---
-title: "My Jekyll Plugins"
+title: "My Jekyll plugins"
 tags: [Code, Jekyll]
 layout: post
 comments: true
+external-link: false
 ---
 
 Continuing with my Jekyll series, here's a list of the plugins and other hacks I use to make everything on this site run as smooth as possible.
@@ -23,7 +24,7 @@ To my suprise, it actually worked! Like I said earlier, I guess it doesn't reall
 
 To get tags to work on this site I used [an excellent guide/plugin](http://charliepark.org/tags-in-jekyll/ "Tags In Jekyll") from Charlie Parker. I also changed the default folder to a different one by adding and changing `tag_dir` in my _config.yml file (ie: `tag_dir: /blog/tag/` instead of just `tag_dir: /tag/`).
 
-## RSS Feed
+## RSS feed
 
 I followed and used the guidelines from Snaptortoise's [RSS Feeds Templates](https://github.com/snaptortoise/jekyll-rss-feeds "Jekyll RSS Feeds Templates"). However, instead of using `layout: rss-feed` in my feed.xml file I use `layout: nil`. Same thing, different names.
 

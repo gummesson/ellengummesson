@@ -1,20 +1,21 @@
 ---
-title: "My Jekyll Workflow"
+title: "My Jekyll workflow"
 tags: [Code, Jekyll]
 layout: post
 comments: true
+external-link: false
 ---
 Now that I've had this blog for a while I thought it would be a good idea to write about how my so called workflow looks to wrap this whole Jekyll series up.
 
-## 1. Writing In MarkdownPad
+## 1. Writing in MarkdownPad
 
 I first fire up [MarkdownPad](http://www.markdownpad.com/) and start writing a new blog post. It's a really nifty little tool for us Mac-depraved Windows users. I use DejaVu Sans Mono (which is my choice for coding purposes too) as my default font with `#FF434343` as the font color and `#FFF2F2F2` as the background color.
 
-## 2. Running Jekyll Locally
+## 2. Running Jekyll locally
 
 After I'm done with my writing, I fire up the command line and run Jekyll to generate my site. I also skim through my blog post to make sure that I haven't accidentally made a typo or something to that effect.
 
-## 3. Pushing To GitHub
+## 3. Pushing to GitHub
 
 Last but not least, I open up [GitHub for Windows](http://windows.github.com/ "GitHub for Windows") and push my site to GitHub. Even though it's not the most convenient thing to do it's still pretty easy and it makes the transfer so much faster with no hassles.
 

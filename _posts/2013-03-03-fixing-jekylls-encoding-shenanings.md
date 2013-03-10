@@ -1,5 +1,5 @@
 ---
-title: "Fixing Jekyll's Encoding Shenanings" 
+title: "Fixing Jekyll's encoding shenanings" 
 tags: [Code, Jekyll]
 layout: post
 comments: true

@@ -1,13 +1,14 @@
 ---
-title: "Hello World!"
+title: "Hello world!"
 tags: General
 layout: post
 comments: true
+external-link: false
 ---
 
 So, launch day has finally arrived. This site has been a work in progress for the last couple of weeks and I'm now finally happy, or atleast content, with how it looks. It's been a kind of troublesome yet quite fun ride (it took me some time to learn my ways around [Jekyll](http://www.jekyllrb.com/ "Jekyll") and all of its' functions and bits and pieces, but now I'm all set, I think).
 
-## Behind The Scenes
+## Behind the scenes
 
 Since I don't really know what to write in this post I thought I could write about how I built it and what tools I've used during the process. After all, my tagline contains the word "geekiness". Enjoy it, I guess.
 

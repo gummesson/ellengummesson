@@ -1,5 +1,5 @@
 ---
-title: "Easy Session For Vim" 
+title: "Easy Session for Vim" 
 tags: [Code, Vim]
 layout: post
 comments: true

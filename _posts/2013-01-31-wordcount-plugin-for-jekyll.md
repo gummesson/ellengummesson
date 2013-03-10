@@ -1,5 +1,5 @@
 ---
-title: "Wordcount Plugin For Jekyll"
+title: "Wordcount plugin for Jekyll"
 tags: [Code, Ruby, Jekyll]
 layout: post
 comments: true

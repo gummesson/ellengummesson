@@ -1,8 +1,9 @@
 ---
-title: "Trying Out Sass"
+title: "Trying out Sass"
 layout: post
 tags: [Code, CSS, Sass]
 comments: true
+external-link: false
 ---
 
 Disclaimer: the following blog post is extremely geeky and contains A LOT of code.

@@ -1,5 +1,5 @@
---- 
-title: "FocusWriter 1.4.0 Released"
+---
+title: "FocusWriter 1.4.0 released"
 tags: [Tech, Apps]
 layout: post
 comments: true

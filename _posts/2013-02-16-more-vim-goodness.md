@@ -1,5 +1,5 @@
 ---
-title: "More Vim Goodness" 
+title: "More Vim goodness" 
 tags: [Code, Vim]
 layout: post
 comments: true

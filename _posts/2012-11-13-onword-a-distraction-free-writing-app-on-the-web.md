@@ -1,5 +1,5 @@
 ---
-title: "Onword - A Distraction Free Writing App On The Web"
+title: "Onword - a distraction free writing app on the web"
 tags: [Web, Apps]
 layout: post
 comments: true

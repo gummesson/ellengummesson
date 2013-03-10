@@ -7,7 +7,7 @@ My name is Ellen Gummesson and I love communication and the web. I recently reci
 
 I've also started to learn the programming language [Ruby](http://www.ruby-lang.org/ "Ruby") and I'm hoping that one day I'll conquer the [Ruby on Rails](http://rubyonrails.org/ "Ruby on Rails") framework. In the meantime I'm having fun with micro web framework [Sinatra](http://www.sinatrarb.com/ "Sinatra"). I enjoy writing small but practically useless [Bash](http://en.wikipedia.org/wiki/Bash_(Unix_shell) "Bash") scripts that I run on my beloved [Crunchbang Linux](http://crunchbang.org/ "Crunchbang Linux") box. You can check out [my projects](/projects) if you'd like.
 
-## Why Are You Writing This In English?
+## Why are you writing this in english?
 
 I see it both as a fun challenge and an learning experience. English is a pretty important language and even though I think I'm pretty good at both speaking writing it there's always room for improvement.
 

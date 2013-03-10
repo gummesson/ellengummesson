@@ -1,5 +1,5 @@
 ---
-title: "Apps For Windows"
+title: "Apps for Windows"
 tags: [Tech, Apps]
 layout: post
 comments: true

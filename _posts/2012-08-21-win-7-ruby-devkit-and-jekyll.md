@@ -1,8 +1,9 @@
 ---
-title: "Windows 7, Ruby, DevKit And Jekyll"
+title: "Windows 7, Ruby, DevKit and Jekyll"
 tags: [Code, Jekyll]
 layout: post
 comments: true
+external-link: false
 ---
 
 To tell you the truth, I wasn't that familiar with the whole Ruby thing when I decided to start using [Jekyll](http://www.jekyllrb.com/ "Jekyll"). I practically had to learn it by trial, error and finally success since I couldn't really find a good guide on how to do it. I thought that it would be good to write it all down and share it (mostly for my own sake).

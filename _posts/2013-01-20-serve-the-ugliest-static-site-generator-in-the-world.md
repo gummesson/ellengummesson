@@ -1,5 +1,5 @@
 ---
-title: "Serve: The Ugliest Static Site Generator In The World" 
+title: "Serve: the ugliest static site generator in the world" 
 tags: [Code, Ruby]
 layout: post
 comments: true
@@ -8,7 +8,7 @@ external-link: false
 
 I don't know what's been up with me lately but I do know that during the last couple of weeks I've "shipped" a lot of things. I mean, most of them are basic things but I've had fun while doing them. So yesterday I added yet another repo to [my GitHub account](https://github.com/gummesson "My GitHub account"), [Serve](https://github.com/gummesson/serve "Serve"). *Serve* is a static site generator which focuses on generating small sites that only need to consist of a few pages at the most.
 
-## The Process
+## The process
 
 It started with an faint idea. I wanted to build something useful that could parse a couple of [Markdown](http://daringfireball.net/projects/markdown/ "Markdown") files and convert them to static HTML files. It's no secret that I absolutely adore [Jekyll](http://jekyllrb.com/ "Jekyll"), but I tend to roll with an idea once I get it. I first threw together a one file script that had the same basic functionality and went from there. My goal was to really learn how to use modules and classes since I've mostly shied away from them[^20130120-1].
 

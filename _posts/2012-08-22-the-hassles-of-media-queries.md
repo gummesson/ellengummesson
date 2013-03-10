@@ -1,8 +1,9 @@
 ---
-title: "The Hassles Of Media Queries"
+title: "The hassles of media queries"
 tags: [Code, CSS, HTML]
 layout: post
 comments: true
+external-link: false
 ---
 
 When I first set out to create this site, I knew that I wanted to make it responsive by adding a couple of media queries in my CSS. I never knew that it could become quite a tricky feat though. I tried and I tried, but for some reason I couldn't get them to properly work. Then it hit me that I'd forgot to add this in the `<head>`:

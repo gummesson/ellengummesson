@@ -1,5 +1,5 @@
 ---
-title: "My Adventure With Crunchbang"
+title: "My adventure with Crunchbang"
 tags: [Tech, Linux, Crunchbang]
 layout: post
 comments: true
@@ -22,7 +22,7 @@ While my goal is to keep the netbook as clean as possible there was one[^2012121
 
 ![Crunchbang Linux (Waldorf)](/images/blog/2012-12-14-crunchbang-waldorf.png "Crunchbang Linux (Waldorf)")
 
-## Closing Thoughts
+## Closing thoughts
 
 In short I really love this distro. It's fast, light on the resources, highly customizable but at the same just works. The battery life has gone down from around 5 hours to 4.5 hours, which isn't that bad at all. In fact I'm really impressed by that too. I wholeheartedly recommend it to people who want to make the jump to Linux but don't want to use something more resource-heavy, like the current main version of [Ubuntu](http://www.ubuntu.com/ "Ubuntu"), while still maintaining an all-around functionality for most users.
 

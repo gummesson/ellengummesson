@@ -1,5 +1,5 @@
 ---
-title: "A Brand New Blog"
+title: "A brand new blog"
 tags: [Code, Design]
 layout: post
 comments: true
@@ -8,7 +8,7 @@ external-link: false
 
 I've yet again redesigned the layout of this site and this time it's a hell of a lot different. I grew tired of the old look since it in all honestly looked boring and decided to give it some colors. I found the typeface [Roboto](http://www.google.com/webfonts/specimen/Roboto "Roboto") a few weeks ago and I like it so much that I decided to use it, which was the first step.
 
-## Hey, What Is THAT Theme?
+## Hey, what is THAT theme?
 
 The theme is based on [Noah Frederick's](http://noahfrederick.com/ "Noah Fredrick") beautiful [Peppermint theme](http://noahfrederick.com/blog/2011/lion-terminal-theme-peppermint/ "Peppermint terminal thehe") for the OS X's terminal. I remember stumbling onto his [Hemisu colorscheme](http://noahfrederick.com/vim-color-scheme-hemisu/ "Hemisu") for [Vim](http://www.vim.org/ "Vim") and for some reason I also found Peppermint. I even liked it so much that I hacked together a Vim colorscheme for it that I use quite a lot.
 
@@ -22,7 +22,7 @@ using Compass with Jekyll is also relatively easy by the way. I first tried out 
 
 Simple and effective!
 
-## Fun(ish) Trivia
+## Fun(ish) trivia
 
 - I started the redesign on March 1st and I've made a total of 28 commits[^20130309-1] to the git repository I used for the development.
 - I "skipped" support for Internet Explorer 8 in favor of using `[class^="column-"]:last-child` to remove the `margin-right` on the grid system[^20130309-2].

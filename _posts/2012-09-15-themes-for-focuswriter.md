@@ -1,5 +1,5 @@
 ---
-title: "Themes For FocusWriter"
+title: "Themes for FocusWriter"
 tags: [Tech, Apps, Design]
 layout: post
 comments: true

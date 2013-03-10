@@ -1,5 +1,5 @@
 ---
-title: "Vim: A Couple Of Days In"
+title: "Vim: a couple of days in"
 tags: [Code, Vim]
 layout: post
 comments: true

@@ -1,5 +1,5 @@
 ---
-title: "My Adventure With Peppermint OS"
+title: "My adventure with Peppermint OS"
 tags: [Tech, Linux, Open Source]
 layout: post
 comments: true

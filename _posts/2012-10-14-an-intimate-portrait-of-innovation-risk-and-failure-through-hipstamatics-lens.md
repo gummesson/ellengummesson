@@ -1,5 +1,5 @@
---- 
-title: "An Intimate Portrait Of Innovation, Risk, And Failure Through Hipstamatic's Lens"
+---
+title: "An intimate portrait of innovation, risk, and failure through Hipstamatic's lens"
 tags: [Tech, Apps]
 layout: post
 comments: true

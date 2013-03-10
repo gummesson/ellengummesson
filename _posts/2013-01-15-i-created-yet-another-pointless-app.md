@@ -1,5 +1,5 @@
 ---
-title: "I Created Yet Another (Pointless) App" 
+title: "I created yet another (pointless) app" 
 tags: [Web, Code, Apps]
 layout: post
 comments: true

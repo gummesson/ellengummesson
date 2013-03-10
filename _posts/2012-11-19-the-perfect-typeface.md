@@ -1,5 +1,5 @@
 ---
-title: "The Perfect Typeface"
+title: "The perfect typeface"
 tags: [Typography, Writing]
 layout: post
 comments: true
