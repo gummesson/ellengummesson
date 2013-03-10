@@ -2,23 +2,6 @@
     Grid
 ==========*/
 
-/*---------------
-    Container
----------------*/
-
-.grid {
-  max-width: $grid-container-width;
-  @extend %spacing-base-centered;
-}
-
-//--------
-//  Rows
-//--------
-
+@import "grid/_grid";
 @import "grid/_row";
-
-//-----------
-//  Columns
-//-----------
-
 @import "grid/_columns";

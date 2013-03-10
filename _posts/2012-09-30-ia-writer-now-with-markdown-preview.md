@@ -1,5 +1,5 @@
 ---
-title: "iA Writer - now with Markdown preview"
+title: "iA Writer – now with Markdown preview"
 tags: [Tech, Apps, iOS]
 layout: post
 comments: true
