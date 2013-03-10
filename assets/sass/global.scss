@@ -23,6 +23,15 @@
 // Normalize.css | MIT License | http://git.io/normalize
 @import "partials/_normalize-css";
 
+// Box sizing: _body.scss
+@import "compass/css3/box-sizing";
+
+// Border radius: _code.scss
+@import "compass/css3/border-radius";
+
+// Transition: _links.scss
+@import "compass/css3/transition";
+
 /*! Smallwork | MIT License | http://git.io/GBOj8Q */
 @import "partials/_reset";
 @import "partials/_body";
