@@ -74,10 +74,12 @@ task :deploy, :message do |t, args|
   message = args[:message]
 
   if message.nil? or message.empty?
-    system "git add . && git commit -m \"#{GITMSG}\" && git push origin master"
+    system "git commit -am \"#{GITMSG}\""
+    system "git push origin master"
     puts "The source was deployed."
   else
-    system "git add . && git commit -m \"#{message}\" && git push origin master"
+    system "git commit -am \"#{message}\"" 
+    system "git push origin master"
     puts "The source was deployed."
   end
 end
