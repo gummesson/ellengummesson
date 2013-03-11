@@ -22,7 +22,7 @@ RBCOPY = "_site/ D:/Git/gummesson.github.com/ /e"
 RSYNC  = "-av _site/ ~/Git/gummesson.github.com/"
 
 # Default Git message
-GITMSG = "Updated."
+GITMSG = "Updated"
 
 # Set "rake build" as default
 task :default => :build
@@ -75,12 +75,12 @@ task :deploy, :message do |t, args|
 
   if message.nil? or message.empty?
     system "git add ."
-    system "git commit -m \"#{GITMSG}\""
+    system "git commit -m \"#{GITMSG}\"."
     system "git push origin master"
     puts "The source was deployed."
   else
     system "git add ."
-    system "git commit -m \"#{message}\"" 
+    system "git commit -m \"#{message}\"." 
     system "git push origin master"
     puts "The source was deployed."
   end
