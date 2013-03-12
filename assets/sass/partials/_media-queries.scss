@@ -48,9 +48,8 @@
     font-size: 100%;
   }
 
-  .site-header,
-  .site-nav {
-    float: none;
+  .site-header {
+    margin-top: $spacing-unit-half;
   }
 
   .page,
