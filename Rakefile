@@ -27,6 +27,14 @@ GITMSG = "Updated"
 # Set "rake build" as default
 task :default => :build
 
+# Temporary fix for Jekyll on Ruby 2.0.0 + Windows
+desc "Temporary fix for Ruby 2.0.0 + Windows"
+task :fix do
+  system "chcp 65001"
+  system "cd #{CONFDIR} && compass compile && cd ../"
+  system "jekyll"
+end
+
 # rake build
 desc "Build the site (and convert Sass to CSS)"
 task :build do

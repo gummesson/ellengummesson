@@ -20,7 +20,7 @@ pre,
 code {
   line-height: 1;
   background-color: $body-alt-color;
-  @include border-radius(0.25em);
+  @include border-radius($spacing-unit-mini);
 }
 
 pre > code {
