@@ -12,7 +12,7 @@ I've yet again redesigned the layout of this site and this time it's a hell of a
 
 The theme is based on [Noah Frederick's](http://noahfrederick.com/ "Noah Fredrick") beautiful [Peppermint theme](http://noahfrederick.com/blog/2011/lion-terminal-theme-peppermint/ "Peppermint terminal thehe") for the OS X's terminal. I remember stumbling onto his [Hemisu colorscheme](http://noahfrederick.com/vim-color-scheme-hemisu/ "Hemisu") for [Vim](http://www.vim.org/ "Vim") and for some reason I also found Peppermint. I even liked it so much that I hacked together a Vim colorscheme for it that I use quite a lot.
 
-## Sass + Compass = <3
+## Sass + Compass = &hearts;
 
 I also used [Sass](http://sass-lang.com/ "Sass") and [Compass](http://compass-style.org/ "Compass") exclusively for the CSS writing. I've been wanting to use it for a long time and I even tried to convert the old design's CSS to it, but I gave up pretty quickly. This time I didn't and I of course used [Smallwork](https://github.com/gummesson/smallwork "Smallwork") as a base which made the process a lot more easier and faster. Redesigning this site was also one of the things that made me re-write Smallwork.
 
