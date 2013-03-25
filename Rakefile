@@ -47,7 +47,6 @@ end
 desc "Build and watch the site (with an optional post limit)"
 task :watch, :number do |t, args|
   number = args[:number]
-
   if number.nil? or number.empty?
     system "#{SET} LANG=#{LANG} && jekyll --auto --server --url http://localhost:4000/"
   else
@@ -59,7 +58,6 @@ end
 desc "Transfer the _site directory to it's local git repository"
 task :transfer, :command do |t, args|
   command = args[:command]
-
   if command.nil? or command.empty?
     raise "Please choose a file transfer command."
   elsif command == "robocopy"
@@ -80,7 +78,6 @@ end
 desc "Deploy the source to it's remote git repository"
 task :deploy, :message do |t, args|
   message = args[:message]
-
   if message.nil? or message.empty?
     system "git add ."
     system "git commit -m \"#{GITMSG}\"."
