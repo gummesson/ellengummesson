@@ -19,7 +19,9 @@
 
 .site-nav {
   margin-top: $spacing-unit-big * 2.5;
+  @extend %nav;
   @extend %layout-right;
+  @extend %bold;
 }
 
 .site-footer {

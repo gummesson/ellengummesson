@@ -13,3 +13,4 @@ There's several ways to contact and to keep in touch with me. Feel free to use a
 - Add me on [Google+](https://plus.google.com/108569513108478415869 "Google+").
 - Don't add me on [Facebook](http://www.facebook.com/ellen.gummesson "Facebook").
 - Go to my [GitHub](https://github.com/gummesson "GitHub") profile.
+- See my jQuery/Javascript experiments on [jsFiddle](http://jsfiddle.net/user/gummesson/fiddles/ "jsFiddle").

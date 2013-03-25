@@ -24,7 +24,6 @@ body {
   font: $body-font-weight #{$body-font-size}/#{$body-line-height} $body-font-face;
   color: $body-font-color;
   background-color: $body-bg-color;
-  @include text-shadow(0px 1px 0px $body-alt-color);
 }
 
 /*---------------

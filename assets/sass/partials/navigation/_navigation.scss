@@ -2,12 +2,18 @@
     Navigation
 ----------------*/
 
-.site-nav a {
-  margin-right: $spacing-unit-half;
+%nav {
+  list-style: none;
+  @extend %spacing-zero-left;
 
-  &:last-child {
-    @extend %spacing-zero-right;
+  li {
+    display: inline-block; 
+    margin-right: $spacing-unit-half;
+
+    &:last-child {
+      @extend %spacing-zero-right;
+    }
+
   }
 
-  @extend %bold;
 }
