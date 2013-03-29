@@ -27,7 +27,7 @@ function anchorScrolling(){
 
   });
 
-}
+};
 
 function postRandomizer(){
 
@@ -39,4 +39,4 @@ function postRandomizer(){
 
   $(".random-post").attr("href", postRandom);
 
-}
+};

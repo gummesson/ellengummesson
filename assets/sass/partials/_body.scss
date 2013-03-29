@@ -31,9 +31,9 @@ body {
 ---------------*/
 
 ::selection {
-  @extend %bg-color-brand;
+  background-color: $color-brand;
 }
 
 ::-moz-selection {
-  @extend %bg-color-brand;
+  background-color: $color-brand;
 }

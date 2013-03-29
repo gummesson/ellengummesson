@@ -6,14 +6,14 @@ hr {
   width: 100%;
   height: 1px;
   border: none;
-  @extend %bg-color-accent;
+  background-color: $color-accent;
   @extend %spacing-base-bottom;
 }
 
 %line {
   min-width: 100%;
   height: 3px;
-  @extend %bg-color-brand;
+  background-color: $color-brand;
 }
 
 .line-top {
