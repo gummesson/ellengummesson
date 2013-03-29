@@ -1,0 +1,27 @@
+/*-------------
+    Buttons
+-------------*/
+
+%button-base {
+  display: inline-block;
+  padding: 0 $spacing-unit-small;
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: 2;
+  border: none;
+  white-space: nowrap;
+  background-color: $color-brand;
+  @include border-radius($spacing-unit-mini);
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: none;
+    border: none;
+  }
+
+}
+
+.random-post {
+  @extend %button-base;
+}

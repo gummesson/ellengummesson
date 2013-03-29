@@ -13,9 +13,7 @@ layout: default
     <p class="smallprint">
       Posted on {{ page.date | date: "%B %e, %Y" }} {% if page.tags %} in {% for tag in page.tags %} <a href="/blog/tag/{{ tag }}" alt="{{ tag }}" title="{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %},{% endif %}{% endfor %}{% endif %}
     </p><!-- .smallprint -->
-    <section class="post-content">
-      {{ content }}
-    </section><!-- .post-content -->
+      {{ content }}<!-- content -->
 {% if page.comments %}
   {% include comments.html %}
 {% endif %}

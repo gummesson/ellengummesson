@@ -46,8 +46,8 @@ dd {
   list-style: none;
 
   li {
-    display: inline-block;
-    margin-right: $spacing-unit-half;
+    display: inline-block; 
+    margin: 0 $spacing-unit-half 0 0;
   }
 
   li:last-child {

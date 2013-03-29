@@ -5,15 +5,15 @@
 hr {
   width: 100%;
   height: 1px;
-  background-color: $color-accent;
   border: none;
+  @extend %bg-color-accent;
   @extend %spacing-base-bottom;
 }
 
 %line {
   min-width: 100%;
   height: 3px;
-  background-color: $color-brand;
+  @extend %bg-color-brand;
 }
 
 .line-top {

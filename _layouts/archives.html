@@ -17,13 +17,16 @@ title: Archives
       {% endfor %}
     </ul>
   <h2>Posts</h2>
+  <p>
+    <a href="#" alt="Go to a random post" title="Go to a random post" class="random-post">Random</a><!-- jQuery-generated URL -->
+  </p>
   {% for month in page.months %}
     <h3>{{ month | date:"%B" }} {{ month | date:"%Y" }}</h3>
       <ul>
       {% for post in page.posts_by_month[month] %}
         <li>
           <span class="date">{{ post.date | date: "%b %e, %Y" }}:</span>
-          <a href="{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">{{ post.title }}</a>
+          <a href="{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}" class="post-link">{{ post.title }}</a>
         </li>
       {% endfor %}
       </ul>

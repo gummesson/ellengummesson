@@ -14,9 +14,6 @@ else
   SET = "export"
 end
 
-# Sass/SCSS config directory
-CONFDIR = "assets/"
-
 # Transfer settings
 RBCOPY = "_site/ D:/Git/gummesson.github.com/ /e"
 RSYNC  = "-av _site/ ~/Git/gummesson.github.com/"
@@ -25,21 +22,24 @@ RSYNC  = "-av _site/ ~/Git/gummesson.github.com/"
 GITMSG = "Updated"
 
 # Set "rake build" as default
-task :default => :build
-
-# Temporary fix for Jekyll on Ruby 2.0.0 + Windows
-desc "Temporary fix for Ruby 2.0.0 + Windows"
-task :fix do
-  system "chcp 65001"
-  system "cd #{CONFDIR} && compass compile && cd ../"
-  system "jekyll"
-end
+task :default => [:build]
 
 # rake build
 desc "Build the site (and convert Sass to CSS)"
 task :build do
-  system "cd #{CONFDIR} && compass compile && cd ../"
-  system "#{SET} LANG=#{LANG} && jekyll"
+  Dir.chdir("assets/js") do
+    puts "Compressing the JS files..."
+    system "uglifyjs global.max.js -cmo global.js"
+  end 
+
+  system "#{SET} LANG=#{LANG} && compass compile && jekyll"
+
+  puts "Compressing the 'tag' HTML files..."
+  Dir["_site/blog/tag/**/*.html"].each do |file|
+    html = File.read(file)
+    comp = html.gsub(/^\s+$/,"")
+    File.write(file, comp)
+  end
 end
 
 # rake watch
@@ -60,14 +60,17 @@ task :transfer, :command do |t, args|
   command = args[:command]
   if command.nil? or command.empty?
     raise "Please choose a file transfer command."
+
   elsif command == "robocopy"
     Rake::Task[:build].invoke
     system "robocopy #{RBCOPY}"
     puts "The _site directory was transfered."
+
   elsif command == "rsync"
     Rake::Task[:build].invoke
     system "rsync #{RSYNC}" 
     puts "The _site directory was transfered."
+
   else
     raise "#{command} isn't a valid file transfer command."
   end

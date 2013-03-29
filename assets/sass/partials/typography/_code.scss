@@ -19,7 +19,7 @@ code {
 pre,
 code {
   line-height: 1;
-  background-color: $body-alt-color;
+  @extend %bg-color-alt;
   @include border-radius($spacing-unit-mini);
 }
 
