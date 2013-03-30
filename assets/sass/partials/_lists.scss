@@ -44,10 +44,11 @@ dd {
 
 .tags {
   list-style: none;
+  @extend %spacing-zero-left;
 
   li {
     display: inline-block; 
-    margin: 0 $spacing-unit-half 0 0;
+    margin-right: $spacing-unit-half;
   }
 
   li:last-child {
