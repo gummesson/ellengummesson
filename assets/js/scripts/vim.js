@@ -32,7 +32,7 @@ function vimKeyBindings() {
         scrollPosition = windowPosition + scrollHeight;
       }
 
-      scrollAnimation(scrollPosition, scrollSpeed); // utils.js
+      scrollAnimation(scrollPosition, scrollSpeed); // scrolling.js
 
     };
 
