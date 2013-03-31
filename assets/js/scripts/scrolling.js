@@ -2,17 +2,15 @@ function anchorScrolling() {
 
   "use strict";
 
-  var pageBody    = $("html, body"),
-      scrollSpeed = 750;
+  var scrollSpeed = 750;
 
   $("a[rel]").click(function() {
 
-    var idHref   = $(this).attr("href"),
-        idTarget = $(idHref.replace(":", "\\:"));
+    var idHref       = $(this).attr("href"),
+        idTarget     = $(idHref.replace(":", "\\:")),
+        scrollTarget = idTarget.offset().top;
 
-    pageBody.animate({
-      scrollTop: idTarget.offset().top
-    }, scrollSpeed);
+    scrollAnimation(scrollTarget, scrollSpeed); // utils.js
 
     return false;
 
