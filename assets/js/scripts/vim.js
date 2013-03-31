@@ -2,12 +2,14 @@ function vimKeyBindings() {
 
   "use strict";
 
-  if($("body").hasClass("js-vim")) {
+  var pageBody = $("html, body");
 
-    var scrollHeight = 100, // px
+  if(pageBody.hasClass("js-vim")) {
+
+    var scrollHeight = 50, // px
         scrollSpeed  = 50; // ms
 
-    $("body").keydown(function(key) {
+    pageBody.keydown(function(key) {
 
       if (key.which === 75) {
         keyDirection("up"); // K key
