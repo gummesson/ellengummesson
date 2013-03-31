@@ -1,7 +1,7 @@
 ﻿name: Ellen Gummesson
 description: Random ramblings, musings and geekiness
 url: http://ellengummesson.com/
-exclude: ["README.md", "Rakefile", "config.rb", "sass", "global.max.js"]
+exclude: ["README.md", "Rakefile", "config.rb", "sass", "scripts"]
 markdown: kramdown
 permalink: blog/:year/:month/:day/:title
 tag_dir: blog/tag

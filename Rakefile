@@ -15,8 +15,8 @@ else
 end
 
 # Transfer settings
-RBCOPY = "_site/ D:/Git/gummesson.github.com/ /e"
-RSYNC  = "-av _site/ ~/Git/gummesson.github.com/"
+ROBOCOPY = "_site/ D:/Git/gummesson.github.com/ /e"
+RSYNC    = "-av _site/ ~/Git/gummesson.github.com/"
 
 # Default Git message
 GITMSG = "Updated"
@@ -27,18 +27,34 @@ task :default => [:build]
 # rake build
 desc "Build the site (and convert Sass to CSS)"
 task :build do
-  Dir.chdir("assets/js") do
-    puts "Compressing the JS files..."
-    system "uglifyjs global.max.js -cmo global.js"
-  end 
-
+  Rake::Task["build:js"].invoke
   system "#{SET} LANG=#{LANG} && compass compile && jekyll"
+  Rake::Task["build:html"].invoke
+end
 
-  puts "Compressing the 'tag' HTML files..."
-  Dir["_site/blog/tag/**/*.html"].each do |file|
-    html = File.read(file)
-    comp = html.gsub(/^\s+$/,"")
-    File.write(file, comp)
+# rake js
+namespace :build do
+  task :js do
+    puts "Concatenating and compressing the JS files..."
+    FileUtils.rm("assets/js/global.js")
+
+    Dir["assets/js/scripts/*.js"].each do |filename|
+      file = File.read(filename)
+      File.open("assets/js/global.js", "a") do |global|
+        global.write(file)
+      end
+    end
+    system "uglifyjs assets/js/global.js -cmo assets/js/global.js"
+  end
+
+  # rake html
+  task :html do
+    puts "Compressing some HTML files..."
+    Dir["_site/blog/tag/**/*.html"].each do |file|
+      html = File.read(file)
+      comp = html.gsub(/^\s+$/,"")
+      File.write(file, comp)
+    end
   end
 end
 
@@ -63,7 +79,7 @@ task :transfer, :command do |t, args|
 
   elsif command == "robocopy"
     Rake::Task[:build].invoke
-    system "robocopy #{RBCOPY}"
+    system "robocopy #{ROBOCOPY}"
     puts "The _site directory was transfered."
 
   elsif command == "rsync"

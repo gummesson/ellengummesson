@@ -4,7 +4,7 @@
 
 blockquote {
   padding: $spacing-unit-half $spacing-unit-base;
-  border-left: 3px solid $color-brand;
+  border-left: 1px solid $color-brand;
   background-color: $body-alt-color;
   @extend %small;
   @extend %italic;
