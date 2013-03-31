@@ -1,4 +1,4 @@
-// Used in footnotes.js and vim.js
+// Used in anchors.js and vim.js
 function scrollAnimation(target, speed) {
 
   "use strict";
