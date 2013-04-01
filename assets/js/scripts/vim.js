@@ -4,7 +4,7 @@ function vimKeyBindings() {
 
   var pageBody = $("html, body");
 
-  if(pageBody.hasClass("js-vim")) {
+  if (pageBody.hasClass("js-vim")) {
 
     var scrollHeight = 50, // px
         scrollSpeed  = 50; // ms
@@ -26,11 +26,11 @@ function vimKeyBindings() {
       var scrollPosition,
           windowPosition = $(window).scrollTop();
 
-      if(direction === "up") {
+      if (direction === "up") {
         scrollPosition = windowPosition - scrollHeight;
       }
 
-      if(direction === "down") {
+      if (direction === "down") {
         scrollPosition = windowPosition + scrollHeight;
       }
 
