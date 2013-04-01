@@ -8,4 +8,4 @@ function postRandomizer() {
 
   $(".random-post").attr("href", postRandom);
 
-};
+}

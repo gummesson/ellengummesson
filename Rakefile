@@ -44,7 +44,7 @@ namespace :build do
         global.write(file)
       end
     end
-    system "uglifyjs assets/js/global.js -cmo assets/js/global.js"
+    system "uglifyjs assets/js/global.js --compress --mangle --output assets/js/global.js"
   end
 
   # rake html
