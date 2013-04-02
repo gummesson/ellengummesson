@@ -1,5 +1,5 @@
 ---
-title: My adventure with Manjaro Linux
+title: "My adventure with Manjaro Linux"
 tags: [Tech, Linux, Manjaro]
 layout: post
 comments: true

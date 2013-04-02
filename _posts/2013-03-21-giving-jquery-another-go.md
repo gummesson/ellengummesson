@@ -1,5 +1,5 @@
 ---
-title: Giving jQuery another go 
+title: "Giving jQuery another go"
 tags: [Web, Code, jQuery]
 layout: post
 comments: true

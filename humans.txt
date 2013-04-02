@@ -7,7 +7,7 @@ Everything: Ellen Gummesson
 
 /* THE SITE */
 
-Last update: 2013/03/31
+Last update: 2013/04/02
   Standards: HTML5 & CSS3
  Components: HTML5Shiv, Modern Clean CSS "Sticky Footer" & Smallwork
    Software: Vim          (http://www.vim.org/)
@@ -25,3 +25,13 @@ Egržvýd Chálobodor (http://mystrd.at/)
 /* STUFF I LIKE */
 
 Sinatra (http://www.sinatrarb.com/)
+
+/* CURRENTLY READING */
+
+Eloquent JavaScript: A Modern Introduction to Programming (http://eloquentjavascript.net/)
+
+/* GOOD READS */
+
+Practical Vim: Edit Text at the Speed of Thought        (http://pragprog.com/book/dnvim/practical-vim)
+       SMACSS: Scalable and Modular Architecture to CSS (http://smacss.com/)
+               Mr. Neighborly's Humble Little Ruby Book (http://www.humblelittlerubybook.com/)
