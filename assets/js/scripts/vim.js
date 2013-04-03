@@ -10,6 +10,10 @@ function vimKeyBindings() {
         scrollSpeed  = 25; // ms
 
     pageBody.keydown(function(key) {
+                                    // Firefox           // Chrome
+      if (key.shiftKey === true && (key.which === 187 || key.which === 171 || key.which == 191 )) {
+        window.location = "/experiments/vim"; // Quesion mark (Swedish and English keyboard layout)
+      }
 
       if (key.which === 75) {
         keyDirection("up"); // K key
