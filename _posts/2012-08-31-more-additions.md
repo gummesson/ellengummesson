@@ -1,6 +1,6 @@
 ---
 title: "More additions"
-tags: [Code, CSS]
+tags: ["Code", "CSS"]
 layout: post
 comments: true
 external-link: false

@@ -1,6 +1,6 @@
 ---
 title: "Changes coming for Echofon desktop users"
-tags: [Web, Tech, Apps]
+tags: ["Web", "Tech", "Apps"]
 layout: post
 comments: true
 external-link: http://blog.echofon.com/2012/10/changes-coming-for-echofon-desktop-users.html

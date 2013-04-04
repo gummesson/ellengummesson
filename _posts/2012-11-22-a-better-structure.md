@@ -1,6 +1,6 @@
 ---
 title: "A better structure"
-tags: [Tech, Apps]
+tags: ["Tech", "Apps"]
 layout: post
 comments: true
 external-link: false

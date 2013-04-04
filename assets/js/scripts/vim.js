@@ -12,7 +12,8 @@ function vimKeyBindings() {
     pageBody.keydown(function(key) {
                                     // Firefox           // Chrome
       if (key.shiftKey === true && (key.which === 187 || key.which === 171 || key.which == 191 )) {
-        window.location = "/experiments/vim"; // Quesion mark (Swedish and English keyboard layout)
+        var vimHelpUrl = "/experiments/vim";
+        window.location = vimHelpUrl; // Quesion mark (Swedish and English keyboard layout)
       }
 
       if (key.which === 75) {

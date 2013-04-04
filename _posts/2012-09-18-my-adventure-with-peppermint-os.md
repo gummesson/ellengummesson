@@ -1,6 +1,6 @@
 ---
 title: "My adventure with Peppermint OS"
-tags: [Tech, Linux, Open Source]
+tags: ["Tech", "Linux", "Open Source"]
 layout: post
 comments: true
 external-link: false

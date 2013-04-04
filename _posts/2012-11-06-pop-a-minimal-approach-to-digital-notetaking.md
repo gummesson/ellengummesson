@@ -1,6 +1,6 @@
 ---
 title: "Pop – a minimal approach to digital notetaking"
-tags: [Tech, Apps, iOS]
+tags: ["Tech", "Apps", "iOS"]
 layout: post
 comments: true
 external-link: false
@@ -10,7 +10,7 @@ After trying Squarespace Note for a few days I decided that it wasn't really for
 
 ## Pop
 
-The description from [the official website](http://minimaltools.com/ "Minimal Tools - Pop") describes the purpose of the app perfectly:
+The description from [the official website](http://minimaltools.com/ "Minimal Tools – Pop") describes the purpose of the app perfectly:
 
 > Pop is simply a convenient place for writing things down — that piece of paper you grab to write when you have an idea. It doesn't help you do anything smarter or more organized.
 

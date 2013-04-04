@@ -1,6 +1,6 @@
 ---
 title: "The amazing iOS 6 maps"
-tags: [Web, Tech, iOS]
+tags: ["Web", "Tech", "iOS"]
 layout: post
 comments: true
 external-link: http://theamazingios6maps.tumblr.com/

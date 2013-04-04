@@ -1,6 +1,6 @@
 ---
 title: "Jekyll Rake Boilerplate"
-tags: [Code, Ruby, Jekyll]
+tags: ["Code", "Ruby", "Jekyll"]
 layout: post
 comments: true
 external-link: false

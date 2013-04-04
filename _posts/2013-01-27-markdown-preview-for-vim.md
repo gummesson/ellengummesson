@@ -1,6 +1,6 @@
 ---
 title: "Markdown preview for Vim"
-tags: [Code, Markdown, Vim]
+tags: ["Code", "Markdown", "Vim"]
 layout: post
 comments: true
 external-link: false

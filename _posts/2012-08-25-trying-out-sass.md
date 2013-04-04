@@ -1,7 +1,7 @@
 ---
 title: "Trying out Sass"
+tags: ["Code", "CSS", "Sass"]
 layout: post
-tags: [Code, CSS, Sass]
 comments: true
 external-link: false
 ---

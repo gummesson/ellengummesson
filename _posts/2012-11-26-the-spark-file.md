@@ -1,6 +1,6 @@
 ---
 title: "The spark file"
-tags: [Writing, Plain Text]
+tags: ["Writing", "Plain Text"]
 layout: post
 comments: true
 external-link: false

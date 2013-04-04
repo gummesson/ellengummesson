@@ -1,6 +1,6 @@
 ---
 title: "Wordcount plugin for Jekyll"
-tags: [Code, Ruby, Jekyll]
+tags: ["Code", "Ruby", "Jekyll"]
 layout: post
 comments: true
 external-link: false

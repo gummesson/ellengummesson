@@ -1,6 +1,6 @@
 ---
 title: "Lo and behold, I've launched an web app!" 
-tags: [Web, Code, Apps]
+tags: ["Web", "Code", "Apps"]
 layout: post
 comments: true
 external-link: false

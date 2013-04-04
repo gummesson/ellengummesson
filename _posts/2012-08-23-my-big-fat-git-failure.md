@@ -1,6 +1,6 @@
 ---
 title: "My big fat git failure"
-tags: [Code, Git]
+tags: ["Code", "Git"]
 layout: post
 comments: true
 external-link: false

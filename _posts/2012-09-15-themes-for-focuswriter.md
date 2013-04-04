@@ -1,6 +1,6 @@
 ---
 title: "Themes for FocusWriter"
-tags: [Tech, Apps, Design]
+tags: ["Tech", "Apps", "Design"]
 layout: post
 comments: true
 external-link: /projects/focuswriter-themes/

@@ -1,6 +1,6 @@
 ---
 title: "To re-redesign or not"
-tags: [Design, Thoughts]
+tags: ["Design", "Thoughts"]
 layout: post
 comments: true
 external-link: false

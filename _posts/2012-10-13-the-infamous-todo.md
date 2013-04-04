@@ -1,6 +1,6 @@
 ---
 title: "The infamous todo"
-tags: [Productivity, Apps, Plain Text]
+tags: ["Productivity", "Apps", "Plain Text"]
 layout: post
 comments: true
 external-link: false

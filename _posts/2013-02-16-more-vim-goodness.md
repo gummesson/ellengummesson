@@ -1,6 +1,6 @@
 ---
 title: "More Vim goodness" 
-tags: [Code, Vim]
+tags: ["Code", "Vim"]
 layout: post
 comments: true
 external-link: false

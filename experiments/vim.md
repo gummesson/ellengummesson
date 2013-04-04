@@ -3,7 +3,7 @@ title: "Vim keybindings"
 layout: page
 ---
 
-Hello! This a helpful little cheatsheet for navigating this website with a few [Vim](http://www.vim.org/ "Vim")-like keybindings.
+Here lies a little cheatsheet for navigating this website with a few [Vim](http://www.vim.org/ "Vim")-like keybindings.
 
 - `J` - Scroll down.
 - `K` - Scroll up.

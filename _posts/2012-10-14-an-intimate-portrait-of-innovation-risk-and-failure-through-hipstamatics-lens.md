@@ -1,6 +1,6 @@
 ---
 title: "An intimate portrait of innovation, risk, and failure through Hipstamatic's lens"
-tags: [Tech, Apps]
+tags: ["Tech", "Apps"]
 layout: post
 comments: true
 external-link: http://www.fastcompany.com/3002103/intimate-portrait-innovation-risk-and-failure-through-hipstamatics-lens

@@ -1,6 +1,6 @@
 ---
 title: "Small steps into Ruby"
-tags: [Code, Ruby]
+tags: ["Code", "Ruby"]
 layout: post
 comments: true
 external-link: false

@@ -1,6 +1,6 @@
 ---
 title: "Markdown hostrings (for AutoHotKey)"
-tags: [Code, Markdown]
+tags: ["Code", "Markdown"]
 layout: post
 comments: true
 external-link: https://github.com/gummesson/markdown-hotstrings

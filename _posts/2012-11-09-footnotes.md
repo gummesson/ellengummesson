@@ -1,6 +1,6 @@
 ---
 title: "Footnotes"
-tags: [Jekyll, Markdown]
+tags: ["Jekyll", "Markdown"]
 layout: post
 comments: true
 external-link: false

@@ -1,6 +1,6 @@
 ---
 title: "The perfect typeface"
-tags: [Typography, Writing]
+tags: ["Typography", "Writing"]
 layout: post
 comments: true
 external-link: false

@@ -1,6 +1,6 @@
---- 
+---
 title: "Viva la archives"
-tags: [Code, Jekyll]
+tags: ["Code", "Jekyll"]
 layout: post
 comments: true
 external-link: false

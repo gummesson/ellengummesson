@@ -1,6 +1,6 @@
 ---
 title: "A modern web designer's workflow"
-tags: [Code, Web]
+tags: ["Code", "Web"]
 layout: post
 comments: true
 external-link: http://www.youtube.com/watch?v=vsTrAfJFLXI

@@ -1,6 +1,6 @@
 ---
 title: "Guard is your best friend"
-tags: [Web, Tech]
+tags: ["Web", "Tech"]
 layout: post
 comments: true
 external-link: http://www.youtube.com/watch?v=dRuiU6mjcFA

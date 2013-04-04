@@ -1,6 +1,6 @@
 ---
 title: "The struggles of writing"
-tags: [General, Writing]
+tags: ["General", "Writing"]
 layout: post
 comments: true
 external-link: false

@@ -1,6 +1,6 @@
 ---
 title: "The new iMac"
-tags: [Tech, Apple]
+tags: ["Tech", "Apple"]
 layout: post
 comments: true
 external-link: http://www.theverge.com/2012/10/23/3544356/apples-new-imac-first-hands-on

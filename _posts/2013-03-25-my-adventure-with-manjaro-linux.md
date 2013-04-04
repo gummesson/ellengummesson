@@ -1,6 +1,6 @@
 ---
 title: "My adventure with Manjaro Linux"
-tags: [Tech, Linux, Manjaro]
+tags: ["Tech", "Linux", "Manjaro"]
 layout: post
 comments: true
 external-link: false

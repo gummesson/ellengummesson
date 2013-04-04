@@ -6,6 +6,6 @@ function postRandomizer() {
       postItems  = postList.length,
       postRandom = postList[Math.floor(Math.random() * postItems)];
 
-  $(".random-post").attr("href", postRandom);
+  $("#random-post").attr("href", postRandom);
 
 }

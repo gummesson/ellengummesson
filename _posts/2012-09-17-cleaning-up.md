@@ -1,6 +1,6 @@
 ---
 title: "Cleaning up"
-tags: [Web, Tech]
+tags: ["Web", "Tech"]
 layout: post
 comments: true
 external-link: false

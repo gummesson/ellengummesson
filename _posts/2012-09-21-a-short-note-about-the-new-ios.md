@@ -1,6 +1,6 @@
 ---
 title: "A short note about the new iOS"
-tags: [Tech, iOS]
+tags: ["Tech", "iOS"]
 layout: post
 comments: true
 external-link: false

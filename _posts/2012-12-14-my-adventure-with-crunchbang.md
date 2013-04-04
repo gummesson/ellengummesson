@@ -1,6 +1,6 @@
 ---
 title: "My adventure with Crunchbang"
-tags: [Tech, Linux, Crunchbang]
+tags: ["Tech", "Linux", "Crunchbang"]
 layout: post
 comments: true
 external-link: false

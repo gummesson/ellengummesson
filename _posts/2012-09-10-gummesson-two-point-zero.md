@@ -1,6 +1,6 @@
 ---
 title: "Gummesson 2.0"
-tags: [Code, Design]
+tags: ["Code", "Design"]
 layout: post
 comments: true
 external-link: false

@@ -1,6 +1,6 @@
 ---
 title: "External links in the post title"
-tags: [Code, Jekyll]
+tags: ["Code", "Jekyll"]
 layout: post
 comments: true
 external-link: false

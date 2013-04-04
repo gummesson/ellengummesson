@@ -1,6 +1,6 @@
 ---
 title: "Apps for Windows"
-tags: [Tech, Apps]
+tags: ["Tech", "Apps"]
 layout: post
 comments: true
 external-link: false

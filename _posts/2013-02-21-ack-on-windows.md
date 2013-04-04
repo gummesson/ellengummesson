@@ -1,6 +1,6 @@
 ---
 title: "Ack on Windows"
-tags: [Code, Tools]
+tags: ["Code", "Tools"]
 layout: post
 comments: true
 external-link: false

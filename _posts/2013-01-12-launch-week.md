@@ -1,6 +1,6 @@
 ---
 title: "Launch week" 
-tags: [Code, Apps]
+tags: ["Code", "Apps"]
 layout: post
 comments: true
 external-link: false

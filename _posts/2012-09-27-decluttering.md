@@ -1,6 +1,6 @@
 ---
 title: "Decluttering"
-tags: [Tech]
+tags: ["Tech"]
 layout: post
 comments: true
 external-link: false

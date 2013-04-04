@@ -6,6 +6,7 @@ pre {
   padding: 0.2em 0.4em 0.4em;
   overflow: auto;
   word-wrap: normal;
+  white-space: pre;
   @extend %spacing-base-bottom;
 }
 

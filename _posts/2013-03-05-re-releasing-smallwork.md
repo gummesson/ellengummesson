@@ -1,6 +1,6 @@
 ---
 title: "Re-releasing Smallwork" 
-tags: [Code, CSS, Sass]
+tags: ["Code", "CSS", "Sass"]
 layout: post
 comments: true
 external-link: false

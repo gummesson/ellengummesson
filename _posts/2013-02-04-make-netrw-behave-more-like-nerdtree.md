@@ -1,6 +1,6 @@
 ---
 title: "Make Netrw behave more like NERDTree" 
-tags: [Code, Vim]
+tags: ["Code", "Vim"]
 layout: post
 comments: true
 external-link: http://stackoverflow.com/questions/5006950/setting-netrw-like-nerdtree

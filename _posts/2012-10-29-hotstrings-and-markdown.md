@@ -1,6 +1,6 @@
 ---
 title: "Hotstrings and Markdown"
-tags: [Tech, Apps, Markdown]
+tags: ["Tech", "Apps", "Markdown"]
 layout: post
 comments: true
 external-link: false

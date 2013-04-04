@@ -1,6 +1,6 @@
 ---
 title: "FocusWriter 1.4.0 released"
-tags: [Tech, Apps]
+tags: ["Tech", "Apps"]
 layout: post
 comments: true
 external-link: false

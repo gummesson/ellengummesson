@@ -1,6 +1,6 @@
 ---
 title: "Squarespace Note"
-tags: [Tech, Apps, iOS]
+tags: ["Tech", "Apps", "iOS"]
 layout: post
 comments: true
 external-link: http://www.squarespace.com/apps/#note

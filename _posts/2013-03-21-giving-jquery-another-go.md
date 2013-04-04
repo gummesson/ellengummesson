@@ -1,6 +1,6 @@
 ---
 title: "Giving jQuery another go"
-tags: [Web, Code, jQuery]
+tags: ["Web", "Code", "jQuery"]
 layout: post
 comments: true
 external-link: false

@@ -1,6 +1,6 @@
 ---
 title: "A hard (drive) failure"
-tags: [Tech, Hardware]
+tags: ["Tech", "Hardware"]
 layout: post
 comments: true
 external-link: false

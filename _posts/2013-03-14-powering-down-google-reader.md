@@ -1,6 +1,6 @@
 ---
 title: "Powering down Google Reader"
-tags: [Web]
+tags: ["Web"]
 layout: post
 comments: true
 external-link: http://googlereader.blogspot.com/2013/03/powering-down-google-reader.html

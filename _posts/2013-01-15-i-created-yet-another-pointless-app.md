@@ -1,6 +1,6 @@
 ---
 title: "I created yet another (pointless) app" 
-tags: [Web, Code, Apps]
+tags: ["Web", "Code", "Apps"]
 layout: post
 comments: true
 external-link: false

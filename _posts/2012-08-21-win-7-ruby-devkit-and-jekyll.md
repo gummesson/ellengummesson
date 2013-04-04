@@ -1,6 +1,6 @@
 ---
 title: "Windows 7, Ruby, DevKit and Jekyll"
-tags: [Code, Jekyll]
+tags: ["Code", "Jekyll"]
 layout: post
 comments: true
 external-link: false

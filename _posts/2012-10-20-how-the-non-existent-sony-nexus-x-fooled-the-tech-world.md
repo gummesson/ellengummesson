@@ -1,6 +1,6 @@
 ---
 title: "How the non-existent Sony Nexus X fooled the tech world"
-tags: [Web, Tech]
+tags: ["Web", "Tech"]
 layout: post
 comments: true
 external-link: http://www.theverge.com/2012/10/19/3527284/how-the-non-existent-sony-nexus-x-fooled-the-tech-world

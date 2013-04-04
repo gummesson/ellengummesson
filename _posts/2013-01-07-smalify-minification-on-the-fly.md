@@ -1,6 +1,6 @@
 ---
 title: "Smalify: minification on the fly"
-tags: [Apps, Code]
+tags: ["Apps", "Code"]
 layout: post
 comments: true
 external-link: http://smalify.net/

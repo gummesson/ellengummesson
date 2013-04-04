@@ -1,6 +1,6 @@
 ---
 title: "The joys of writing"
-tags: [General, Writing]
+tags: ["General", "Writing"]
 layout: post
 comments: true
 external-link: false

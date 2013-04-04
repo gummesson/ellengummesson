@@ -1,6 +1,6 @@
 ---
 title: "10 internet fads that took the world by storm briefly"
-tags: [Web]
+tags: ["Web"]
 layout: post
 comments: true
 external-link: http://www.makeuseof.com/tag/10-internet-fads-world-storm-briefly/

@@ -1,6 +1,6 @@
 ---
 title: "Serve: the ugliest static site generator in the world" 
-tags: [Code, Ruby]
+tags: ["Code", "Ruby"]
 layout: post
 comments: true
 external-link: false

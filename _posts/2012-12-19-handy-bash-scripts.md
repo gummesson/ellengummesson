@@ -1,6 +1,6 @@
 ---
 title: "Handy Bash scripts"
-tags: [Tech, Linux, Bash]
+tags: ["Tech", "Linux", "Bash"]
 layout: post
 comments: true
 external-link: false

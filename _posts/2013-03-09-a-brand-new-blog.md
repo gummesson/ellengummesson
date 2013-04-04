@@ -1,6 +1,6 @@
 ---
 title: "A brand new blog"
-tags: [Code, Design]
+tags: ["Code", "Design"]
 layout: post
 comments: true
 external-link: false

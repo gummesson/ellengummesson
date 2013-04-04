@@ -1,6 +1,6 @@
 ---
 title: "Why (and how) I wrote my academic book in plain text"
-tags: [Writing, Plain Text]
+tags: ["Writing", "Plain Text"]
 layout: post
 comments: true
 external-link: http://wcm1.web.rice.edu/my-academic-book-in-plain-text.html

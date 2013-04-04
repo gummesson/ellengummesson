@@ -1,6 +1,6 @@
 ---
 title: "My Jekyll plugins"
-tags: [Code, Jekyll]
+tags: ["Code", "Jekyll"]
 layout: post
 comments: true
 external-link: false

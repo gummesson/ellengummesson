@@ -1,6 +1,6 @@
 ---
 title: "My new writing app"
-tags: [Tech, Apps]
+tags: ["Tech", "Apps"]
 layout: post
 comments: true
 external-link: false

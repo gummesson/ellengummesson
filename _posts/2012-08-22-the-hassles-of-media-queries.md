@@ -1,6 +1,6 @@
 ---
 title: "The hassles of media queries"
-tags: [Code, CSS, HTML]
+tags: ["Code", "CSS", "HTML"]
 layout: post
 comments: true
 external-link: false

@@ -1,6 +1,6 @@
 ---
 title: "Hello world!"
-tags: General
+tags: ["General"]
 layout: post
 comments: true
 external-link: false

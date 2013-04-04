@@ -1,6 +1,6 @@
 ---
 title: "Yes we Jekyll"
-tags: [Web, Jekyll]
+tags: ["Web", "Jekyll"]
 layout: post
 comments: true
 external-link: http://yeswejekyll.com/

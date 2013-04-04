@@ -1,6 +1,6 @@
 ---
 title: "An easter egg for the blog"
-tags: [Web, Code, jQuery]
+tags: ["Web", "Code", "jQuery"]
 layout: post
 comments: true
 external-link: false

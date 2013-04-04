@@ -1,6 +1,6 @@
 ---
 title: "Easy Session for Vim" 
-tags: [Code, Vim]
+tags: ["Code", "Vim"]
 layout: post
 comments: true
 external-link: false

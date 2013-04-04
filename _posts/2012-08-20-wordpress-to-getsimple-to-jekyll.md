@@ -1,6 +1,6 @@
 ---
 title: "WordPress to GetSimple to Jekyll"
-tags: [Code, Jekyll]
+tags: ["Code", "Jekyll"]
 layout: post
 comments: true
 external-link: false

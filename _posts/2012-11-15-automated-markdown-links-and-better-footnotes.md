@@ -1,6 +1,6 @@
 ---
 title: "Automated Markdown links and better footnotes"
-tags: [Code, Markdown]
+tags: ["Code", "Markdown"]
 layout: post
 comments: true
 external-link: false

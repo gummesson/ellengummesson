@@ -1,6 +1,6 @@
 ---
 title: "The one about Markdown"
-tags: [Writing, Markdown, Plain Text]
+tags: ["Writing", "Markdown", "Plain Text"]
 layout: post
 comments: true
 external-link: false

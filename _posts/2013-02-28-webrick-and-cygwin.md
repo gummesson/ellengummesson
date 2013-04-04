@@ -1,6 +1,6 @@
 ---
 title: "WEBrick and Cygwin" 
-tags: [Code, Ruby]
+tags: ["Code", "Ruby"]
 layout: post
 comments: true
 external-link: false
