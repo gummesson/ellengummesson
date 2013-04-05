@@ -9,11 +9,11 @@
 @include breakpoint(max, $breakpoint-handheld-big) {
 
   .site-header {
-    margin-top: $spacing-unit-base;
+    margin-top: $spacing-unit-big;
   }
 
   .site-nav {
-    margin-top: $spacing-unit-big * 1.25;
+    margin-top: $spacing-unit-big * 1.5;
   }
 
   .site-footer {
@@ -32,14 +32,6 @@
     font-size: 112.5%;
   }
 
-  .site-header {
-    margin-top: $spacing-unit-medium;
-  }
-
-  .site-nav {
-    margin-top: $spacing-unit-base;
-  }
-
 }
 
 @include breakpoint(max, $breakpoint-handheld-small) {
@@ -48,8 +40,12 @@
     font-size: 100%;
   }
 
-  .site-header {
-    margin-top: $spacing-unit-half;
+  .site-logo {
+    max-width: 128px;
+  }
+
+  .site-nav {
+    margin-top: $spacing-unit-big * 1.25;
   }
 
   .page,

@@ -26,3 +26,11 @@ a {
 .invisible {
   border-bottom: 1px solid transparent;
 }
+
+.no-hover {
+  &:hover,
+  &:active,
+  &:focus {
+    @extend %link-invisible;
+  }
+}

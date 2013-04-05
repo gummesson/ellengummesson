@@ -39,12 +39,6 @@ h6,
   font-size: $base-font-size;
 }
 
-/* "Logo" */
-
-.logo {
-  @extend %mega;
-}
-
 /*Comments */
 
 .comments h1 {
