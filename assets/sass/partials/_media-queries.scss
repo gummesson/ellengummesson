@@ -44,8 +44,12 @@
     max-width: 128px;
   }
 
+  .site-header {
+    margin-top: $spacing-unit-big * 0.875;
+  }
+
   .site-nav {
-    margin-top: $spacing-unit-big * 1.25;
+    margin-top: $spacing-unit-big * 1.125;
   }
 
   .page,
