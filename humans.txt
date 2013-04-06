@@ -7,7 +7,7 @@ Everything: Ellen Gummesson
 
 /* THE SITE */
 
-Last update: 2013/04/05
+Last update: 2013/04/06
   Standards: HTML5 & CSS3
  Components: HTML5Shiv, Modern Clean CSS "Sticky Footer" & Smallwork
    Software: Vim          (http://www.vim.org/)

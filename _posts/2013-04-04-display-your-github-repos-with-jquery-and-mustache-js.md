@@ -25,7 +25,7 @@ This is the function itself:
       githubUsername(username, function(data) {
 
         var template    = $("#github-repos").html(),
-            information = Mustache.to_html(template, data);
+            information = Mustache.render(template, data);
 
         $("#repo-list").html(information);
 
