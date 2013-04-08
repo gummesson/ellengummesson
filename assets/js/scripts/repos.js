@@ -2,7 +2,8 @@ function getGithubRepositories(username) {
 
   "use strict";
 
-  $("#repo-list").append("<li>Loading...</li>");
+  var repoList = $("#repo-list");
+  repoList.append("<li>Loading...</li>");
 
   var githubUsername = function(username, callback) {
     $.getJSON("https://api.github.com/users/" + username + "/repos?callback=?", callback);
@@ -13,7 +14,7 @@ function getGithubRepositories(username) {
     var template    = $("#github-repos").html(),
         information = Mustache.render(template, data);
 
-    $("#repo-list").html(information);
+    repoList.html(information);
 
   });
 

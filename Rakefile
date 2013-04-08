@@ -27,17 +27,21 @@ task :default => [:build]
 # rake build
 desc "Build the site (and convert Sass to CSS)"
 task :build do
+  Rake::Task["build:sass"].invoke
   Rake::Task["build:js"].invoke
-  system "#{SET} LANG=#{LANG} && compass compile && jekyll"
+  system "#{SET} LANG=#{LANG} && jekyll"
   Rake::Task["build:html"].invoke
 end
 
-# rake js
+# build tasks (sass, js and html)
 namespace :build do
+  task :sass do
+    system "compass compile"
+  end
+
   task :js do
     puts "Concatenating and compressing the JS files..."
     FileUtils.rm("assets/js/global.js")
-
     Dir["assets/js/scripts/*.js"].each do |filename|
       file = File.read(filename)
       File.open("assets/js/global.js", "a") do |global|
@@ -76,17 +80,14 @@ task :transfer, :command do |t, args|
   command = args[:command]
   if command.nil? or command.empty?
     raise "Please choose a file transfer command."
-
   elsif command == "robocopy"
     Rake::Task[:build].invoke
     system "robocopy #{ROBOCOPY}"
     puts "The _site directory was transfered."
-
   elsif command == "rsync"
     Rake::Task[:build].invoke
     system "rsync #{RSYNC}" 
     puts "The _site directory was transfered."
-
   else
     raise "#{command} isn't a valid file transfer command."
   end
