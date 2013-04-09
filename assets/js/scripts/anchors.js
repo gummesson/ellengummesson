@@ -1,4 +1,4 @@
-var anchorScrolling = function() {
+function anchorScrolling() {
 
   var scrollSpeed = 750;
 
@@ -14,4 +14,4 @@ var anchorScrolling = function() {
 
   });
 
-};
+}

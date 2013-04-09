@@ -1,4 +1,4 @@
-var postRandomizer = function() {
+function postRandomizer() {
 
   var postList   = $(".post-link[href]"),
       postItems  = postList.length,
@@ -6,4 +6,4 @@ var postRandomizer = function() {
 
   $("#random-post").attr("href", postRandom);
 
-};
+}

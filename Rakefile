@@ -49,7 +49,7 @@ namespace :build do
           file = File.read(filename)
           global.write(file)
         end
-      global.write("}).call(this);")
+      global.write("}());")
     end
     system "uglifyjs assets/js/global.js --compress --mangle --output assets/js/global.js"
   end
