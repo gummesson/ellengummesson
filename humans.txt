@@ -7,19 +7,22 @@ Everything: Ellen Gummesson
 
 /* THE SITE */
 
-Last update: 2013/04/08
+Last update: 2013/04/09
   Standards: HTML5 & CSS3
- Components: HTML5Shiv, Modern Clean CSS "Sticky Footer" & Smallwork
-   Software: Vim          (http://www.vim.org/)
-             Jekyll       (http://www.jekyllrb.com/)
-             kramdown     (http://kramdown.rubyforge.org/)
-    Hosting: GitHub Pages (http://pages.github.com/)
+ Components: Smallwork                        (https://github.com/gummesson/smallwork)
+             Modern Clean CSS "Sticky Footer" (http://mystrd.at/modern-clean-css-sticky-footer/)
+             HTML5Shiv                        (https://code.google.com/p/html5shiv/)
+             jQuery                           (http://jquery.com/)
+             Mustache.js                      (https://github.com/janl/mustache.js)
+   Software: Vim                              (http://www.vim.org/)
+             Jekyll                           (http://www.jekyllrb.com/)
+             kramdown                         (http://kramdown.rubyforge.org/)
+    Hosting: GitHub Pages                     (http://pages.github.com/)
 
 /* THANKS */
 
 Tom Preston-Werner (http://tom.preston-werner.com/)
             GitHub (http://www.github.com/)
-Egržvýd Chálobodor (http://mystrd.at/)
     Noah Frederick (http://noahfrederick.com/)
 
 /* STUFF I LIKE */
@@ -30,7 +33,7 @@ Sinatra (http://www.sinatrarb.com/)
 
 Eloquent JavaScript: A Modern Introduction to Programming (http://eloquentjavascript.net/)
 
-/* GOOD READS */
+/* OTHER GOOD READS */
 
 Practical Vim: Edit Text at the Speed of Thought        (http://pragprog.com/book/dnvim/practical-vim)
        SMACSS: Scalable and Modular Architecture to CSS (http://smacss.com/)

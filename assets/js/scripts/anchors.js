@@ -1,6 +1,4 @@
-function anchorScrolling() {
-
-  "use strict";
+var anchorScrolling = function() {
 
   var scrollSpeed = 750;
 
@@ -16,4 +14,4 @@ function anchorScrolling() {
 
   });
 
-}
+};

@@ -1,13 +1,41 @@
-function vimKeyBindings() {
+var keyDirection = function(direction) {
 
-  "use strict";
+  var scrollHeight    = 50, // px
+      scrollSpeed     = 25, // ms
+      windowPosition  = $(window).scrollTop(),
+      documentHeight  = $(document).height(),
+      windowHeight    = $(window).height(),
+      scrollPosition;
+
+  if (direction === "up") {
+    scrollPosition = windowPosition - scrollHeight;
+  }
+
+  if (direction === "down") {
+    scrollPosition = windowPosition + scrollHeight;
+  }
+
+  if (direction === "top") {
+    scrollPosition = 0;
+  }
+
+  if (direction === "bottom") {
+    scrollPosition = documentHeight;
+  }
+
+  if (direction === "middle") {
+    scrollPosition = (documentHeight / 2) - (windowHeight / 2);
+  }
+
+  scrollAnimation(scrollPosition, scrollSpeed); // scroll.js
+
+};
+
+var vimKeyBindings = function() {
 
   var pageBody = $("html, body");
 
   if (pageBody.hasClass("js-vim")) {
-
-    var scrollHeight = 50, // px
-        scrollSpeed  = 25; // ms
 
     pageBody.keydown(function(key) {
                                     // Firefox           // Chrome
@@ -42,37 +70,6 @@ function vimKeyBindings() {
 
     });
 
-    var keyDirection = function(direction) {
-
-      var scrollPosition,
-          windowPosition = $(window).scrollTop(),
-          documentHeight = $(document).height(),
-          windowHeight   = $(window).height();
-
-      if (direction === "up") {
-        scrollPosition = windowPosition - scrollHeight;
-      }
-
-      if (direction === "down") {
-        scrollPosition = windowPosition + scrollHeight;
-      }
-
-      if (direction === "top") {
-        scrollPosition = 0;
-      }
-
-      if (direction === "bottom") {
-        scrollPosition = documentHeight;
-      }
-
-      if (direction === "middle") {
-        scrollPosition = (documentHeight / 2) - (windowHeight / 2);
-      }
-
-      scrollAnimation(scrollPosition, scrollSpeed); // scrolling.js
-
-    };
-
   }
 
-}
+};

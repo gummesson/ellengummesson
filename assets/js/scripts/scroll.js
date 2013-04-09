@@ -1,10 +1,8 @@
 // Used in anchors.js and vim.js
-function scrollAnimation(target, speed) {
-
-  "use strict";
+var scrollAnimation = function(target, speed) {
 
   $("html, body").animate({
     scrollTop: target
   }, speed);
 
-}
+};

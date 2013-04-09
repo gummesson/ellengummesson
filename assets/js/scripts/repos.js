@@ -1,13 +1,11 @@
-function getGithubRepositories(username) {
+var githubUsername = function(username, callback) {
+  $.getJSON("https://api.github.com/users/" + username + "/repos?callback=?", callback);
+};
 
-  "use strict";
+var getGithubRepositories = function(username) {
 
   var repoList = $("#repo-list");
   repoList.append("<li>Loading...</li>");
-
-  var githubUsername = function(username, callback) {
-    $.getJSON("https://api.github.com/users/" + username + "/repos?callback=?", callback);
-  };
 
   githubUsername(username, function(data) {
 
@@ -18,4 +16,4 @@ function getGithubRepositories(username) {
 
   });
 
-}
+};
