@@ -40,17 +40,8 @@ namespace :build do
   end
 
   task :js do
-    puts "Concatenating and compressing the JS files..."
-    FileUtils.rm("assets/js/global.js") if File.exists?("assets/js/global.js")
-    File.open("assets/js/global.js", "w") do |global|
-      global.write("(function() {\n")
-      global.write("\"use strict\";\n")
-        Dir["assets/js/scripts/*.js"].each do |filename|
-          file = File.read(filename)
-          global.write(file)
-        end
-      global.write("}());")
-    end
+    puts "Compressing the JS file..."
+    FileUtils.cp("assets/js/src/global.js", "assets/js/global.js")
     system "uglifyjs assets/js/global.js --compress --mangle --output assets/js/global.js"
   end
 

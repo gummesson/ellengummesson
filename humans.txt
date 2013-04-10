@@ -7,7 +7,7 @@ Everything: Ellen Gummesson
 
 /* THE SITE */
 
-Last update: 2013/04/09
+Last update: 2013/04/10
   Standards: HTML5 & CSS3
  Components: Smallwork                        (https://github.com/gummesson/smallwork)
              Modern Clean CSS "Sticky Footer" (http://mystrd.at/modern-clean-css-sticky-footer/)
