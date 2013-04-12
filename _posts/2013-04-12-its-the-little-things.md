@@ -1,5 +1,5 @@
 ---
-title: It's the little things
+title: "It's the little things"
 tags: ["Code", "Javascript", "jQuery"]
 layout: post
 comments: true
