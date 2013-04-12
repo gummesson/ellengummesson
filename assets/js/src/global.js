@@ -102,23 +102,23 @@
 
         // K key
         if (key.which === 75) {
-          self._position("up");
+          self.position("up");
         }
 
         // J key
         if (key.which === 74) {
-          self._position("down");
+          self.position("down");
         }
 
         // G key
         if (key.which === 71) {
 
           if (key.shiftKey === true) {
-            self._position("bottom");
+            self.position("bottom");
           }
 
           else {
-            self._position("top");
+            self.position("top");
           }
 
         }
@@ -132,8 +132,7 @@
 
     },
 
-    // Private method for the keypress method
-    _position: function(direction) {
+    position: function(direction) {
 
       var scrollTarget,
           scrollHeight = this.config.scrollHeight,
