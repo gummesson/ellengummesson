@@ -1,8 +1,8 @@
-(function() {
+(function($) {
 
   "use strict";
 
-  // Global configuration (object, settings)
+  // Global configuration (private object)
   //
   //  Used for the scrolling animation object and for the 
   //  Vim keybindings object.
@@ -10,12 +10,12 @@
   var Global = {
 
     config: {
-      pageBody: $("html, body") // The body of the HTML page.
+      pageBody: $("html, body") // The body of the HTML page
     }
 
   };
 
-  // Scroll animation (object, utility)
+  // Scroll animation (private object)
   //
   //  Animates the scrolling motion. Used for the anchor scrolling object
   //  and the Vim keybindings object.
@@ -34,7 +34,7 @@
 
   };
 
-  // Anchor scrolling (object)
+  // Anchor scrolling (public object)
   //
   //  Enables smooth scrolling between the given anchor attribute and the
   //  target in question.
@@ -42,22 +42,23 @@
   var AnchorScrolling = { 
 
     config: {
-      scrollAttribute: $("a[rel]"), // The targeted anchor attribute
-      scrollSpeed: 750              // The speed of the scrolling animation
+      scrollHook: $("a[rel]"), // The targeted anchor attribute
+      scrollSpeed: 750         // The speed of the scrolling animation
     },
   
     init: function() {
 
-      var scrollAttribute = this.config.scrollAttribute,
-          scrollSpeed     = this.config.scrollSpeed;
+      var scrollHook  = this.config.scrollHook,
+          scrollSpeed = this.config.scrollSpeed;
 
-      this.click(scrollAttribute, scrollSpeed);
+      this.click(scrollHook, scrollSpeed);
 
     },
 
-    click: function(scrollAttribute, scrollSpeed) {
+    click: function(scrollHook, scrollSpeed) {
 
-      scrollAttribute.click(function() {
+      scrollHook.click(function() {
+
         var idHref       = $(this).attr("href"),
             idTarget     = $(idHref.replace(":", "\\:")),
             scrollTarget = idTarget.offset().top;
@@ -71,7 +72,7 @@
 
   };
 
-  // Vim keybindings (object)
+  // Vim keybindings (public object)
   //
   //  Enables the use of Vim-like keybindings across the site.
   //
@@ -87,7 +88,52 @@
       this.keypress(pageBody);
     },
 
-    position: function(direction) {
+    keypress: function(pageBody) {
+
+      // Reference to the VimKeyBindings object
+      var self = this;
+
+      pageBody.keydown(function(key) {
+
+        // Quesion mark (Swedish and English keyboard layout)
+        if (key.shiftKey === true && (key.which === 187 || key.which === 171 || key.which === 191 )) {
+          window.location = "/experiments/vim";
+        }
+
+        // K key
+        if (key.which === 75) {
+          self._position("up");
+        }
+
+        // J key
+        if (key.which === 74) {
+          self._position("down");
+        }
+
+        // G key
+        if (key.which === 71) {
+
+          if (key.shiftKey === true) {
+            self._position("bottom");
+          }
+
+          else {
+            self._position("top");
+          }
+
+        }
+
+        // M key
+        if (key.which === 77) {
+          self.position("middle");
+        }
+
+      });
+
+    },
+
+    // Private method for the keypress method
+    _position: function(direction) {
 
       var scrollTarget,
           scrollHeight = this.config.scrollHeight,
@@ -119,55 +165,11 @@
 
       ScrollAnimation.init(scrollTarget, scrollSpeed);
 
-    },
-
-    keypress: function(pageBody) {
-
-      // Reference to the VimKeyBindings object
-      var self = this;
-
-      pageBody.keydown(function(key) {
-
-        // Quesion mark (Swedish and English keyboard layout)
-        if (key.shiftKey === true && (key.which === 187 || key.which === 171 || key.which === 191 )) {
-          window.location = "/experiments/vim";
-        }
-
-        // K key
-        if (key.which === 75) {
-          self.position("up");
-        }
-
-        // J key
-        if (key.which === 74) {
-          self.position("down");
-        }
-
-        // G key
-        if (key.which === 71) {
-
-          if (key.shiftKey === true) {
-            self.position("bottom");
-          }
-
-          else {
-            self.position("top");
-          }
-
-        }
-
-        // M key
-        if (key.which === 77) {
-          self.position("middle");
-        }
-
-      });
-
     }
   
   };
 
-  // Random post (object)
+  // Random post (public object)
   //
   //  Creates an array of all the post links with the given attribute and
   //  returns a random link.
@@ -175,8 +177,8 @@
   var RandomPost = {
 
     config: {
-      postList: $(".post-link[href]"),  // The targeted post link attribute
-      postTarget: $("#random-post")     // Where the random link will be appended
+      postList: $(".post-link[href]"), // The targeted post link attribute
+      postTarget: $("#random-post")    // Where the random link will be appended
     },
 
     init: function() {
@@ -203,7 +205,7 @@
 
   };
 
-  // Github repos (object)
+  // Github repos (public object)
   //
   //  Gets all repositories from Github via their API and renders them
   //  using a Mustache.js template.
@@ -248,4 +250,4 @@
 
   });
 
-})();
+})(jQuery);
