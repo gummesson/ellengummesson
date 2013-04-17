@@ -232,8 +232,10 @@
     render: function(username, repoTemplate, repoList) {
 
       this.get(username, function(data) {
+
         var render = Mustache.render(repoTemplate, data);
         repoList.html(render);
+
       });
 
     }
