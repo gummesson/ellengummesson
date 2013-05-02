@@ -6,10 +6,6 @@
 //  Breakpoint
 //--------------
 
-// Usage:
-//
-// @include breakpoint(min, $breakpoint-handheld-medium) {}
-
 @mixin breakpoint($property, $point) {
 
   @media only screen and (#{$property}-width: $point) {
