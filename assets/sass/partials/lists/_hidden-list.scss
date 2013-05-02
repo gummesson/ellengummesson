@@ -1,0 +1,17 @@
+/*-----------------
+    Hidden list
+-----------------*/
+
+.hidden-list {
+
+  @extend .nav;
+
+  li {
+    margin-right: $spacing-unit-half;
+  }
+
+  li:last-child {
+    @extend %spacing-zero-right;
+  }
+
+}

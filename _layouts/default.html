@@ -1,10 +1,8 @@
-      {% include header.html %}
-      {% include navigation.html %}
-        <div class="row">
-          <div class="column-twelve">
-            <div class="site-content">
-              {{ content }}
-            </div><!-- .site-content -->
-          </div><!-- .column-twelve -->
-        </div><!-- .row -->
-      {% include footer.html %}
+    {% include header.html %}
+    {% include navigation.html %}
+      <div class="l-content box box--even">
+        <div class="box__wrapper">
+          {{ content }}
+        </div><!-- .box__wrapper -->
+      </div><!-- .l-content .box .box--even -->
+    {% include footer.html %}

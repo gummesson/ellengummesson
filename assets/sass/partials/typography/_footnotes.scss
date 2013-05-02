@@ -14,7 +14,8 @@ a[rel="reference"] {
 }
 
 .footnotes {
-  @extend %mini;
+  @extend %micro;
+  @extend %italic;
 }
 
 .footnotes li p {

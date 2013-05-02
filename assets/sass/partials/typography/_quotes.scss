@@ -3,14 +3,9 @@
 -------------*/
 
 blockquote {
-  padding: $spacing-unit-half $spacing-unit-base;
-  border-left: 1px solid $color-brand;
-  background-color: $body-alt-color;
-  @extend %small;
+  padding: 0 $spacing-unit-base;
+  border-left: 3px solid $color-offset;
+  @extend %milli;
   @extend %italic;
-  @extend %spacing-base-bottom;  
-}
-
-blockquote > p {
-  @extend %spacing-zero-bottom;
+  @extend %spacing-base-bottom;
 }

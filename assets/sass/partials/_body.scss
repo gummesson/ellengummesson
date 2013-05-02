@@ -7,23 +7,13 @@
 }
 
 /*----------
-    HTML
-----------*/
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-/*----------
     Body
 ----------*/
 
 body {
-  margin: 0 0 1px; // For the "sticky" line at the bottom.
   font: $body-font-weight #{$body-font-size}/#{$body-line-height} $body-font-face;
   color: $body-font-color;
-  background-color: $body-bg-color;
+  background-color: $color-brand;
 }
 
 /*---------------
@@ -32,10 +22,10 @@ body {
 
 ::selection {
   color: $body-font-color;
-  background-color: $color-brand;
+  background-color: $color-accent;
 }
 
 ::-moz-selection {
   color: $body-font-color;
-  background-color: $color-brand;
+  background-color: $color-accent;
 }

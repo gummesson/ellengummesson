@@ -5,3 +5,17 @@
 p {
   @extend %spacing-base-bottom;
 }
+
+.pseudo-heading {
+  font-family: $heading-font-face;
+  font-weight: $heading-font-weight;
+}
+
+.smallprint {
+  @extend %milli;
+  @extend %italic;
+}
+
+.compressed {
+  @extend %spacing-base-none;
+}

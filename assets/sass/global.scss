@@ -4,10 +4,8 @@
 
 @import "variables/_colors";
 @import "variables/_body";
-@import "variables/_main";
 @import "variables/_typography";
 @import "variables/_shared";
-@import "variables/_grid";
 @import "variables/_media-queries";
 
 //----------
@@ -20,22 +18,14 @@
 //  Partials
 //------------
 
-// Normalize.css | MIT License | http://git.io/normalize
-@import "partials/_normalize-css";
-
-// Compass imports
 @import "partials/_imports";
-
-/*! Smallwork | MIT License | http://git.io/GBOj8Q */
 @import "partials/_reset";
 @import "partials/_body";
-@import "partials/_main";
 @import "partials/_typography";
 @import "partials/_lists";
-@import "partials/_navigation";
 @import "partials/_images";
 @import "partials/_rulers";
 @import "partials/_buttons";
+@import "partials/_main";
 @import "partials/_shared";
-@import "partials/_grid";
 @import "partials/_media-queries";

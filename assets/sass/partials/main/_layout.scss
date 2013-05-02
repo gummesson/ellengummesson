@@ -1,0 +1,39 @@
+/*------------
+    Layout
+------------*/
+
+/* Container */
+
+.l-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* Header*/
+
+.l-header {
+  text-align: center;
+}
+
+.l-logo {
+  margin-bottom: $spacing-unit-small;
+  @extend %mega;
+}
+
+/* Navigation */
+
+.l-nav {
+  @extend %spacing-zero-bottom;
+}
+
+/* Post */
+
+.l-post {
+  margin-bottom: $spacing-unit-base * 3;
+}
+
+/* Repo list unit */
+
+.l-unit {
+  margin: $spacing-unit-mini $spacing-unit-mini $spacing-unit-mini 0;
+}

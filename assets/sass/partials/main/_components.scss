@@ -1,0 +1,24 @@
+/*---------------
+    Components
+---------------*/
+
+/* Box */
+
+.box {
+  padding: ($spacing-unit-base * 3) 0;
+}
+
+.box--odd {
+  background-color: $color-brand;
+  color: $body-font-color;
+}
+
+.box--even {
+  background-color: $body-font-color;
+  color: $color-brand;
+}
+
+.box__wrapper {
+  width: 50%;
+  @extend %spacing-base-centered;
+}

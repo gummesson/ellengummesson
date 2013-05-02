@@ -1,7 +1,7 @@
 # Archives plugin from http://romej.com/2012/03/back-to-static-site-with-jekyll (https://gist.github.com/1994881)
 
 module Jekyll
-  
+
   class ArchivePage < Page
     def initialize(site, months, posts_by_month)
       @site = site
@@ -9,7 +9,7 @@ module Jekyll
       # I simply write the archives.html file in the _site root
       @dir = "/"
       @name = "archives.html"
-      
+
       self.process(@name)
       self.read_yaml(File.join(@base, '_layouts'), 'archives.html')
       # array of Times, normalized to year and month

@@ -6,8 +6,6 @@
 //  Brand
 //---------
 
-// Pink
-$color-brand: #ff6685;
-
-// Yellow
-$color-accent: #ffdc72;
+$color-brand: #ff6633;
+$color-accent: darken($color-brand, 20%);
+$color-offset: lighten($color-brand, 20%);

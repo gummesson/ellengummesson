@@ -2,26 +2,42 @@
     Media Queries
 ===================*/
 
+/*------------
+    Screen
+------------*/
+
+@include breakpoint(max, $breakpoint-screen-medium) {
+
+  .box__wrapper {
+    width: 60%;
+  }
+
+}
+
+@include breakpoint(max, $breakpoint-screen-small) {
+
+  .box__wrapper {
+    width: 70%;
+  }
+
+}
+
 /*--------------
     Handheld
 --------------*/
 
 @include breakpoint(max, $breakpoint-handheld-big) {
 
-  .site-header {
-    margin-top: $spacing-unit-big;
+  .box {
+    padding: ($spacing-unit-base * 2) 0;
   }
 
-  .site-nav {
-    margin-top: $spacing-unit-big * 1.5;
+  .box__wrapper {
+    width: 75%;
   }
 
-  .site-footer {
-    margin-top: $spacing-unit-big;
-  }
-
-  .pagination {
-    margin-top: $spacing-unit-medium;
+  .l-post {
+    margin-bottom: $spacing-unit-base * 2;
   }
 
 }
@@ -29,7 +45,11 @@
 @include breakpoint(max, $breakpoint-handheld-medium) {
 
   body {
-    font-size: 112.5%;
+    font-size: 125%;
+  }
+
+  .box__wrapper {
+    width: 80%;
   }
 
 }
@@ -37,25 +57,32 @@
 @include breakpoint(max, $breakpoint-handheld-small) {
 
   body {
+    font-size: 112.5%;
+  }
+
+  .box {
+    padding: $spacing-unit-base 0;
+  }
+
+  .box__wrapper {
+    width: 85%;
+  }
+
+}
+
+@include breakpoint(max, $breakpoint-handheld-mini) {
+
+  body {
     font-size: 100%;
   }
 
-  .site-logo {
-    max-width: 128px;
+  .box__wrapper {
+    width: 90%;
   }
-
-  .site-header {
-    margin-top: $spacing-unit-big * 0.875;
-  }
-
-  .site-nav {
-    margin-top: $spacing-unit-big * 1.125;
-  }
-
-  .page,
-  .post,
-  .comments {
-    margin-top: $spacing-unit-base;
+  
+  .br-button--full {
+    margin-top: $spacing-unit-mini;
+    min-width: 96px;
   }
 
 }

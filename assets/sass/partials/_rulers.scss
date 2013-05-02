@@ -6,24 +6,6 @@ hr {
   width: 100%;
   height: 1px;
   border: none;
-  background-color: $color-accent;
+  background-color: $color-offset;
   @extend %spacing-base-bottom;
-}
-
-%line {
-  min-width: 100%;
-  height: 1px;
-  background-color: $color-brand;
-  @extend %spacing-zero-bottom;
-}
-
-.line-top {
-  @extend %line;
-}
-
-.line-bottom {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  @extend %line;
 }

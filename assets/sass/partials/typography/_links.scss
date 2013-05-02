@@ -3,14 +3,15 @@
 -----------*/
 
 a {
-  color: $body-font-color;
-  border-bottom: 1px solid $color-brand;
-  @include single-transition(all, 125ms, linear, 0);
+
+  color: inherit;
+  border-bottom: 1px solid $color-offset;
+  @include single-transition(all, 150ms, linear, 0);
 
   &:hover,
   &:active,
   &:focus {
-    border-bottom: 1px solid $color-accent;
+    border-bottom: 1px solid $color-brand;
   }
 
   &:active {
@@ -20,17 +21,7 @@ a {
 
 }
 
-/* Invisible link */
-
 %link-invisible,
 .invisible {
   border-bottom: 1px solid transparent;
-}
-
-.no-hover {
-  &:hover,
-  &:active,
-  &:focus {
-    @extend %link-invisible;
-  }
 }

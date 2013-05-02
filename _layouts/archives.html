@@ -3,32 +3,34 @@ layout: default
 title: Archives
 ---
 
-<article class="page">
+<article class="l-page">
 <h1>{{ page.title }}</h1>
   <p>
     Down below you'll find this site's full archive, split up in to either tags or monthly sections with links to each and every single post.
   </p>
   <h2>Tags</h2>
-    <ul class="tags">
+    <ul class="hidden-list">
       {% for tag in site.tags %}
         <li>
           <a href="/blog/tag/{{ tag[0] }}/" alt="{{ tag[0] }}" title="{{ tag[0] }}">{{ tag[0] }}</a>
         </li>
       {% endfor %}
-    </ul>
+    </ul><!-- .hidden-list -->
   <h2>Posts</h2>
   <p>
-    <a href="#" alt="Go to a random post" title="Go to a random post" id="random-post">Random</a><!-- jQuery-generated URL -->
+    <a class="button button--even" id="js-random-post" href="#" alt="Go to a random post" title="Go to a random post">Random post</a><!-- jQuery-generated URL -->
   </p>
   {% for month in page.months %}
-    <h3>{{ month | date:"%B" }} {{ month | date:"%Y" }}</h3>
-      <ul>
+  <section class="l-post-month">
+    <h3>{{ month | date: "%B" }} {{ month | date: "%Y" }}</h3>
+      <ul class="js-post-list">
       {% for post in page.posts_by_month[month] %}
         <li>
-          <span class="date">{{ post.date | date: "%b %e, %Y" }}:</span>
-          <a href="{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}" class="post-link">{{ post.title }}</a>
+          {{ post.date | date: "%b %e, %Y" }}:
+          <a class="js-post-link" href="{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">{{ post.title }}</a>
         </li>
       {% endfor %}
       </ul>
-  {% endfor %}
-</article><!-- .page -->
+      {% endfor %}
+  </section><!-- .l-post-month -->
+</article><!-- .l-page -->

@@ -2,200 +2,67 @@
 
   "use strict";
 
-  // Global configuration (private object)
-  //
-  //  Used for the scrolling animation object and for the 
-  //  Vim keybindings object.
-  //
-  var Global = {
+  /* Anchor scrolling (public object)
+   *
+   *  Enables smooth scrolling between the given anchor attribute and the
+   *  target in question.
+   */
+  var AnchorScrolling = {
 
     config: {
-      pageBody: $("html, body") // The body of the HTML page
-    }
-
-  };
-
-  // Scroll animation (private object)
-  //
-  //  Animates the scrolling motion. Used for the anchor scrolling object
-  //  and the Vim keybindings object.
-  //
-  var ScrollAnimation = {
-
-    init: function(target, speed) {
-
-      var pageBody = Global.config.pageBody;
-
-      pageBody.animate({
-        scrollTop: target
-      }, speed);
-
-    }
-
-  };
-
-  // Anchor scrolling (public object)
-  //
-  //  Enables smooth scrolling between the given anchor attribute and the
-  //  target in question.
-  //
-  var AnchorScrolling = { 
-
-    config: {
-      scrollHook: $("a[rel]"), // The targeted anchor attribute
-      scrollSpeed: 750         // The speed of the scrolling animation
+      scrollHook: $("a[rel]"),  // The targeted anchors (pre-generated footnotes).
+      scrollSpeed: 750,         // The scrolling animation's speed.
+      pageBody: $("html, body") // The body of the HTML page.
     },
-  
+
     init: function() {
-
-      var scrollHook  = this.config.scrollHook,
+      var scrollHook = this.config.scrollHook,
           scrollSpeed = this.config.scrollSpeed;
-
       this.click(scrollHook, scrollSpeed);
-
     },
 
     click: function(scrollHook, scrollSpeed) {
-
+      var self = this; // Reference to the "AnchorScrolling" object.
       scrollHook.click(function() {
-
-        var idHref       = $(this).attr("href"),
-            idTarget     = $(idHref.replace(":", "\\:")),
+        var idHref = $(this).attr("href"),
+            idTarget = $(idHref.replace(":", "\\:")),
             scrollTarget = idTarget.offset().top;
-
-        ScrollAnimation.init(scrollTarget, scrollSpeed);
+        self._animate(scrollTarget, scrollSpeed);
         return false;
-
       });
+    },
 
+    _animate: function(scrollTarget, scrollSpeed) {
+      var pageBody = this.config.pageBody;
+      pageBody.animate({
+        scrollTop: scrollTarget
+      }, scrollSpeed);
     }
 
   };
 
-  // Vim keybindings (public object)
-  //
-  //  Enables the use of Vim-like keybindings across the site.
-  //
-  var VimKeyBindings = {
-
-    config: {
-      scrollHeight: 50, // px
-      scrollSpeed: 25   // ms
-    },
-  
-    init: function() {
-      var pageBody = Global.config.pageBody;
-      this.keypress(pageBody);
-    },
-
-    keypress: function(pageBody) {
-
-      // Reference to the VimKeyBindings object
-      var self = this;
-
-      pageBody.keydown(function(key) {
-
-        // Quesion mark (Swedish and English keyboard layout)
-        if (key.shiftKey === true && (key.which === 187 || key.which === 171 || key.which === 191 )) {
-          window.location = "/experiments/vim";
-        }
-
-        // K key
-        if (key.which === 75) {
-          self.position("up");
-        }
-
-        // J key
-        if (key.which === 74) {
-          self.position("down");
-        }
-
-        // G key
-        if (key.which === 71) {
-
-          if (key.shiftKey === true) {
-            self.position("bottom");
-          }
-
-          else {
-            self.position("top");
-          }
-
-        }
-
-        // M key
-        if (key.which === 77) {
-          self.position("middle");
-        }
-
-      });
-
-    },
-
-    position: function(direction) {
-
-      var scrollTarget,
-          scrollHeight = this.config.scrollHeight,
-          scrollSpeed  = this.config.scrollSpeed;
-
-      var windowPosition = $(window).scrollTop(),
-          documentHeight = $(document).height(),
-          windowHeight   = $(window).height();
-
-      if (direction === "up") {
-        scrollTarget = windowPosition - scrollHeight;
-      }
-
-      if (direction === "down") {
-        scrollTarget = windowPosition + scrollHeight;
-      }
-
-      if (direction === "top") {
-        scrollTarget = 0;
-      }
-
-      if (direction === "bottom") {
-        scrollTarget = documentHeight;
-      }
-
-      if (direction === "middle") {
-        scrollTarget = (documentHeight / 2) - (windowHeight / 2);
-      }
-
-      ScrollAnimation.init(scrollTarget, scrollSpeed);
-
-    }
-  
-  };
-
-  // Random post (public object)
-  //
-  //  Creates an array of all the post links with the given attribute and
-  //  returns a random link.
-  //
+  /* Random post (public object)
+   *
+   *  Creates an array of all the post links with the given attribute and
+   *  returns a random link.
+   */
   var RandomPost = {
 
     config: {
-      postList: $(".post-link[href]"), // The targeted post link attribute
-      postTarget: $("#random-post")    // Where the random link will be appended
+      postList: $(".js-post-link[href]"), // The targeted post link attribute.
+      postTarget: $("#js-random-post")    // Where the random link will be appended.
     },
 
     init: function() {
-
-      var postList   = this.config.postList,
+      var postList = this.config.postList,
           postTarget = this.config.postTarget;
-
       this.get(postList, postTarget);
-
     },
 
     get: function(postList, postTarget) {
-
-      var postItems  = postList.length,
+      var postItems = postList.length,
           postRandom = postList[Math.floor(Math.random() * postItems)];
-
       this.send(postTarget, postRandom);
-
     },
 
     send: function(postTarget, postRandom) {
@@ -204,25 +71,23 @@
 
   };
 
-  // Github repos (public object)
-  //
-  //  Gets all repositories from Github via their API and renders them
-  //  using a Mustache.js template.
-  //
+  /* Github repos (public object)
+   *
+   *  Gets all repositories from Github via their API and renders them
+   *  using a Mustache.js template.
+   */
   var GithubRepos = {
 
     config: {
-      repoTemplate: $("#github-repos"),  // The Mustache script template id
-      repoList: $("#repo-list")          // Where the repos will be rendered
+      repoTemplate: $("#js-github-repos"), // The Mustache script template id.
+      repoList: $("#js-repo-list")         // Where the repos will be rendered.
     },
 
     init: function(username) {
-
       var repoTemplate = (this.config.repoTemplate).html(),
-          repoList     = this.config.repoList;
-
+          repoList = this.config.repoList;
+      repoList.append("<li>Loading...</li>");
       this.render(username, repoTemplate, repoList);
-
     },
 
     get: function(username, callback) {
@@ -230,25 +95,38 @@
     },
 
     render: function(username, repoTemplate, repoList) {
-
       this.get(username, function(data) {
-
         var render = Mustache.render(repoTemplate, data);
         repoList.html(render);
-
       });
+    }
 
+  };
+
+  /* HighlightJS (stand-alone object)
+   *
+   * Initializes Highlight.js.
+   */
+  var HighlightJS = {
+
+    config: {
+      highlightTarget: $("pre code")
+    },
+
+    init: function() {
+      var highlightTarget = this.config.highlightTarget;
+      highlightTarget.each(function(i, e) {
+        hljs.highlightBlock(e);
+      });
     }
 
   };
 
   $(document).ready(function() {
-
+    HighlightJS.init();
     AnchorScrolling.init();
-    VimKeyBindings.init();
     RandomPost.init();
     GithubRepos.init("gummesson");
-
   });
 
 })(jQuery);

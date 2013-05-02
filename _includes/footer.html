@@ -1,22 +1,19 @@
-        <div class="row">
-          <div class="column-twelve">
-            <footer class="site-footer">
-              <p class="smallprint">
-                Copyright &copy;
-                <a href="/" title="{{ site.name }}: {{ site.description }}" alt="{{ site.name }}: {{ site.description }}">
-                  {{ site.name }}
-                </a>
-                  {{ site.time | date: "%Y" }}.
-                <a href="/feed.xml" title="Subscribe" alt="Subscribe">Subscribe</a>.
-              </p>
-            </footer><!-- .site-footer -->
-          </div><!-- .column-twelve -->
-        </div><!-- .row -->
-      </div><!-- .grid -->
-    </div><!-- .container -->
-    <hr class="line-bottom">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <footer class="l-footer box box--odd">
+        <div class="box__wrapper">
+          <p class="compressed">
+            Copyright &copy;
+            <a href="/" alt="{{ site.name }}: {{ site.description }}" title="{{ site.name }}: {{ site.description }}">
+              {{ site.name }}
+            </a>
+            {{ site.time | date: "%Y" }}.
+            <a href="/feed.xml" alt="Subscribe" title="Subscribe">Subscribe</a>.
+          </p><!-- .compressed -->
+        </div><!-- .box__wrapper -->
+      </footer><!-- .l-footer .box .box--odd -->
+    </div><!-- .l-container -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script src="/assets/js/global.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/highlight.min.js"></script>
+    <script src="/assets/js/main/global.js"></script>
   </body>
 </html>

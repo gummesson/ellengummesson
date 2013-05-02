@@ -1,0 +1,21 @@
+/*===========
+    Lists
+===========*/
+
+//-----------
+//  Ordered
+//-----------
+
+ol {
+  @extend %spacing-base-left;
+  @extend %spacing-base-bottom;
+}
+
+//-------------
+//  Unordered
+//-------------
+
+ul {
+  @extend %spacing-base-left;
+  @extend %spacing-base-bottom;
+}

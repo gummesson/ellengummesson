@@ -1,0 +1,22 @@
+<article class="l-post">
+  {% if post.external-link %}
+    <h1>
+      <a class="invisible" href="{{ post.external-link }}" alt="{{ post.title }}" title="{{ post.title }}">
+        {{ post.title }} &rarr;
+      </a>
+    </h1>
+    <p class="smallprint">
+    Posted on {{ post.date | date: "%B %e, %Y" }} {% if post.tags %} in {% for tag in post.tags %} <a href="/blog/tag/{{ tag }}" alt="{{ tag }}" title="{{ tag }}">{{ tag }}</a>{% if forloop.last %} {% else %},{% endif %}{% endfor %} {% endif %} <a href="{{ site.url }}{{ post.url }}" alt="Permalink – {{ post.title }}" title="Permalink – {{ post.title }}" class="invisible">&infin;</a>
+    </p><!-- .smallprint -->
+  {% else %}
+    <h1>
+      <a class="invisible" href="{{ site.url }}{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">
+        {{ post.title }}
+      </a>
+    </h1>
+    <p class="smallprint">
+      Posted on {{ post.date | date: "%B %e, %Y" }} {% if post.tags %} in {% for tag in post.tags %} <a href="/blog/tag/{{ tag }}" alt="{{ tag }}" title="{{ tag }}">{{ tag }}</a>{% if forloop.last %} {% else %},{% endif %}{% endfor %} {% endif %}
+    </p><!-- .smallprint -->
+  {% endif %}
+  {{ post.content }}
+</article><!-- .l-post -->

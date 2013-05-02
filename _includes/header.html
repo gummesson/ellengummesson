@@ -2,30 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>{{ page.title }}: {{ site.name }}</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400,700,400italic" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="{{ site.name }}: {{ site.description }}">
+  <meta name="author" content="Ellen Gummesson">
+  <title>{{ page.title }} – {{ site.name }}</title>
+    <link href="//fonts.googleapis.com/css?family=Noto+Sans:700|Sanchez:400,400italic" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="shortcut icon" href="/assets/img/icons/favicon.ico">
-    <meta name="description" content="{{ site.name }} - {{ site.description }}">
-    <meta name="author" content="Ellen Gummesson">
     <link rel="author" href="/humans.txt" type="text/plain">
     <link rel="canonical" href="http://ellengummesson.com/">
     <link rel="alternate" href="/feed.xml" type="application/rss+xml" title="{{ site.name }}: {{ site.description }} (RSS Feed)">
     <link rel="sitemap" href="/sitemap.xml" type="application/xml" title="{{ site.name }}: {{ site.description }} (Sitemap)">
   <!--[if lt IE 9]>
-     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
   <![endif]-->
 </head>
   <body>
-    <hr class="line-top">
-    <div class="container">
-      <div class="grid">
-        <div class="row">
-          <div class="column-six">
-            <header class="site-header">
-              <a href="/" title="{{ site.name }}: {{ site.description }}" alt="{{ site.name }}: {{ site.description }}" class="invisible no-hover">
-                <img src="/assets/img/logo/logo.png" alt="Ellen Gummesson" class="site-logo">
-              </a>
-            </header><!-- .site-header -->
-          </div><!-- .column-six -->
+    <div class="l-container">
+      <header class="l-header box box--odd">
+        <div class="box__wrapper">
+          <a class="invisible" href="/" alt="{{ site.name }}: {{ site.description }}" title="{{ site.name }}: {{ site.description }}">
+            <h1 class="l-logo">Ellen.</h1>
+          </a>

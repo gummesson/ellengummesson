@@ -6,8 +6,9 @@
 //  Headings
 //------------
 
-$heading-font-face: "Roboto", Helvetica, Arial, Sans-serif;
-$heading-font-weight: 800;
+$heading-font-face: "Noto Sans", Helvetica, Arial, Sans-serif;
+$heading-font-weight: 700;
+$heading-font-color: $body-font-color;
 $heading-line-height: 1.3;
 $heading-base-margin: 0.125em 0;
 
@@ -21,4 +22,4 @@ $base-font-size: 1em;
 //  Code
 //--------
 
-$code-font-face: "Liberation Mono", Consolas, "DejaVu Sans Mono", "Menlo", Monaco, "Andale Mono", monospace;;
+$code-font-face: "Liberation Mono", Consolas, "DejaVu Sans Mono", "Menlo", Monaco, "Andale Mono", monospace;

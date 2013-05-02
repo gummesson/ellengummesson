@@ -2,39 +2,5 @@
     Main
 ==========*/
 
-/*---------------
-    Components
----------------*/
-
-.container {
-  width: $site-container-width;
-  min-height: $site-container-height;
-  @extend %spacing-base-centered;
-}
-
-.site-header {
-  margin-top: $spacing-unit-big * 2;
-  @extend %layout-left;
-}
-
-.site-nav {
-  margin-top: $spacing-unit-big * 2.5;
-  @extend %nav;
-  @extend %layout-right;
-  @extend %bold;
-}
-
-.site-footer {
-  margin-top: $spacing-unit-base * 2;
-}
-
-/*--------------------
-    Sub-Components
---------------------*/
-
-.page,
-.post,
-.comments {
-  overflow: hidden;
-  @extend .site-footer;
-}
+@import "main/_components";
+@import "main/_layout";

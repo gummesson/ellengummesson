@@ -2,7 +2,7 @@
     Headings
 --------------*/
 
-h1, h2, h3, h4, h5, h6 {
+#{headings()} {
   margin: $heading-base-margin;
   line-height: $heading-line-height;
   font-family: $heading-font-face;
@@ -37,16 +37,4 @@ h5,
 h6,
 %zeta {
   font-size: $base-font-size;
-}
-
-/*Comments */
-
-.comments h1 {
-  margin-bottom: $spacing-unit-mini;
-}
-
-/* Links */
-
-h1 a {
-  @extend %link-invisible;
 }

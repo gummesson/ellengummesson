@@ -41,8 +41,10 @@ namespace :build do
 
   task :js do
     puts "Compressing the JS file..."
-    FileUtils.cp("assets/js/src/global.js", "assets/js/global.js")
-    system "uglifyjs assets/js/global.js --compress --mangle --output assets/js/global.js"
+    FileUtils.cp_r("assets/js/src/global.js", "assets/js/main/global.js")
+    Dir.chdir("assets/js/main") do
+    system "uglifyjs global.js --compress --mangle --output global.js"
+    end
   end
 
   # rake html
@@ -61,6 +63,8 @@ end
 desc "Build and watch the site (with an optional post limit)"
 task :watch, :number do |t, args|
   number = args[:number]
+  Rake::Task["build:sass"].invoke
+  Rake::Task["build:js"].invoke
   if number.nil? or number.empty?
     system "#{SET} LANG=#{LANG} && jekyll --auto --server --url http://localhost:4000/"
   else
