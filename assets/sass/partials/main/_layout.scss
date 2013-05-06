@@ -12,7 +12,7 @@
 /* Header*/
 
 .l-header {
-  text-align: center;
+  @extend %text-centered;
 }
 
 .l-logo {
@@ -30,6 +30,12 @@
 
 .l-post {
   margin-bottom: $spacing-unit-base * 3;
+}
+
+/* Pagination */
+
+.l-pagination {
+  @extend %text-centered;
 }
 
 /* Repo list unit */
