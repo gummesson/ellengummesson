@@ -12,13 +12,13 @@ title: Archives
     <ul class="hidden-list">
       {% for tag in site.tags %}
         <li>
-          <a href="/blog/tag/{{ tag[0] }}/" alt="{{ tag[0] }}" title="{{ tag[0] }}">{{ tag[0] }}</a>
+          <a href="/blog/tag/{{ tag[0] }}/" alt="{{ tag[0] }}">{{ tag[0] }}</a>
         </li>
       {% endfor %}
     </ul><!-- .hidden-list -->
   <h2>Posts</h2>
   <p>
-    <a class="button button--even" id="js-random-post" href="#" alt="Go to a random post" title="Go to a random post">Random post</a><!-- jQuery-generated URL -->
+    <a class="button button--even" id="js-random-post" href="#" alt="Go to a random post">Random post</a><!-- jQuery-generated URL -->
   </p>
   {% for month in page.months %}
   <section class="l-post-month">
@@ -27,7 +27,7 @@ title: Archives
       {% for post in page.posts_by_month[month] %}
         <li>
           {{ post.date | date: "%b %e, %Y" }}:
-          <a class="js-post-link" href="{{ post.url }}" alt="{{ post.title }}" title="{{ post.title }}">{{ post.title }}</a>
+          <a class="js-post-link" href="{{ post.url }}" alt="{{ post.title }}">{{ post.title }}</a>
         </li>
       {% endfor %}
       </ul>

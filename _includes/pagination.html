@@ -2,11 +2,11 @@
           {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
               <li>
-                <a class="button button--even button--wide" href="/" alt="Next" title="Next">&larr; Next</a>
+                <a class="button button--even button--wide" href="/" alt="Next">&larr; Next</a>
               </li>
             {% else %}
               <li>
-                <a class="button button--even button--wide" href="/blog/page/{{paginator.previous_page}}" alt="Next" title="Next">&larr; Next</a>
+                <a class="button button--even button--wide" href="/blog/page/{{paginator.previous_page}}">&larr; Next</a>
               </li>
             {% endif %}
           {% else %}
@@ -16,7 +16,7 @@
           {% endif %}
           {% if paginator.next_page %}
             <li>
-              <a class="button button--even button--wide" href="/blog/page/{{paginator.next_page}}" alt="Previous" title="Previous">Previous &rarr;</a>
+              <a class="button button--even button--wide" href="/blog/page/{{paginator.next_page}}" alt="Previous">Previous &rarr;</a>
             </li>
           {% else %}
            <li>
