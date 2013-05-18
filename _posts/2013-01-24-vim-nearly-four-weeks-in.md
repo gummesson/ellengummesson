@@ -6,7 +6,7 @@ comments: true
 external-link: false
 ---
 
-My little [Vim](http://www.vim.org/ "Vim") adventure continues and a couple of days ago I uninstalled [Sublime Text 2](http://www.sublimetext.com/ "Sublime Text 2"). I have nothing against it and I still think it's a fantastic editor but I feel like I don't really need it anymore. I'm no way near being a expert but like I've stated before I really like using Vim and I don't see that that changing anytime soon. I've also configured my Vim files [quite a bit](https://github.com/gummesson/vimfiles "My Vim files on GitHub")[^20130124-1] but I've tried to stay away from adding too many plugins since I don't want to rely on too many of them. Right now I use eight which I think is a reasonable number. I also finally re-did my git repository so that every plugin is a git submodule[^20130123-2] which makes updating them much, much easier. I have to say that the customization possibilities in Vim are extraordinary. Who knew that that would be the case for an editor that's just slightly younger than me?
+My little [Vim](http://www.vim.org/) adventure continues and a couple of days ago I uninstalled [Sublime Text 2](http://www.sublimetext.com/). I have nothing against it and I still think it's a fantastic editor but I feel like I don't really need it anymore. I'm no way near being a expert but like I've stated before I really like using Vim and I don't see that that changing anytime soon. I've also configured my Vim files [quite a bit](https://github.com/gummesson/vimfiles)[^20130124-1] but I've tried to stay away from adding too many plugins since I don't want to rely on too many of them. Right now I use eight which I think is a reasonable number. I also finally re-did my git repository so that every plugin is a git submodule[^20130123-2] which makes updating them much, much easier. I have to say that the customization possibilities in Vim are extraordinary. Who knew that that would be the case for an editor that's just slightly younger than me?
 
 ## A few tips and tricks
 
@@ -43,6 +43,6 @@ This was one of the features that I like the most about Sublime Text 2 and I'm g
 
 ***
 
-[^20130124-1]: One of the most useful tweaks I've found for writing blog posts was from Peter Provost's [Editing Octopress/Jekyll Posts in Vim](http://peterprovost.org/blog/2012/04/22/editing-octopress-slash-jekyll-posts-in-vim/ "Editing Octopress/Jekyll Posts in Vim"). The YAML front matter doesn't look like crap anymore, yay!
-[^20130123-2]: [A repository inside another repository](http://git-scm.com/book/en/Git-Tools-Submodules "Git submodules").
+[^20130124-1]: One of the most useful tweaks I've found for writing blog posts was from Peter Provost's [Editing Octopress/Jekyll Posts in Vim](http://peterprovost.org/blog/2012/04/22/editing-octopress-slash-jekyll-posts-in-vim/). The YAML front matter doesn't look like crap anymore, yay!
+[^20130123-2]: [A repository inside another repository](http://git-scm.com/book/en/Git-Tools-Submodules).
 [^20130124-3]: This works for everything by the way. I think that the default name for Mac is `macunix`, but I'm not 100% sure. 

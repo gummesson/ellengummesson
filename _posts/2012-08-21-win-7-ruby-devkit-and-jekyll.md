@@ -6,11 +6,11 @@ comments: true
 external-link: false
 ---
 
-To tell you the truth, I wasn't that familiar with the whole Ruby thing when I decided to start using [Jekyll](http://www.jekyllrb.com/ "Jekyll"). I practically had to learn it by trial, error and finally success since I couldn't really find a good guide on how to do it. I thought that it would be good to write it all down and share it (mostly for my own sake).
+To tell you the truth, I wasn't that familiar with the whole Ruby thing when I decided to start using [Jekyll](http://www.jekyllrb.com/). I practically had to learn it by trial, error and finally success since I couldn't really find a good guide on how to do it. I thought that it would be good to write it all down and share it (mostly for my own sake).
 
 ## Installing Ruby
 
-- Go to [RubyInstaller](http://rubyinstaller.org/ "Ruby Installer for Windows") and download the latest version.
+- Go to [RubyInstaller](http://rubyinstaller.org/) and download the latest version.
 - Run the installer.
 
 **Note:** It's really important that you install it in a directory without a space in it's path as stated in the installer, eg: `C:\ProgrammingLanguages\Ruby` and NOT `C:\Program Files\Ruby`, for example. Trust me.
@@ -31,7 +31,7 @@ To tell you the truth, I wasn't that familiar with the whole Ruby thing when I d
 
 ## Running Jekyll
 
-After you're done with creating your site with template and liquid tags (hit the [wiki](https://github.com/mojombo/jekyll/wiki "Jekyll wiki") to check them out), do the following:
+After you're done with creating your site with template and liquid tags (hit the [wiki](https://github.com/mojombo/jekyll/wiki) to check them out), do the following:
 
 - Open up the command line and type `cd` + the path to the directory were you've saved your site, eg: `cd C:\User\MySite`.
 - Type `jekyll --server` in the cmd.

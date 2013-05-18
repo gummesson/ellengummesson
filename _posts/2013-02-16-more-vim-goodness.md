@@ -6,11 +6,11 @@ comments: true
 external-link: false
 ---
 
-I feel like I start to sound like a fantatic when it comes to [Vim](http://www.vim.org/ "Vim"), but the truth is that I'm having so much fun with it that it's hard to stop and thus I've created two more plugins: [Voutliner](https://github.com/gummesson/voutliner.vim "voutliner.vim") and [Footnotes](https://github.com/gummesson/footnotes.vim "footnotes.vim").
+I feel like I start to sound like a fantatic when it comes to [Vim](http://www.vim.org/), but the truth is that I'm having so much fun with it that it's hard to stop and thus I've created two more plugins: [Voutliner](https://github.com/gummesson/voutliner.vim) and [Footnotes](https://github.com/gummesson/footnotes.vim).
 
 ## Voutliner
 
-*Voutliner* is a simple outlining tool[^20130216-1]. I looked at both [VimOutliner](http://www.vim.org/scripts/script.php?script_id=3515 "VimOutliner") and [TVO](http://www.vim.org/scripts/script.php?script_id=517 "The Vim Outliner") but I felt that they were a bit too "heavy" for me. I wanted something simple that didn't depend on too many different components. *Voutliner* is certainly not for everyone but it works perfectly for me. It basically built around a couple of regexes based on indentation that's been linked with the default syntax highlighting. I did try it out on a couple of different colorschemes and it seems to work on most of them, which is good.
+*Voutliner* is a simple outlining tool[^20130216-1]. I looked at both [VimOutliner](http://www.vim.org/scripts/script.php?script_id=3515) and [TVO](http://www.vim.org/scripts/script.php?script_id=517) but I felt that they were a bit too "heavy" for me. I wanted something simple that didn't depend on too many different components. *Voutliner* is certainly not for everyone but it works perfectly for me. It basically built around a couple of regexes based on indentation that's been linked with the default syntax highlighting. I did try it out on a couple of different colorschemes and it seems to work on most of them, which is good.
 
 ## Footnotes
 

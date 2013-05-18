@@ -17,7 +17,7 @@ After I'm done with my writing, I fire up the command line and run Jekyll to gen
 
 ## 3. Pushing to GitHub
 
-Last but not least, I open up [GitHub for Windows](http://windows.github.com/ "GitHub for Windows") and push my site to GitHub. Even though it's not the most convenient thing to do it's still pretty easy and it makes the transfer so much faster with no hassles.
+Last but not least, I open up [GitHub for Windows](http://windows.github.com/) and push my site to GitHub. Even though it's not the most convenient thing to do it's still pretty easy and it makes the transfer so much faster with no hassles.
 
 **Note:** GitHub Pages (where I host my site) can actually run Jekyll and generate your site automatically but you can't use your own plugins, so that's why I'm deploying my static pages rather than just the source itself.
 

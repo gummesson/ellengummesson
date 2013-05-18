@@ -6,7 +6,7 @@ comments: true
 external-link: false
 ---
 
-One of the biggest advantages of using a dedicated tool for writing [Markdown](http://daringfireball.net/projects/markdown/ "Markdown") is that they often come with some way of previewing your text file. I kind of miss that kind of function when I'm using [Vim](http://www.vim.org/ "Vim") I decided to throw together a simple vimscript that uses [Pandoc](http://johnmacfarlane.net/pandoc/ "Pandoc") to convert a Markdown file to HTML. The basic gist of it looks like this:
+One of the biggest advantages of using a dedicated tool for writing [Markdown](http://daringfireball.net/projects/markdown/) is that they often come with some way of previewing your text file. I kind of miss that kind of function when I'm using [Vim](http://www.vim.org/) I decided to throw together a simple vimscript that uses [Pandoc](http://johnmacfarlane.net/pandoc/) to convert a Markdown file to HTML. The basic gist of it looks like this:
 
     function! PandocMarkdownPreview()
       silent exec 'cd %:p:h'
@@ -41,4 +41,4 @@ And the mapping looks like this:
 
     map <leader>pmd :call PandocMarkdownPreview()<cr>
 
-I also threw together more refined version of the whole thing in a [gist on Github](https://gist.github.com/4649514 "Pandoc Markdown Preview on GitHub"). You'll obviously need to have Pandoc install on your machine in order to get it up and running.
+I also threw together more refined version of the whole thing in a [gist on Github](https://gist.github.com/4649514). You'll obviously need to have Pandoc install on your machine in order to get it up and running.

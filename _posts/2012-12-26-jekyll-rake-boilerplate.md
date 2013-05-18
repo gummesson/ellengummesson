@@ -6,9 +6,9 @@ comments: true
 external-link: false
 ---
 
-Even though I so far love learning [Ruby](http://www.ruby-lang.org/en/ "Ruby") I've had hard time to find a project to work on. All the things that I wanted to code have already been done which makes my motivation crumble. I know that I can code something that already been done and it would probaly be a good experience, but I'm lazy like that. After some thinking I finally came up with something and yesterday I "released" it: the [Jekyll Rake Boilerplate](https://github.com/gummesson/jekyll-rake-boilerplate "Jekyll Rake Boilerplate"). 
+Even though I so far love learning [Ruby](http://www.ruby-lang.org/en/) I've had hard time to find a project to work on. All the things that I wanted to code have already been done which makes my motivation crumble. I know that I can code something that already been done and it would probaly be a good experience, but I'm lazy like that. After some thinking I finally came up with something and yesterday I "released" it: the [Jekyll Rake Boilerplate](https://github.com/gummesson/jekyll-rake-boilerplate). 
 
-Using a rakefile for [Jekyll](http://jekyllrb.com/ "Jekyll") isn't something that's new nor unique but so far I haven't stumbled upon a simple boilerplate. It isn't revolutionary by any means[^20121226-1] but it gave me the motivation that I needed and I had fun while doing it. Even though it's a small file I actually both tested and experimented with it quite extensively. It may sound silly but I wanted to be "proud" of it, or atleast content.
+Using a rakefile for [Jekyll](http://jekyllrb.com/) isn't something that's new nor unique but so far I haven't stumbled upon a simple boilerplate. It isn't revolutionary by any means[^20121226-1] but it gave me the motivation that I needed and I had fun while doing it. Even though it's a small file I actually both tested and experimented with it quite extensively. It may sound silly but I wanted to be "proud" of it, or atleast content.
 
 ## The Tasks
 

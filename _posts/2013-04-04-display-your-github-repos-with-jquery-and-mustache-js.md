@@ -6,7 +6,7 @@ comments: true
 external-link: false
 ---
 
-After failing to keep a simple Markdown document with up-to-date information of all my Github repositories I decided to skip using that method in favor of something more efficient. I didn't have to look any further than using [jQuery](http://jquery.com/ "jQuery")'s `getJSON` function and the Javascript implementation of the [Mustache templating engine](http://mustache.github.com/ "Mustache"). The end result [looks pretty neat](/experiments/repos "My Github repositories"), although I think I'm going to tweak the UI a bit. I also created a repository for it [on Github](https://github.com/gummesson/repos.js "repos.js on Github").
+After failing to keep a simple Markdown document with up-to-date information of all my Github repositories I decided to skip using that method in favor of something more efficient. I didn't have to look any further than using [jQuery](http://jquery.com/)'s `getJSON` function and the Javascript implementation of the [Mustache templating engine](http://mustache.github.com/). The end result [looks pretty neat](/experiments/repos "My Github repositories"), although I think I'm going to tweak the UI a bit. I also created a repository for it [on Github](https://github.com/gummesson/repos.js "repos.js on Github").
 
 ## The Javascript
 
@@ -47,7 +47,7 @@ Just replace `gummesson` with your own username and you're good to go!
 
 ## The template
 
-**Pro-tip:** If you're planning to use [Mustache.js](https://github.com/janl/mustache.js "Mustache.js") on a [Jekyll](http://jekyllrb.com/ "Jekyll") site like I do, don't forget to wrap the `<script>` template in a `raw` block.
+**Pro-tip:** If you're planning to use [Mustache.js](https://github.com/janl/mustache.js "Mustache.js") on a [Jekyll](http://jekyllrb.com/) site like I do, don't forget to wrap the `<script>` template in a `raw` block.
 
 {% raw %}
     <ul id="repo-list">

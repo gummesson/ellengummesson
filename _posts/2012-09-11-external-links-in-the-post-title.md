@@ -56,4 +56,4 @@ And you're done! I would encourage you to also add an actual permalink to your o
 
 ### A side note
 
-I actually had to add another plugin so I could show the Liquid tags since Jekyll parses them automatically. You can find it in [this gist](https://gist.github.com/1020852 "Raw tag for Jekyll") over at GitHub.
+I actually had to add another plugin so I could show the Liquid tags since Jekyll parses them automatically. You can find it in [this gist](https://gist.github.com/1020852) over at GitHub.

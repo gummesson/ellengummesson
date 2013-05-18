@@ -6,7 +6,7 @@ comments: true
 external-link: false
 ---
 
-I've finally updated [my Markdown Hostrings repo](https://github.com/gummesson/markdown-hotstrings "Markdown Hotstrings on GitHub") I wrote about earlier with a couple of new things that I came up with after some tinkering. I've tried them and they've been really helpful for me, so I hope that somebody will also find them useful.
+I've finally updated [my Markdown Hostrings repo](https://github.com/gummesson/markdown-hotstrings) I wrote about earlier with a couple of new things that I came up with after some tinkering. I've tried them and they've been really helpful for me, so I hope that somebody will also find them useful.
 
 ## Automated links
 

@@ -22,7 +22,7 @@ To my suprise, it actually worked! Like I said earlier, I guess it doesn't reall
 
 ## Tags
 
-To get tags to work on this site I used [an excellent guide/plugin](http://charliepark.org/tags-in-jekyll/ "Tags In Jekyll") from Charlie Parker. I also changed the default folder to a different one by adding and changing `tag_dir` in my _config.yml file (ie: `tag_dir: /blog/tag/` instead of just `tag_dir: /tag/`).
+To get tags to work on this site I used [an excellent guide/plugin](http://charliepark.org/tags-in-jekyll/) from Charlie Parker. I also changed the default folder to a different one by adding and changing `tag_dir` in my _config.yml file (ie: `tag_dir: /blog/tag/` instead of just `tag_dir: /tag/`).
 
 ## RSS feed
 
@@ -34,7 +34,7 @@ I use Mike Levin's [sitemap.xml Generator](https://github.com/kinnetica/jekyll-p
 
 ## Images
 
-For an easy image implementation I used Scott Parker's plugin [ImageBlock](http://spparker.com/posts/2011-04-26-keeping-jekyll-classy#posting "ImageBlock"). It makes it easier to add images to the blog post by using a liquid tag. Simple and effective. However, it's probably not suitable if you're going to use a lot of images since it just fetches them from one folder called `images` (or in my case, `/assets/images`).
+For an easy image implementation I used Scott Parker's plugin [ImageBlock](http://spparker.com/posts/2011-04-26-keeping-jekyll-classy#posting). It makes it easier to add images to the blog post by using a liquid tag. Simple and effective. However, it's probably not suitable if you're going to use a lot of images since it just fetches them from one folder called `images` (or in my case, `/assets/images`).
 
 ## Youtube
 
