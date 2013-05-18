@@ -1,6 +1,6 @@
 ---
 title: "Scriptlr.js"
-tags: ["Code", "Javascript"]
+tags: ["Code", "JavaScript"]
 layout: post
 comments: true
 external-link: https://github.com/gummesson/scriptlr.js
