@@ -3,7 +3,7 @@ title: "Handy Bash scripts"
 tags: ["Tech", "Linux", "Bash"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 One thing that I really miss while I'm using Crunchbang is a good note-taking app with plain text support. I haven't found one yet so I threw together a few simple bash scripts that I can use in the terminal for easier notetaking.

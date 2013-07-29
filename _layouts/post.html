@@ -3,9 +3,9 @@ layout: default
 ---
 
 <article class="l-post">
-  {% if page.external-link %}
+  {% if page.external-url %}
     <h1>
-      <a href="{{ page.external-link }}" alt="{{ page.title }}" class="invisible">{{ page.title }} &rarr;</a>
+      <a href="{{ page.external-url }}" alt="{{ page.title }}" class="invisible">{{ page.title }} &rarr;</a>
     </h1>
   {% else %}
     <h1>{{ page.title }}</h1>

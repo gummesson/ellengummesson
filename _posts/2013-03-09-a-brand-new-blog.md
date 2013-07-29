@@ -3,7 +3,7 @@ title: "A brand new blog"
 tags: ["Code", "Design"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 I've yet again redesigned the layout of this site and this time it's a hell of a lot different. I grew tired of the old look since it in all honestly looked boring and decided to give it some colors. I found the typeface [Roboto](http://www.google.com/webfonts/specimen/Roboto) a few weeks ago and I like it so much that I decided to use it, which was the first step.

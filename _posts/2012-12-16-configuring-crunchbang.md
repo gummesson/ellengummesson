@@ -3,7 +3,7 @@ title: "Configuring Crunchbang"
 tags: ["Tech", "Linux", "Crunchbang"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Since installing [Crunchbang](http://crunchbang.org/) two days ago I've spent quite some time on configuring it to my liking. While I find the default look to be quite nice I felt that I needed something with a bit more lighter colors. This is how my current system looks now:

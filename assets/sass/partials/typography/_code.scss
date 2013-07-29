@@ -3,7 +3,7 @@
 ----------*/
 
 pre {
-  padding: 0.2em 0.4em 0.4em;
+  padding: 0.25em 0.5em 0.5em;
   word-wrap: normal;
   white-space: pre;
   overflow: auto;
@@ -14,7 +14,6 @@ pre {
 }
 
 code {
-  padding: 0.2em 0.4em;
   font-family: $code-font-face;
   @extend %micro;
 }
@@ -22,10 +21,6 @@ code {
 pre,
 code {
   line-height: 1;
-}
-
-pre > code {
-  padding: 0;
 }
 
 /* Tomorrow Night Eighties Theme */

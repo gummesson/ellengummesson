@@ -3,7 +3,7 @@ title: "Trying out Sass"
 tags: ["Code", "CSS", "Sass"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Disclaimer: the following blog post is extremely geeky and contains A LOT of code.

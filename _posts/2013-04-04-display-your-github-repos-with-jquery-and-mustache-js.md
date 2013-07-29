@@ -3,7 +3,7 @@ title: "Display your Github repos with jQuery and Mustache.js"
 tags: ["Code", "jQuery"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 After failing to keep a simple Markdown document with up-to-date information of all my Github repositories I decided to skip using that method in favor of something more efficient. I didn't have to look any further than using [jQuery](http://jquery.com/)'s `getJSON` function and the JavaScript implementation of the [Mustache templating engine](http://mustache.github.com/). The end result [looks pretty neat](/experiments/repos), although I think I'm going to tweak the UI a bit. I also created a repository for it [on Github](https://github.com/gummesson/repos.js).

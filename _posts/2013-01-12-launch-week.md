@@ -3,7 +3,7 @@ title: "Launch week"
 tags: ["Code", "Apps"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Yesterday I finally pushed something to the master branch of a thing I started working on last week, [Smallwork](#). It's a small yet full featured [SCSS](http://sass-lang.com/) framework, or starting point as I'd like to call it. The first time I tried SCSS was way back in August or September but I didn't really "get" it until I started learning Ruby. The code length measures in at a total of 1156 numbers of lines[^20130112-1] which kind of makes it my most ambitious work to date.

@@ -3,7 +3,7 @@ title: "My adventure with Crunchbang"
 tags: ["Tech", "Linux", "Crunchbang"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Lately I've been thinking about installing a Linux distro on my thrusty but ailing netbook, a *Samsung NC10*[^20121214-1]. After some intense research via Google and countless hours of Youtube videos I found one particular distro I really liked: [Crunchbang Linux](http://crunchbang.org/). It's quite a minimal distro but highly functional and it also looked quite nice to my eyes. It's based on [Debian](http://www.debian.org/) which means that there's a lot of apps for it and the support is generally good. I decided to download the current testing version, [Waldorf](http://crunchbang.org/download/testing), since I'm just going to use the netbook mainly for browsing and writing.

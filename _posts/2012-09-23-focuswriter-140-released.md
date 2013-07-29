@@ -3,7 +3,7 @@ title: "FocusWriter 1.4.0 released"
 tags: ["Tech", "Apps"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 A new version of [FocusWriter 1.4.0](http://gottcode.org/focuswriter/) was just released yesterday. Quite a lot has changed since in the app since I was previously using 1.3.6 since it was the latest stable release. This version feels like a big step up. The biggest changes in my opinion is that you now have the option to change the line spacing in your themes and that the save dialog won't force you to either save your document as a .txt or a .rtf file, which is good news if you're writing in Markdown like I do.

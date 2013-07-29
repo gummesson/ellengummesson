@@ -3,7 +3,7 @@ title: "Easy Session for Vim"
 tags: ["Code", "Vim"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Another week, another project and this time it's actually something half decent. After a few hours of work over the last couple of days I'm finally done with my first plugin for [Vim](http://www.vim.org/) and I named it [Easy Session](https://github.com/gummesson/easy-session.vim). It lets you easily manage sessions with four commands: `:SaveSession`, `:NewSession`, `:OpenSession` and `:ListSessions`.

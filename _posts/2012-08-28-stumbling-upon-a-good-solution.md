@@ -3,7 +3,7 @@ title: "Stumbling upon a good solution"
 tags: ["Code", "CSS"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 As some of you may know, I've built my own grid system with the world's most horrible name, [Begrider](/projects/begrider/). One thing that always bothered me with it was that at when you wanted to the row to end you'd had to add a class named `.last`.  I added this because it was a simple solution to my problem. I've experimented with adding negative margins, but I never got it to function properly. Yesterday I found the perfect solution for my needs. 
 

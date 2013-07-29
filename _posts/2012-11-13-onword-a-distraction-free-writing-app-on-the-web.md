@@ -3,7 +3,7 @@ title: "Onword – a distraction free writing app on the web"
 tags: ["Web", "Apps"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Just a few days ago I stumbled upon a new web based writing app by [Dan Eden](http://www.daneden.me/) called [Onword](http://onword.co/). It's incredibly simple to use: you only need to sign in with your Twitter account [^20121113-1], create a new document and you're good to go. I really like the interface's straightforward, no-nonsense approach, and according to the developer it's best used with Markdown which is another big plus for me.

@@ -3,7 +3,7 @@ title: "A handy function for going to the root directory of a project in Vim"
 tags: ["Code", "Vim"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Here's a handy function I came up with after being tired of using `:cd ../` like a madman when I was deep down at the bottom of a project's folder structure:

@@ -3,7 +3,7 @@ title: "Serve: the ugliest static site generator in the world"
 tags: ["Code", "Ruby"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 I don't know what's been up with me lately but I do know that during the last couple of weeks I've "shipped" a lot of things. I mean, most of them are basic things but I've had fun while doing them. So yesterday I added yet another repo to [my GitHub account](https://github.com/gummesson), [Serve](https://github.com/gummesson/serve). *Serve* is a static site generator which focuses on generating small sites that only need to consist of a few pages at the most.

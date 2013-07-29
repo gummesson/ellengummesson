@@ -3,7 +3,7 @@ title: "Lo and behold, I've launched an web app!"
 tags: ["Web", "Code", "Apps"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 The day before yesterday I launched my first "web app", [Kramit!](http://kramit.ellengummesson.com/). Like about half a million people on the internet with some kind of web development interest I created yet another [Markdown](http://daringfireball.net/projects/markdown/) preview app and with the wonderful micro web framework [Sinatra](http://www.sinatrarb.com/). It's nothing unique but I'm quite proud nonetheless. I haven't actually seen that many that uses [Kramdown](http://kramdown.rubyforge.org/) as it's default parser, so I guess that that aspect is somewhat pretty unique[^20130110-1].

@@ -3,7 +3,7 @@ title: "Small steps into Ruby"
 tags: ["Code", "Ruby"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 I've always wanted to learn a real programming language. The few times in the past that I've tried have all been fruitless though. My brain just doesn't work when there's too many complex structures going on at once. Even though I can understand the logic behind certain parts it just won't stick, which is a shame. One of the reasons I think I like writing HTML and and especially CSS is that the syntax is very visual and easy to read. You write `background-color: red;` and what do you know, the background suddenly is red. With those two you don't have write a short novel just to get the command line to print a simple *"Hello World"*.

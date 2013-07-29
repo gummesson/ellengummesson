@@ -3,7 +3,7 @@ title: "Find and launch it"
 tags: ["Tech", "Apps"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 I hate having a clouded desktop (it never looks good in my opinion) but I like to be able to open apps and documents really fast. As soon as an idea pops into my head I want to have the opportunity to write it down (or whatever I need to do) and run with it, so to speak. I've tried a minimal approach by just using the built-in search function in Windows 7 which is located in the start menu. It works okay for finding apps and such but the indexing of documents is horrendous to say the least. You can't really add and choose what you want to include either. While looking for a worthy alternative to it I found [Launchy](http://www.launchy.net/). 

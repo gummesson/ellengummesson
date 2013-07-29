@@ -3,7 +3,7 @@ title: "Squarespace Note"
 tags: ["Tech", "Apps", "iOS"]
 layout: post
 comments: true
-external-link: http://www.squarespace.com/apps/#note
+external-url: http://www.squarespace.com/apps/#note
 ---
 
 > A free minimalist iOS app that anyone can use to capture all their thoughts, ideas, and inspirations.

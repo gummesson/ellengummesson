@@ -3,7 +3,7 @@ title: "My Jekyll plugins"
 tags: ["Code", "Jekyll"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Continuing with my Jekyll series, here's a list of the plugins and other hacks I use to make everything on this site run as smooth as possible.

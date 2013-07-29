@@ -3,7 +3,7 @@ title: "My new writing app"
 tags: ["Tech", "Apps"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Up until now I've mostly written all of my posts and pages in a program called [MarkdownPad](http://markdownpad.com/). Even though I really like it I sometimes feel that it's a bit too... clunky, for lack of a better word. It's great for doing shorter writings and editing files, but I haven't really been comfortable using it as a long form writing environment. As I do with a lot of stuff I once again sat down in front of my screen to find something new and preferably awesome that I could use.

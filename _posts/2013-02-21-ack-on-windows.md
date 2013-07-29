@@ -3,7 +3,7 @@ title: "Ack on Windows"
 tags: ["Code", "Tools"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 I recently finally tried out [Ack](http://betterthangrep.com/) which I must say is a pretty awesome tool. The installation was fairly straight forward but I though that I would write it down here in case I'll ever need to do it again or if someone wants a small guide with just a few easy steps.

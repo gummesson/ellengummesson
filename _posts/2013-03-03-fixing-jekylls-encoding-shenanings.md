@@ -3,7 +3,7 @@ title: "Fixing Jekyll's encoding shenanings"
 tags: ["Code", "Jekyll"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 After installing the 0.12.1 version of [Jekyll](http://jekyllrb.com/) I started to get an annoying error that the encoding was wrong. I'm really picky about saving all my files as `UTF-8`, so I couldn't for the life of me figuring out why it all of a sudden threw that kind of error. I even reinstalled 0.12.0 and sure enough, that version worked without a problem. The solution is to set the default language and encoding before running Jekyll, ie. `set LANG=en_EN.UTF-8` for Windows or `export LANG=en_EN.UTF-8`[^20130303-1] for Unix. Since I'm a lazy person I of course implemented it in my `Rakefile`, similar to this:

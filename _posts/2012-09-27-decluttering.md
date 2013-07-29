@@ -3,7 +3,7 @@ title: "Decluttering"
 tags: ["Tech"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 In the same vein as my recent RSS cleaning (mentioned in [this blog post](http://ellengummesson.com/blog/2012/09/17/cleaning-up/) I've also started to declutter my computers from unneccassary apps, and I recently finally managed to achieve a inbox zero on my primary mail account (I've always been bad at it and I usually keep emails for way too long, but over the course of a couple of sessions I managed to get it under control by archiving a lot of emails and throwing away even more). But anways, back to the main topic of the post: decluttering your computer from stuff you don't need. When I got my new computer at the start of August I realized that I actually didn't need to install that many apps and that I mostly only had to install one per need. There are of course a few exceptions to that rule, like text editors for example, but those are often not that heavy on the system anyways.

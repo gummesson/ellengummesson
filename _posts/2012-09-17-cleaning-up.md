@@ -3,7 +3,7 @@ title: "Cleaning up"
 tags: ["Web", "Tech"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 During the last couple of days I've started to clean up among my RSS subscriptions. I'll admit that when I first started using [Google Reader](http://www.google.com/reader) a couple of years ago I subscribed and subscribed, and then subscribed some more. I became an feed addict. I started to add every site that I came across that I enjoyed, which adds up to a lot over a longer period of time. As you can imagine, it became more and more stressful to keep up with every single feed (admittedly I didn't do a good job of doing that, but I atleast tried). So I decided that it was time to do a serious clean up. I'm finally done after plowing through countless of feeds.

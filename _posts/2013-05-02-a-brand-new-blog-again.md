@@ -3,7 +3,7 @@ title: "A brand new blog (again)"
 tags: ["Code", "Design"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 I decided yet again to throw together a new design for this site. At this point it feels like it's almost getting a monthly thing, but hopefully I'll stick with this one for a bit longer. I do really feel that I'm getting a bit better every time I do it though, which is something. This time around I took a much more [OOCSS](http://oocss.org/) approach to the writing of the CSS and I mainly used the [BEM](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) syntax. I don't find it particularly pretty but it's quite logical. 

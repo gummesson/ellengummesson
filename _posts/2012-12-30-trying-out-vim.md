@@ -3,7 +3,7 @@ title: "Trying out Vim"
 tags: ["Code", "Vim"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 There's no doubt that if you've ever spent some time looking through and reading various developer related things that you've seen people mentioning the text editor [Vim](http://www.vim.org/). I decided to try it out the graphical version of it, gVim, and it really is a different experience. Instead of relying on trusty old keyboard shortcuts like `Ctrl+S` you instead have to first hit `Esc` and type `:w`. While I'm not a hundred percent sold on it[^20121230-1] I can defintively see the appeal, especially for people who love their keyboards. The Vim version of the color scheme [Solarized](http://ethanschoonover.com/solarized), which I absolutely love, looks gorgeous and what I can tell Vim probably has the best Markdown syntax highlighting I've ever seen. One other aspect I really like is that you can save all of your settings in a single file which you can then use across multiple systems, since Vim is cross-platform.

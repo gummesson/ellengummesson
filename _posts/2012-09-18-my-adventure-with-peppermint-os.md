@@ -3,7 +3,7 @@ title: "My adventure with Peppermint OS"
 tags: ["Tech", "Linux", "Open Source"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 I've always been a bit of a geek, so naturally I decided to try out a lightweight *Linux* distro on my old computer (mostly just for kicks). I looked around on the internet and came across a couple of distros that looked good, and in the end I decided to try out [Peppermint OS](http://peppermintos.com/). The ISO file was small enough for me to burn it onto a CD rather than a DVD, plus I was confident (well, as confident as you can be without having actually tried it) that my old computer could atleast handle it pretty well.

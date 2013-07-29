@@ -3,7 +3,7 @@ title: "The one about Markdown"
 tags: ["Writing", "Markdown", "Plain Text"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 When I first heard about [Markdown](http://daringfireball.net/projects/markdown/) a couple of month ago it sparked my interest. I've never really felt comfortable writing in a word processor nor in a WYSIWYG editor, so using something that would make it possible to write in any text editor while maintaining a kind of form of formatting sounded like a perfect solution that would really benefit my needs. It was originally created *"to be used as a format for writing for the web"*, ie. an easier way to convert plain text with a simple formatting to HTML. I won't go in to further detail one why I think it's great, but if you need more convincing or just want to read some more on this particular subject I suggest that you scroll down to the bottom of this blog post and read a couple of links I've collected about Markdown and plain text. Trust me, it's worth it!

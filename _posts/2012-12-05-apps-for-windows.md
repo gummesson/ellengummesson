@@ -3,7 +3,7 @@ title: "Apps for Windows"
 tags: ["Tech", "Apps"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Here's a list of what I consider awesome apps and utilities for Windows. Even though there's no shortage of them I sometimes find that it's quite hard to find those gems that really stand out.

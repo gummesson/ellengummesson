@@ -3,7 +3,7 @@ title: "Jekyll Rake Boilerplate"
 tags: ["Code", "Ruby", "Jekyll"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Even though I so far love learning [Ruby](http://www.ruby-lang.org/en/) I've had hard time to find a project to work on. All the things that I wanted to code have already been done which makes my motivation crumble. I know that I can code something that already been done and it would probaly be a good experience, but I'm lazy like that. After some thinking I finally came up with something and yesterday I "released" it: the [Jekyll Rake Boilerplate](https://github.com/gummesson/jekyll-rake-boilerplate). 

@@ -3,7 +3,7 @@ title: "Vim: nearly four weeks in"
 tags: ["Code", "Vim"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 My little [Vim](http://www.vim.org/) adventure continues and a couple of days ago I uninstalled [Sublime Text 2](http://www.sublimetext.com/). I have nothing against it and I still think it's a fantastic editor but I feel like I don't really need it anymore. I'm no way near being a expert but like I've stated before I really like using Vim and I don't see that that changing anytime soon. I've also configured my Vim files [quite a bit](https://github.com/gummesson/vimfiles)[^20130124-1] but I've tried to stay away from adding too many plugins since I don't want to rely on too many of them. Right now I use eight which I think is a reasonable number. I also finally re-did my git repository so that every plugin is a git submodule[^20130123-2] which makes updating them much, much easier. I have to say that the customization possibilities in Vim are extraordinary. Who knew that that would be the case for an editor that's just slightly younger than me?

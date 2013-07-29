@@ -3,7 +3,7 @@ title: "Re-releasing Smallwork"
 tags: ["Code", "CSS", "Sass"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Back in January I wrote a small paragraph about my SCSS "framework" [Smallwork](https://github.com/gummesson/smallwork). When I released it I was really happy about it, but I soon realized that I'd been perhaps a bit too trigger happy with it. This weekend I decided on a whim to nuke it and start over and yesterday I re-released it. It's pratically re-written from the ground up and it's even smaller in size than it was before. I cleaned up the code like a maid and threw out quite a bit of extra "baggage" that I was probably never going to use anyway. Now I feel like it actually could be useful to someone else too, which is really nice.

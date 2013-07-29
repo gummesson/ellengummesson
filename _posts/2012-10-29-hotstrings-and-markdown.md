@@ -3,7 +3,7 @@ title: "Hotstrings and Markdown"
 tags: ["Tech", "Apps", "Markdown"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Since yesterday I've been messing around with an small but powerful app called [AutoHotKey](http://www.autohotkey.com/). I guess you can call it a poor man's [TextExpander](http://smilesoftware.com/TextExpander/index.html), but the fact is that it's capable of doing much more. Not only does it support text expansions for abbreviations but you can also create scripts with so called hotkeys and other things for anything and everything. When I say everything I do mean it. The learning curve is pretty steep for the more advanced functions since there's no GUI for it but for creating some simple text expansions it's as easy as scripting gets. The [documentation](http://www.autohotkey.com/docs/) is really great too if you want to dive in deeper.

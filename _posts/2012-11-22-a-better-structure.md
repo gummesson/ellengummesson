@@ -3,7 +3,7 @@ title: "A better structure"
 tags: ["Tech", "Apps"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Writing a blog post can sometimes become quite tricky. There are those times when you're banging on your keyboard and you've instantly come up with something actually worth posting, other times you only write three or four incoherent sentences at the most. In that kind of situation I usually just leave it until I can figure out the direction I want to go down, but unfortunately that can be hard too. Sometimes you really do need a place to jot down all of your ideas around a particular subject in a more structured way, like using an outliner. I've seen quite a bit of praise for one called [OmniOutliner](http://www.omnigroup.com/products/omnioutliner/) so I decided to look something similar. After som digging I came across an app called [UV Outliner](http://uvoutliner.com/) and as I've found myself using it more and more I can really say that it's a worthy alternative.

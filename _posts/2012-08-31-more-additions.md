@@ -3,7 +3,7 @@ title: "More additions"
 tags: ["Code", "CSS"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Being bored sometimes has it's own perks. I continued experimenting with the [Begrider](/projects/begrider/) project and ended up adding a couple of more things to it, mainly a new set of column-like classes called `.unit-`. A unit differ itself from a regular column by not having a gutter, and thus having more of a "proportional" percentage width. So, instead of just having these:

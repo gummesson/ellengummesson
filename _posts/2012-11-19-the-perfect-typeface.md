@@ -3,7 +3,7 @@ title: "The perfect typeface"
 tags: ["Typography", "Writing"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 Although I'm a big fan of both serif and sans-serifs I've never really been comfortable with using them for any serious writing unless I really, eally had to. I'm a monospace lover through and through. Somehow those types of fonts feel more natural to write with for me. I've been using [DejaVu Sans Mono](http://dejavu-fonts.org/wiki/Main_Page) for a long time but lately I've noticed that it's not really the best typeface for me and my eyes. It's too bold and looks quite chunky with some rough edges[^20121119-1]. It works alright for coding, but I feel like I get a bit lost when I try to read the actual words that I'd just written. I knew that it had to be some better alternatives out there.

@@ -3,7 +3,7 @@ title: "My Jekyll workflow"
 tags: ["Code", "Jekyll"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 Now that I've had this blog for a while I thought it would be a good idea to write about how my so called workflow looks to wrap this whole Jekyll series up.
 

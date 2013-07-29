@@ -3,7 +3,7 @@ title: "More Vim goodness"
 tags: ["Code", "Vim"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 I feel like I start to sound like a fantatic when it comes to [Vim](http://www.vim.org/), but the truth is that I'm having so much fun with it that it's hard to stop and thus I've created two more plugins: [Voutliner](https://github.com/gummesson/voutliner.vim) and [Footnotes](https://github.com/gummesson/footnotes.vim).

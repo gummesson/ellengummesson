@@ -3,7 +3,7 @@ title: "iA Writer – now with Markdown preview"
 tags: ["Tech", "Apps", "iOS"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 The iPhone/iPad version of [iA Writer](http://itunes.apple.com/se/app/ia-writer/id392502056?mt=8) (which I use) got an update just in time for the release of iOS 6, and I'm really happy about the fact that it now finally has a Markdown preview mode. I was actually looking around for another app that had a function like that, but now I think I'm going to stick around with using it (even though [Drafts](http://itunes.apple.com/us/app/drafts/id502385074?mt=8) looks good too).

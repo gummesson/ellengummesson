@@ -3,7 +3,7 @@ title: "Pop – a minimal approach to digital notetaking"
 tags: ["Tech", "Apps", "iOS"]
 layout: post
 comments: true
-external-link: false
+external-url: false
 ---
 
 After trying Squarespace Note for a few days I decided that it wasn't really for me. Even though I feel in love with the interface I couldn't really get over the fact that I couldn't choose another folder other than the app's default to save my notes to in Dropbox. I still think it's a very competent and useful app though, but it’s just not my cup of tea. I decided to look for something else and I did find a worthy replacement: [Pop](http://minimaltools.com/ "Minimal Tools - Pop").
