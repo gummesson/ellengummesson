@@ -14,7 +14,7 @@ Last update: 2013/08/10
              jQuery         (http://jquery.com/)
              mustache.js    (https://github.com/janl/mustache.js)
              highlight.js   (http://softwaremaniacs.org/soft/highlight/en/)
-             Tomorrow Theme (http://jmblog.github.io/color-themes-for-highlightjs/tomorrow-night-blue/)
+             Tomorrow Theme (http://jmblog.github.io/color-themes-for-highlightjs/tomorrow-night-eighties/)
              html5shiv      (https://code.google.com/p/html5shiv/)
    Software: Vim            (http://www.vim.org/)
              Jekyll         (http://www.jekyllrb.com/)
