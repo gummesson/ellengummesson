@@ -1,15 +1,14 @@
-/*----------------
-    Footnotes
-    (kramdown)
-----------------*/
+/*--------------------------
+    Footnotes (kramdown)
+--------------------------*/
 
-a[rel="footnote"],
-a[rel="reference"] {
+a[rel="footnote"], .footnote,
+a[rel="reference"], .reversefootnote {
   @extend %link-invisible;
 }
 
-a[rel="footnote"],
-a[rel="reference"] {
+a[rel="footnote"], .footnote,
+a[rel="reference"], .reversefootnote {
   margin-left: 0.15em;
 }
 
@@ -18,6 +17,6 @@ a[rel="reference"] {
   @extend %italic;
 }
 
-.footnotes li p {
+.footnotes > ol > li > p, .footnotes > ol > li {
   margin-bottom: $spacing-unit-small;
 }

@@ -4,12 +4,11 @@
 
 pre {
   padding: 0.25em 0.5em 0.5em;
+  background-color: #2d2d2d;
+  color: #cccccc;
   word-wrap: normal;
   white-space: pre;
   overflow: auto;
-  background-color: #2d2d2d;
-  color: #cccccc;
-  @extend %default-radius;
   @extend %spacing-base-bottom;
 }
 
