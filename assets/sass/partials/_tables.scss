@@ -1,0 +1,24 @@
+/*------------
+    Tables
+------------*/
+
+table {
+  width: 100%;
+  @extend %spacing-base-bottom;
+}
+
+thead {
+  background-color: $color-brand;
+  color: $body-font-color;
+}
+
+th,
+td {
+  padding: $spacing-unit-mini;
+  border-bottom: 1px solid $color-brand;
+  @extend %text-left;
+}
+
+td {
+  vertical-align: top;
+}
