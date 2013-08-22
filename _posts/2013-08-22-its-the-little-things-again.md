@@ -6,7 +6,7 @@ comments: true
 external-url: false
 ---
 
-Today's smile is brought to me by this:
+Today's smile is brought to me by [this](https://twitter.com/ttimsmith/status/370369398315315200):
 
 ![Tim Smith sharing "Jekyll Rake Boilerplate" on Twitter](/images/blog/2013-08-22-twitter.png)
 
