@@ -6,7 +6,7 @@ comments: true
 external-url: https://github.com/gummesson/jekyll-rake-boilerplate
 ---
 
-I finally sat down and the refactor most of the code in my most popular project but don't worry, it's still quite a mess[^1]!
+I finally sat down and the refactor most of the code in my most popular project but don't worry, it's still quite a mess[^1].
 
 ***
 
