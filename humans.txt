@@ -11,8 +11,6 @@ Last update: 2013/08/23
   Standards: HTML5 & CSS3
  Components: normalize.css  (http://necolas.github.io/normalize.css/)
              Smallwork      (https://github.com/gummesson/smallwork)
-             jQuery         (http://jquery.com/)
-             mustache.js    (https://github.com/janl/mustache.js)
              highlight.js   (http://softwaremaniacs.org/soft/highlight/en/)
              Tomorrow Theme (http://jmblog.github.io/color-themes-for-highlightjs/tomorrow-night-eighties/)
              html5shiv      (https://code.google.com/p/html5shiv/)

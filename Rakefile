@@ -41,8 +41,8 @@ namespace :build do
 
   task :js do
     puts "Compressing the JS file..."
-    FileUtils.cp_r("assets/js/src/global.js", "assets/js/main/global.js")
-    Dir.chdir("assets/js/main") do
+    FileUtils.cp_r("assets/js/src/global.js", "assets/js/global.js")
+    Dir.chdir("assets/js") do
     system "uglifyjs global.js --compress --mangle --output global.js"
     end
   end

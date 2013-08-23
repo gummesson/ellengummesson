@@ -21,16 +21,14 @@ title: Archives
     <a class="button button--even" id="js-random-post" href="#" alt="Go to a random post">Random post</a><!-- jQuery-generated URL -->
   </p>
   {% for month in page.months %}
-  <section class="l-post-month">
-    <h3>{{ month | date: "%B" }} {{ month | date: "%Y" }}</h3>
-      <ul class="js-post-list">
-      {% for post in page.posts_by_month[month] %}
-        <li>
-          {{ post.date | date: "%b %e, %Y" }}:
-          <a class="js-post-link" href="{{ post.url }}" alt="{{ post.title }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-      </ul>
-      {% endfor %}
-  </section><!-- .l-post-month -->
+  <h3>{{ month | date: "%B" }} {{ month | date: "%Y" }}</h3>
+    <ul>
+    {% for post in page.posts_by_month[month] %}
+      <li>
+        {{ post.date | date: "%b %e, %Y" }}:
+        <a class="js-post-link" href="{{ post.url }}" alt="{{ post.title }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
 </article><!-- .l-page -->
