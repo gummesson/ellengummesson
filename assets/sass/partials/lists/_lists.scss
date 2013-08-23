@@ -11,6 +11,10 @@ ol {
   @extend %spacing-base-bottom;
 }
 
+li > ol {
+  @extend %spacing-zero-bottom;
+}
+
 //-------------
 //  Unordered
 //-------------
@@ -18,4 +22,8 @@ ol {
 ul {
   @extend %spacing-base-left;
   @extend %spacing-base-bottom;
+}
+
+li > ul {
+  @extend %spacing-zero-bottom;
 }
