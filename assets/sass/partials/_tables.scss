@@ -14,8 +14,8 @@ thead {
 
 th,
 td {
-  padding: $spacing-unit-mini;
-  border-bottom: 1px solid $color-brand;
+  padding:  $spacing-unit-mini $spacing-unit-small;
+  border-bottom: 1px solid $color-offset;
   @extend %text-left;
 }
 
