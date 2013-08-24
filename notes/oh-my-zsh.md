@@ -47,5 +47,5 @@ Aliases for common [Rsync](http://rsync.samba.org/) tasks.
 | `rsync-synchronize` | `rsync -avu --delete --progress -h`             |
 
 
-[^1]: the options are `ìnstall`, `upgrade`, `remove`, `rollback` and `list`.
+[^1]: the options are `install`, `upgrade`, `remove`, `rollback` and `list`.
 [^2]: you can see the current branch right on the command line, depending on your `Zsh` theme.
