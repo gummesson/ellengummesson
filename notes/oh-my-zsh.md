@@ -9,11 +9,11 @@ A handy cheatsheet for [Oh my Zsh!](https://github.com/robbyrussell/oh-my-zsh)
 
 Aliases and functions for common [Debian](http://www.debian.org/) tasks.
 
-| Alias                | Command                 |
-|----------------------|-------------------------|
-| `ag`                 | `apt-get`               |
-| `acs`                | `apt-cache search`      |
-| `apt-history OPTION` |  Prints apt history[^1] |
+| Alias                | Command                  |
+|----------------------|--------------------------|
+| `ag`                 | `apt-get`                |
+| `acs`                | `apt-cache search`       |
+| `apt-history OPTION` |  Print `apt` history[^1] |
 
 ## Git
 
