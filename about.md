@@ -5,7 +5,7 @@ layout: page
 
 My name is Ellen Gummesson and I love communication and the web. I recently recieved a degree in media and communication studies, specialising in strategic communication. Lately I've been diving straight into front-end development, mainly writing HTML5 and CSS3, dabbling a little bit with [jQuery](http://jquery.com/) and starting to really enjoy JavaScript. I also like [Sass](http://sass-lang.com/) and love [Compass](http://compass-style.org/).
 
-I've also started to learn the programming language [Ruby](http://www.ruby-lang.org/) and I'm hoping that one day I'll conquer the [Ruby on Rails](http://rubyonrails.org/) framework. In the meantime I'm having fun with micro web framework [Sinatra](http://www.sinatrarb.com/). I enjoy writing small but practically useless [Bash](http://en.wikipedia.org/wiki/Bash_(Unix_shell) "Bash") scripts that I run on my [Debian Testing](http://www.debian.org/releases/testing/) box. You can check out [my projects on Gitub](https://github.com/gummesson/) if you'd like, although I'm still very much a beginner when it comes to coding.
+I've also started to learn the programming language [Ruby](http://www.ruby-lang.org/) and I'm hoping that one day I'll conquer the [Ruby on Rails](http://rubyonrails.org/) framework. In the meantime I'm having fun with micro web framework [Sinatra](http://www.sinatrarb.com/). I enjoy writing small but practically useless shell scripts that I run on my [Debian Testing](http://ellengummesson.com/notes/the-linux-setup) box. You can check out [my projects on Gitub](https://github.com/gummesson/) if you'd like, although I'm still very much a beginner when it comes to coding.
 
 ## Why are you writing this in english?
 
