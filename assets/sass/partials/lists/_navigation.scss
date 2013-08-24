@@ -3,11 +3,10 @@
 //--------------
 
 .nav {
-  list-style: none;
   @extend %spacing-zero-left;
+  list-style: none;
 
   li {
     display: inline-block;
   }
-
 }

@@ -14,7 +14,7 @@ a[rel="reference"], .reversefootnote {
 
 .footnotes {
   @extend %micro;
-  @extend %italic;
+  @extend %text-italic;
 }
 
 .footnotes > ol > li > p, .footnotes > ol > li {

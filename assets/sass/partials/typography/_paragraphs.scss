@@ -8,13 +8,13 @@ p {
 
 .smallprint {
   @extend %milli;
-  @extend %italic;
+  @extend %text-italic;
 }
 
-.legal {
+.fineprint {
+  @extend %text-bold;
+}
+
+.compressed {
   @extend %spacing-base-none;
-}
-
-.date {
-  @extend %bold;
 }

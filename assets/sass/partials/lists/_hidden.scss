@@ -3,7 +3,6 @@
 -----------------*/
 
 .hidden-list {
-
   @extend .nav;
 
   li {
@@ -13,5 +12,4 @@
   li:last-child {
     @extend %spacing-zero-right;
   }
-
 }

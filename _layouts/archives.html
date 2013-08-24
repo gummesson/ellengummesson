@@ -25,7 +25,7 @@ title: Archives
     <ul>
     {% for post in page.posts_by_month[month] %}
       <li>
-        <span class="date">{{ post.date | date: "%b %e, %Y" }}:</span>
+        <span class="fineprint">{{ post.date | date: "%b %e, %Y" }}:</span>
         <a class="js-post-link" href="{{ post.url }}" alt="{{ post.title }}">{{ post.title }}</a>
       </li>
     {% endfor %}
