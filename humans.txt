@@ -7,7 +7,7 @@ Everything: Ellen Gummesson
 
 /* THE SITE */
 
-Last update: 2013/08/23
+Last update: 2013/08/24
   Standards: HTML5 & CSS3
  Components: normalize.css  (http://necolas.github.io/normalize.css/)
              Smallwork      (https://github.com/gummesson/smallwork)
