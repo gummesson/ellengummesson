@@ -57,25 +57,25 @@ My main operating system right now is [minimal install](#installation) of [Debia
 - [urxvt](http://packages.debian.org/testing/rxvt-unicode-256color) as my main terminal emulator.
 - [Zsh](http://packages.debian.org/testing/zsh) as my default shell.
   - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) as my framework for `Zsh`.
-- [tmux](http://packages.debian.org/testing/tmux): as my terminal multiplexer.
+- [tmux](http://packages.debian.org/testing/tmux) as my terminal multiplexer.
 
 ### Tools
 
-- [acpi](http://packages.debian.org/testing/acpi): as an ACPI client for providing battery, AC power, and thermal readings.
-- [cpufrequtils](http://packages.debian.org/testing/cpufrequtils): for managing the `cpufreq` kernel feature.
-- [xbacklight](http://packages.debian.org/testing/xbacklight): for setting the brightness of the screen.
-- [htop](http://packages.debian.org/testing/htop): for system monitoring.
-- [autocutsel](http://packages.debian.org/testing/autocutsel): for synchronzing the clipboard.
-- [xclip](http://packages.debian.org/testing/xclip): for managing the clipboard.
-- [scrot](http://packages.debian.org/testing/scrot): for taking screenshots.
-- [usbmount](http://packages.debian.org/testing/usbmount): for automatically mouting and unmounting USB devices.
-- [curl](http://packages.debian.org/testing/curl): for transfering data via URLs.
-- [trash](http://packages.debian.org/testing/trash-cli): as a command line trashcan utility.
-- [tree](http://packages.debian.org/testing/tree): for a command line tree view.
-- [ack](http://packages.debian.org/testing/ack-grep): as a `grep`-like searching tool.
-- [z](https://github.com/rupa/z): instead of having to use `cd` all the time.
-- [ranger](https://github.com/hut/ranger): as a file browser.
-- [pandoc](http://packages.debian.org/testing/pandoc): for converting Markdown to HTML.
+- [acpi](http://packages.debian.org/testing/acpi) as an ACPI client for providing battery, AC power, and thermal readings.
+- [cpufrequtils](http://packages.debian.org/testing/cpufrequtils) for managing the `cpufreq` kernel feature.
+- [xbacklight](http://packages.debian.org/testing/xbacklight) for setting the brightness of the screen.
+- [htop](http://packages.debian.org/testing/htop) for system monitoring.
+- [autocutsel](http://packages.debian.org/testing/autocutsel) for synchronzing the clipboard.
+- [xclip](http://packages.debian.org/testing/xclip) for managing the clipboard.
+- [scrot](http://packages.debian.org/testing/scrot) for taking screenshots.
+- [usbmount](http://packages.debian.org/testing/usbmount) for automatically mouting and unmounting USB devices.
+- [curl](http://packages.debian.org/testing/curl) for transfering data via URLs.
+- [trash](http://packages.debian.org/testing/trash-cli) as a command line trashcan utility.
+- [tree](http://packages.debian.org/testing/tree) for a command line tree view.
+- [ack](http://packages.debian.org/testing/ack-grep) as a `grep`-like searching tool.
+- [z](https://github.com/rupa/z) for "jumping" between directories.
+- [ranger](https://github.com/hut/ranger) as a file browser.
+- [pandoc](http://packages.debian.org/testing/pandoc) for converting Markdown to HTML.
 
 #### ncurses
 
@@ -89,39 +89,39 @@ Packages for running and compiling `ncurses`-based software.
 
 ### Applications
 
-- [Dropbox](https://www.dropbox.com/install?os=lnx): for synchronizing a lot of things.
-- [Vim/gVim](http://packages.debian.org/testing/vim-gtk): as my main text editor.
-- [dav](http://packages.debian.org/testing/dav-text): as a simpler alternative to `Vim`.
-- [hnb](http://packages.debian.org/testing/hnb): for general outlining.
-- [mplayer2](http://packages.debian.org/testing/mplayer2): as my default video and podcast player.
-- [cmus](http://packages.debian.org/testing/cmus): as a more advanced music player.
-- [uzbl](http://packages.debian.org/testing/uzbl): for graphical web browsing.
-- [w3m](http://packages.debian.org/testing/w3m): for text-based web browsing.
-- [surfraw](http://packages.debian.org/jessie/surfraw): as my command line web search client.
-- [irssi](http://packages.debian.org/testing/irssi): as my IRC client.
-- [zathura](http://packages.debian.org/testing/zathura): for viewing PDFs.
-- [mashpodder](https://code.google.com/p/mashpodder): as a simple podcatcher for a couple off oggcasts.
+- [Dropbox](https://www.dropbox.com/install?os=lnx) for synchronizing a lot of things.
+- [Vim/gVim](http://packages.debian.org/testing/vim-gtk) as my main text editor.
+- [dav](http://packages.debian.org/testing/dav-text) as a simpler alternative to `Vim`.
+- [hnb](http://packages.debian.org/testing/hnb) for general outlining.
+- [mplayer2](http://packages.debian.org/testing/mplayer2) as my default video and podcast player.
+- [cmus](http://packages.debian.org/testing/cmus) as a more advanced music player.
+- [uzbl](http://packages.debian.org/testing/uzbl) for graphical web browsing.
+- [w3m](http://packages.debian.org/testing/w3m) for text-based web browsing.
+- [surfraw](http://packages.debian.org/jessie/surfraw) as my command line web search client.
+- [irssi](http://packages.debian.org/testing/irssi) as my IRC client.
+- [zathura](http://packages.debian.org/testing/zathura) for viewing PDFs.
+- [mashpodder](https://code.google.com/p/mashpodder) as a simple podcatcher for a couple off oggcasts.
 
 ### Development
 
-- [Git](http://packages.debian.org/testing/git): for version control and as a backup tool.
-- [Ruby](http://packages.debian.org/testing/ruby): with the [`ruby-dev`](http://packages.debian.org/jessie/ruby-dev) package.
-  - [Jekyll](http://rubygems.org/gems/jekyll): for generating my website.
-  - [Sass](http://sass-lang.com/)/[Compass](http://rubygems.org/gems/compass): as a CSS authoring tool.
-- [Node.js](http://nodejs.org/): from the `unstable` repositories with the [`nodejs-legacy`](http://packages.debian.org/sid/nodejs-legacy) package.
-  - [nws](https://npmjs.org/package/nws): as a simple static server.
-  - [JSHint](https://npmjs.org/package/jshint): for hinting JavaScript.
-  - [UglifyJS](https://npmjs.org/package/uglify-js): for minimizing JavaScript.
-  - [GruntJS](https://npmjs.org/package/grunt-cli): as a web development task runner.
+- [Git](http://packages.debian.org/testing/git) for version control and as a backup tool.
+- [Ruby](http://packages.debian.org/testing/ruby) with the [`ruby-dev`](http://packages.debian.org/jessie/ruby-dev) package.
+  - [Jekyll](http://rubygems.org/gems/jekyll) for generating my website.
+  - [Sass](http://sass-lang.com/)/[Compass](http://rubygems.org/gems/compass) as a CSS authoring tool.
+- [Node.js](http://nodejs.org/) from the `unstable` repositories with the [`nodejs-legacy`](http://packages.debian.org/sid/nodejs-legacy) package.
+  - [nws](https://npmjs.org/package/nws) as a simple static server.
+  - [JSHint](https://npmjs.org/package/jshint) for hinting JavaScript.
+  - [UglifyJS](https://npmjs.org/package/uglify-js) for minimizing JavaScript.
+  - [GruntJS](https://npmjs.org/package/grunt-cli) as a web development task runner.
 
 ### Fonts
 
-- [Terminus](http://packages.debian.org/testing/xfonts-terminus): as the default font for `dwm`.
-- [Liberation](http://packages.debian.org/testing/fonts-liberation): for writing and coding.
+- [Terminus](http://packages.debian.org/testing/xfonts-terminus) as the default font for `dwm`.
+- [Liberation](http://packages.debian.org/testing/fonts-liberation) for writing and coding.
 
 ### Theme
 
-- [Solarized](http://ethanschoonover.com/solarized): as the default "theme" for nearly everything.
+- [Solarized](http://ethanschoonover.com/solarized) as the default "theme" for nearly everything.
 
 ## Screenshots
 
