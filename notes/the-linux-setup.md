@@ -125,7 +125,9 @@ Packages for running and compiling `ncurses`-based software.
 
 ## Screenshots
 
-[![My Linux setup](/images/notes/2013-08-23-debian-dwm-desktop.png)](/images/notes/2013-08-23-debian-dwm-desktop.png)
+[![My Debian and dwm desktop](/images/notes/2013-08-23-debian-dwm-desktop.png)](/images/notes/2013-08-23-debian-dwm-desktop.png)
+
+[![My Debian and dwm term](/images/notes/2013-08-24-debian-dwm-urxvt.png)](/images/notes/2013-08-24-debian-dwm-urxvt.png)
 
 ## Installation
 
