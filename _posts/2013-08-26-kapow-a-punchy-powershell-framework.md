@@ -10,7 +10,7 @@ Earlier today I released a new project called [Kapow!](https://github.com/gummes
 
 ![Kapow! with the Punchy theme](/images/blog/2013-08-26-kapow-punchy-theme.png)
 
-It's defintively an improvement over the standard look and behaviour. I haven't noticed any slowness at all either, but the plugin library isn't that huge right now. I'm hoping to expanded it a bit more and I'll be happy if anyone wants to contribute!
+It's definitively an improvement over the standard look and behaviour. I haven't noticed any slowness at all either, but the plugin library isn't that huge right now. I'm hoping to expanded it a bit more and I'll be happy if anyone wants to contribute!
 
 ***
 
