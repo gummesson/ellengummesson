@@ -1,6 +1,6 @@
 ---
 title: "Kapow! – a punchy PowerShell framework"
-tags: ["Code", "PowerShell"]
+tags: ["Code", "PowerShell", "Console"]
 layout: post
 comments: true
 external-url: false
