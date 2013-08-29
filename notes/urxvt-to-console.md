@@ -1,9 +1,9 @@
 ---
-title: "urxvt to Console2"
+title: "urxvt to Console"
 layout: page
 ---
 
-A handy cheatsheet for converting colorschemes from [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) to [Console2](http://sourceforge.net/projects/console/).
+A handy cheatsheet for converting colorschemes from [urxvt](http://software.schmorp.de/pkg/rxvt-unicode.html) to [Console2](http://sourceforge.net/projects/console/) or [ConsoleZ](https://github.com/cbucher/console)[^1].
 
 | urxvt        | PowerShell     | Console2 |
 |--------------|----------------|----------|
@@ -14,8 +14,8 @@ A handy cheatsheet for converting colorschemes from [urxvt](http://software.schm
 | `color1`     | `DarkRed`      | 4        |
 | `color5`     | `DarkMagenta`  | 5        |
 | `color3`     | `DarkYellow`   | 6        |
-| `foreground` | `Gray`[^1]     | 7        |
-| `color8`     | `DarkGray`[^2] | 8        |
+| `foreground` | `Gray`[^2]     | 7        |
+| `color8`     | `DarkGray`[^3] | 8        |
 | `color12`    | `Blue`         | 9        |
 | `color10`    | `Green`        | 10       |
 | `color14`    | `Cyan`         | 11       |
@@ -24,9 +24,10 @@ A handy cheatsheet for converting colorschemes from [urxvt](http://software.schm
 | `color11`    | `Yellow`       | 14       |
 | `color15`    | `White`        | 15       |
 
-You can also use `color0` for `Black` and `color7` for `White`.
+**Tip:** You can also use `color0` for `Black` and `color7` for `White`.
 
-* * *
+***
 
-[^1]: It's the counterpart to `White`, ie: `Dark White`.
-[^2]: It's the counterpart to `Black`, ie: `Light Black`.
+[^1]: When using ConsoleZ don't forget to also set the background color under `Settings -> Tabs -> Background`, or else it won't actually manifest.
+[^2]: It's the counterpart to `White`, ie: `Dark White`.
+[^3]: It's the counterpart to `Black`, ie: `Light Black`.
