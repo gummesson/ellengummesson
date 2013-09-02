@@ -8,12 +8,10 @@ require 'rbconfig'
 # Language encoding
 LANG = "sv_SV.UTF-8"
 
-# Check OS and set the commands
+# Check OS and set commands
 if RbConfig::CONFIG["host_os"] =~ /mswin|mingw|windows/
-  SET = "set"
   OPEN = "start"
 else
-  SET = "export"
   OPEN = "xdg-open"
 end
 
@@ -44,7 +42,7 @@ desc "Build the site (and convert Sass to CSS)"
 task :build do
   Rake::Task["build:sass"].invoke
   Rake::Task["build:js"].invoke
-  execute("#{SET} LANG=#{LANG} && jekyll")
+  execute("chcp 65001 && jekyll build")
   Rake::Task["build:html"].invoke
 end
 
@@ -58,7 +56,7 @@ namespace :build do
     puts "Compressing the JS file..."
     FileUtils.cp_r("assets/js/src/global.js", "assets/js/global.js")
     Dir.chdir("assets/js") do
-    execute("uglifyjs global.js --compress --mangle --output global.js")
+      execute("uglifyjs global.js --compress --mangle --output global.js")
     end
   end
 
@@ -81,21 +79,20 @@ task :watch, :number do |t, args|
   Rake::Task["build:sass"].invoke
   Rake::Task["build:js"].invoke
   if number.nil? or number.empty?
-    execute("#{SET} LANG=#{LANG} && jekyll --auto --server --url #{ADDRESS}")
+    execute("chcp 65001 && jekyll build --watch")
   else
-    execute("#{SET} LANG=#{LANG} && jekyll --auto --server --url #{ADDRESS} --limit_posts=#{number}")
+    execute("chcp 65001 && jekyll build --watch --limit_posts #{number}")
   end
 end
 
-# rake preview
+# rake preview (ugly Windows hack...)
 desc "Launch a preview of the site in the browser"
 task :preview do
-  Thread.new do
-    puts "Launching browser for preview..."
-    sleep 3
-    execute("#{OPEN} #{ADDRESS}")
+  sleep 2
+  execute("#{OPEN} #{ADDRESS}")
+  Dir.chdir("_site/") do
+    execute("nws -p 4000")
   end
-  Rake::Task[:watch].invoke
 end
 
 # rake transfer[command]
