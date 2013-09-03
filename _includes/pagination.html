@@ -1,0 +1,30 @@
+      <nav class="box  l-pagination">
+        <div class="box__wrapper  box__wrapper--brand">
+          <ul class="nav">
+          {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+            <li>
+              <a href="/" class="button  button--active" alt="Next">&larr; Next</a>
+            </li>
+            {% else %}
+            <li>
+              <a href="/blog/page/{{paginator.previous_page}}" class="button  button--active">&larr; Next</a>
+            </li>
+            {% endif %}
+          {% else %}
+            <li>
+              <a class="button  button--disabled">&larr; Next</a>
+            </li>
+          {% endif %}
+          {% if paginator.next_page %}
+            <li>
+              <a class="button  button--active" href="/blog/page/{{paginator.next_page}}" alt="Previous">Previous &rarr;</a>
+            </li>
+          {% else %}
+            <li>
+              <a class="button  button--disabled">Previous &rarr;</a>
+            </li>
+          {% endif %}
+          </ul>
+        </div>
+      </nav>

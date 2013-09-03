@@ -1,0 +1,6 @@
+/* == Quotes == */
+
+blockquote {
+  @extend %text--italic;
+  @extend %text--small;
+}

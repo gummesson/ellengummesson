@@ -1,0 +1,34 @@
+/* == Navigation == */
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  & li {
+    margin-right: $base-spacing-unit * 2;
+    display: inline-block;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.js-nav {
+  @include breakpoint("max", $breakpoint-palm) {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+  .js-nav--mobile {
+    display: none;
+    visibility: hidden;
+
+    @include breakpoint("max", $breakpoint-palm) {
+      display: inline-block;
+      visibility: visible;
+      width: 100%;
+    }
+  }

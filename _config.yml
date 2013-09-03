@@ -1,0 +1,9 @@
+﻿name: Ellen Gummesson
+description: Random ramblings, musings and geekiness
+url: http://ellengummesson.com
+exclude: ["README.md", "package.json", "Gruntfile.js", "node_modules", "sass", "src"]
+markdown: kramdown
+permalink: blog/:year/:month/:day/:title
+tag_dir: blog/tag
+paginate: 5
+paginate_path: blog/page/:num

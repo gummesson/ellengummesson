@@ -1,0 +1,19 @@
+/* == Footnotes == */
+
+.footnotes {
+  @extend %text--italic;
+  @extend %text--tiny;
+}
+
+  .footnotes > ol > li {
+    margin-bottom: $base-spacing-unit / 3;
+  }
+
+.reversefootnote {
+  margin-left: $base-spacing-unit / 10;
+}
+
+.footnote,
+.reversefootnote {
+  @extend .link--hidden;
+}

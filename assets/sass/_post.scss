@@ -1,0 +1,18 @@
+/* == Post == */
+
+.post {
+  margin-bottom: $base-spacing-unit * 3;
+}
+
+  .post:last-child {
+    margin-bottom: 0;
+  }
+
+  .post__title {
+    margin-bottom: 0;
+  }
+
+  .post__meta {
+  @extend %text--bold;
+    margin-top: 0;
+  }
