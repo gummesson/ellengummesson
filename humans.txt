@@ -9,14 +9,15 @@ Everything: Ellen Gummesson
 
 Last update: 2013/09/03
   Standards: HTML5 & CSS3
- Components: normalize.css  (http://necolas.github.io/normalize.css/)
-             highlight.js   (http://softwaremaniacs.org/soft/highlight/en/)
-             Tomorrow Theme (http://jmblog.github.io/color-themes-for-highlightjs/tomorrow/)
-             html5shiv      (https://code.google.com/p/html5shiv/)
-   Software: Vim            (http://www.vim.org/)
-             Jekyll         (http://www.jekyllrb.com/)
-             kramdown       (http://kramdown.rubyforge.org/)
-    Hosting: GitHub Pages   (http://pages.github.com/)
+ Components: normalize.css              (http://necolas.github.io/normalize.css/)
+             highlight.js               (http://softwaremaniacs.org/soft/highlight/en/)
+             Tomorrow Theme             (http://jmblog.github.io/color-themes-for-highlightjs/tomorrow/)
+             html5shiv                  (https://code.google.com/p/html5shiv/)
+             Modern Clean Sticky Footer (http://mystrd.at/modern-clean-css-sticky-footer/)
+   Software: Vim                        (http://www.vim.org/)
+             Jekyll                     (http://www.jekyllrb.com/)
+             kramdown                   (http://kramdown.rubyforge.org/)
+    Hosting: GitHub Pages               (http://pages.github.com/)
 
 /* THANKS */
 

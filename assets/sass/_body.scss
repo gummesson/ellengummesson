@@ -4,8 +4,13 @@
   @include vendor(box-sizing, border-box);
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
-  margin: 0;
+  margin: 0 0 $footer-height; 
   background-color: $color-background;
   font: $base-font-weight #{$base-font-percent}/#{$base-line-height} $base-font-family;
   color: $color-primary;

@@ -20,4 +20,10 @@
     margin-bottom: $base-spacing-unit;
   }
 
-.l-footer {}
+.l-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: $footer-height;
+  width: 100%;
+}
