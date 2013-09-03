@@ -50,7 +50,7 @@
           item = document.createElement('option');
 
       item.setAttribute('value', anchor);
-      item.innerHTML = title;
+      item.innerHTML = '&raquo;' + title;
       fragment.appendChild(item);
     });
 
