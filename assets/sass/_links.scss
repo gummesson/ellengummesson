@@ -15,6 +15,12 @@ a {
     position: relative;
     top: 1px;
   }
+
+  &[href$=png],
+  &[href$=jpg],
+  &[href$=jpeg] {
+    @extend .link--hidden;
+  }
 }
 
 .link--hidden {
