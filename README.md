@@ -17,6 +17,7 @@ This is the source of my personal site ([ellengummesson.com](http://ellengummess
         - [grunt-contrib-uglify](https://npmjs.org/package/grunt-contrib-uglify)
         - [grunt-contrib-watch](https://npmjs.org/package/grunt-contrib-watch)
         - [grunt-shell-spawn](https://npmjs.org/package/grunt-shell-spawn)
+        - [grunt-contrib-copy](https://npmjs.org/package/grunt-contrib-copy)
 
 ## License
 

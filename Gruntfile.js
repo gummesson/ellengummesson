@@ -5,6 +5,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-shell-spawn');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -72,12 +73,24 @@ module.exports = function(grunt) {
         files: 'assets/js/src/app.js',
         tasks: ['jshint', 'uglify']
       }
+    },
+
+    copy: {
+      main: {
+        files: [{
+          expand: true,
+          cwd:'_site/',
+          src: ['**'],
+          dest: '../gummesson.github.com/'
+        }]
+      }
     }
   });
 
   grunt.registerTask('default', [
     'sass', 'jshint', 'uglify',
-    'shell:encoding', 'shell:build'
+    'shell:encoding', 'shell:build',
+    'copy'
   ]);
 
   grunt.registerTask('dev', [
