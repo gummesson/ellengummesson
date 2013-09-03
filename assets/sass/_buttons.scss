@@ -24,4 +24,5 @@
   .button--disabled {
     background-color: $color-brand-light;
     color: $color-background;
+    cursor: default;
   }
