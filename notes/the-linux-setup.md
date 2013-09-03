@@ -7,30 +7,13 @@ A collection of notes on my [Debian](http://www.debian.org/) and [dwm](http://dw
 
 ## Table of contents
 
-- [Computer](#computer)
-  - [Hardware](#hardware)
-  - [OS](#os)
-- [Software](#software)
-  - [Base](#base)
-  - [Tools](#tools)
-    - [ncurses](#ncurses)
-  - [Applications](#applications)
-  - [Development](#development)
-  - [Fonts](#fonts)
-  - [Theme](#theme)
-- [Screenshots](#screenshots)
-- [Installation](#installation)
-  - [Base](#base)
-  - [Desktop](#desktop)
-  - [Sound](#sound)
-  - [Wireless](#wireless)
-  - [Apt-pinning](#apt-pinning)
-- [Maintenance](#maintenance)
-  - [Cleaning the system](#cleaning-the-system)
-  - [Removing old kernels](#removing-old-kernels)
-- [Miscellaneous](#miscellaneous)
-  - [Install from the `unstable` repositories](#install-from-the-unstable-repositories)
-  - [Use `shutdown` without sudo](#use-shutdown-without-sudo)
+* Computer
+* Software
+* Screenshots
+* Installation
+* Maintenance
+* Miscellaneous
+{:toc}
 
 ## Computer
 
