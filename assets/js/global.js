@@ -1,1 +1,0 @@
-(function(t){"use strict";var i={};i.highlightCode=function(){hljs.initHighlighting()},i.randomPost=function(){var i=t.querySelectorAll(".js-post-link[href]"),n=t.querySelector("#js-random-post"),o=i.length,e=i[Math.floor(Math.random()*o)];n.setAttribute("href",e)},i.init=function(){i.highlightCode(),i.randomPost()},i.init()})(window.document);
