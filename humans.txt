@@ -10,9 +10,8 @@ Everything: Ellen Gummesson
 Last update: 2013/09/03
   Standards: HTML5 & CSS3
  Components: normalize.css  (http://necolas.github.io/normalize.css/)
-             Smallwork      (https://github.com/gummesson/smallwork)
              highlight.js   (http://softwaremaniacs.org/soft/highlight/en/)
-             Tomorrow Theme (http://jmblog.github.io/color-themes-for-highlightjs/tomorrow-night-eighties/)
+             Tomorrow Theme (http://jmblog.github.io/color-themes-for-highlightjs/tomorrow/)
              html5shiv      (https://code.google.com/p/html5shiv/)
    Software: Vim            (http://www.vim.org/)
              Jekyll         (http://www.jekyllrb.com/)
