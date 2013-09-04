@@ -51,7 +51,7 @@ module.exports = function(grunt) {
       watch: {
         command: 'jekyll build --watch',
         options: {
-          async: true
+          async: false 
         }
       },
 
@@ -87,16 +87,22 @@ module.exports = function(grunt) {
     }
   });
 
+  // For generating the site and copying it to it's local Git repo
   grunt.registerTask('default', [
     'sass', 'jshint', 'uglify',
     'shell:encoding', 'shell:build',
     'copy'
   ]);
 
+  // For writing code
   grunt.registerTask('dev', [
+    'sass', 'jshint', 'uglify', 'watch'
+  ]);
+
+  // For writing blog posts and the like
+  grunt.registerTask('serve', [
     'sass', 'jshint', 'uglify',
-    'shell:encoding', 'shell:watch', 'shell:server',
-    'watch'
+    'shell:encoding', 'shell:server', 'shell:watch'
   ]);
 
 };
