@@ -20,3 +20,8 @@
 %text--tiny {
   font-size: $base-font-size * 0.75;
 }
+
+// Links
+.link--hidden {
+  border-bottom: 1px solid transparent;
+}

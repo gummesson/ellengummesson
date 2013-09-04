@@ -16,3 +16,8 @@
   @extend %text--bold;
     margin-top: 0;
   }
+
+  .post__meta--permalink {
+    @extend .link--hidden;
+    color: $color-secondary;
+  }
