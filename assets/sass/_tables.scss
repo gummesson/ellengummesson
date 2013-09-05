@@ -1,0 +1,15 @@
+/* == Tables ==*/
+
+table {
+  margin-bottom: $base-spacing-unit;
+  width: 100%;
+}
+
+  th {
+    text-align: left;
+  }
+
+  th,
+  td {
+    border-bottom: 1px solid $color-secondary;
+  }
