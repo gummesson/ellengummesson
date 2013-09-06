@@ -16,7 +16,7 @@ layout: default
       Posted on {{ page.date | date: "%B %e, %Y" }}{% if page.tags %} in {% for tag in page.tags %}<a href="/blog/tag/{{ tag }}" alt="{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}{% endfor %}{% endif %}
     </p>
       {{ content }}
-</article>
+</article><!-- .post -->
 {% if page.comments %}
   {% include comments.html %}
 {% endif %}
