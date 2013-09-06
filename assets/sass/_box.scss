@@ -14,7 +14,6 @@
     max-width: $container-width;
   }
 
-  .box__wrapper--brand {
-    @extend %text--bold;
+  .box__wrapper--centered {
     @extend %text--centered;
   }

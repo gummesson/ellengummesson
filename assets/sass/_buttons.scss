@@ -1,6 +1,7 @@
 /* == Buttons == */
 
 .button {
+  @extend %text--bold;
   padding: ($base-spacing-unit / 2) ($base-spacing-unit);
   white-space: nowrap;
   cursor: pointer;
