@@ -5,15 +5,8 @@ layout: page
 
 A collection of notes on my [Debian](http://www.debian.org/) and [dwm](http://dwm.suckless.org/) powered system.
 
-## Table of contents
-
-* Computer
-* Software
-* Screenshots
-* Installation
-* Maintenance
-* Miscellaneous
-{:toc}
+- Computer
+{: toc }
 
 ## Computer
 

@@ -11,8 +11,8 @@ Generates the HTML for the footnotes with the classes named `footnote` (the inli
 
 ## Table of contents
 
-    * Heading
-    {:toc}
+    - Heading
+    {: toc }
 {: .no-highlight }
 
 This generates the HTML for the unordered list of table of contents with an id called `markdown-toc`.
