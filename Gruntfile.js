@@ -19,6 +19,15 @@ module.exports = function(grunt) {
         files: {
           'assets/css/style.css' : 'assets/sass/style.scss'
         }
+      },
+
+      debug: {
+        options: {
+          style: 'expanded'
+        },
+        files: {
+          'assets/css/style.css' : 'assets/sass/style.scss'
+        }
       }
     },
 
@@ -89,19 +98,19 @@ module.exports = function(grunt) {
 
   // For generating the site and copying it to it's local Git repo
   grunt.registerTask('default', [
-    'sass', 'jshint', 'uglify',
+    'sass:build', 'jshint', 'uglify',
     'shell:encoding', 'shell:build',
     'copy'
   ]);
 
   // For writing code
   grunt.registerTask('dev', [
-    'sass', 'jshint', 'uglify', 'watch'
+    'sass:debug', 'jshint', 'uglify', 'watch'
   ]);
 
   // For writing blog posts and the like
   grunt.registerTask('serve', [
-    'sass', 'jshint', 'uglify',
+    'sass:build', 'jshint', 'uglify',
     'shell:encoding', 'shell:server', 'shell:watch'
   ]);
 
