@@ -43,4 +43,4 @@ A handy cheatsheet for [Tmux](http://tmux.sourceforge.net/).
 |----------------|-----------------------|
 | `Ctrl-B` + `?` | List all keybindings  |
 
-[^1]: replace `NAME` with an actual name.
+[^1]: Replace `NAME` with an actual name.
