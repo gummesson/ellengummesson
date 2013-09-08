@@ -1,6 +1,9 @@
-/* == Shared == */
+/*------------
+    Shared
+------------*/
 
-// Typography
+/* Typography */
+
 %text--bold {
   font-weight: bold; 
 }
@@ -21,7 +24,8 @@
   font-size: $base-font-size * 0.75;
 }
 
-// Links
+/* Links */
+
 .link--hidden {
   border-bottom: 1px solid transparent;
 }
