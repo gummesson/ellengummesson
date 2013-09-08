@@ -24,8 +24,7 @@ A handy guide for creating pull requests on [Github](https://github.com/).
 
 1. Create a new development branch and switch to it[^1]:
 
-        git branch feature-name
-        git checkout feature-name
+        git checkout -b feature-name
 
 2. Start hacking.
 3. Commit your changes.
