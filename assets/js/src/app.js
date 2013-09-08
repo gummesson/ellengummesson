@@ -74,7 +74,7 @@
 
 // == App initialization =======================================================
 
-  var App = {};
+  var App = App || {};
 
   App.highlightCode = function() {
     hljs.initHighlighting();
