@@ -33,7 +33,7 @@ A handy guide for creating pull requests on [Github](https://github.com/).
 
 1. Push the new branch to your forked repository:
 
-        git push --set-upstream origin feature-name
+        git push -u origin feature-name
 
 ## Pull requesting
 
