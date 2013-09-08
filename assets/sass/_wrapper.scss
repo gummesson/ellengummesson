@@ -1,0 +1,10 @@
+/* == Wrapper == */
+
+.wrapper {
+  margin: 0 auto;
+  max-width: $container-width;
+}
+
+  .wrapper--centered {
+    @extend %text--centered;
+  }
