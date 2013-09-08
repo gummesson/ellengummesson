@@ -8,9 +8,6 @@ This is the source of my personal site ([ellengummesson.com](http://ellengummess
     - [Sass](http://sass-lang.com/)
     - [Jekyll](http://www.jekyllrb.com/)
 - [Node.js](http://nodejs.org/)
-    - [JSHint](https://npmjs.org/package/jshint)
-    - [UglifyJS](https://npmjs.org/package/uglify-js)
-    - [nws](https://npmjs.org/package/nws)
     - [Grunt](http://gruntjs.com/)
         - [grunt-contrib-sass](https://npmjs.org/package/grunt-contrib-sass)
         - [grunt-contrib-jshint](https://npmjs.org/package/grunt-contrib-jshiny)
@@ -18,6 +15,7 @@ This is the source of my personal site ([ellengummesson.com](http://ellengummess
         - [grunt-contrib-watch](https://npmjs.org/package/grunt-contrib-watch)
         - [grunt-shell-spawn](https://npmjs.org/package/grunt-shell-spawn)
         - [grunt-contrib-copy](https://npmjs.org/package/grunt-contrib-copy)
+        - [grunt-contrib-connect](https://npmjs.org/package/grunt-contrib-connect)
 
 ## License
 

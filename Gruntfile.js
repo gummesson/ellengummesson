@@ -6,6 +6,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-shell-spawn');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -60,14 +61,17 @@ module.exports = function(grunt) {
       watch: {
         command: 'jekyll build --watch',
         options: {
-          async: false 
+          async: true 
         }
-      },
+      }
+    },
 
+    connect: {
       server: {
-        command: 'nws -d _site/ -p 4000',
         options: {
-          async: true
+          port: 4000,
+          base: '_site/',
+          keepalive: true
         }
       }
     },
@@ -111,7 +115,7 @@ module.exports = function(grunt) {
   // For writing blog posts and the like
   grunt.registerTask('serve', [
     'sass:build', 'jshint', 'uglify',
-    'shell:encoding', 'shell:server', 'shell:watch'
+    'shell:encoding', 'shell:watch', 'connect'
   ]);
 
 };
