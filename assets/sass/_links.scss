@@ -3,7 +3,6 @@
 -----------*/
 
 a {
-  padding: 0 0 1px;
   color: inherit;
   text-decoration: none;
   border-bottom: 1px solid $color-secondary;
@@ -11,7 +10,6 @@ a {
   &:hover,
   &:focus,
   &:active {
-    padding: 0;
     border-bottom: 2px solid $color-brand;
   }
 
