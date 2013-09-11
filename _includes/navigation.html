@@ -2,22 +2,38 @@
       <div id="js-mobile-nav" class="wrapper  wrapper--centered">
         <ul id="js-nav" class="nav  js-nav">
           <li class="print--primary">
+          {% if page.title == 'Blog' %}
+            <a class="link--hidden  link--current" href="/">
+          {% else %}
             <a class="link--hidden" href="/">
+          {% endif %}
               Home
             </a>
           </li>
           <li class="print--primary">
+          {% if page.title == 'About' %}
+            <a class="link--hidden  link--current" href="/about">
+          {% else %}
             <a class="link--hidden" href="/about">
+          {% endif %}
               About
             </a>
           </li>
           <li class="print--primary">
+          {% if page.title == 'Archives' %}
+            <a class="link--hidden  link--current" href="/archives">
+          {% else %}
             <a class="link--hidden" href="/archives">
+          {% endif %}
               Archives
             </a>
           </li>
           <li class="print--primary">
+          {% if page.title == 'Contact' %}
+            <a class="link--hidden  link--current" href="/contact">
+          {% else %}
             <a class="link--hidden" href="/contact">
+          {% endif %}
               Contact
             </a>
           </li>
