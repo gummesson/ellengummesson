@@ -5,4 +5,12 @@
 blockquote {
   @extend %text--italic;
   @extend %text--small;
+  margin-left: -#{$base-spacing-unit};
+  padding: 0 $base-spacing-unit;
+  border-left: 4px solid $color-brand;
+
+  @include breakpoint("max", $breakpoint-lap) {
+    margin-left: -#{$base-spacing-unit / 2};
+    border-left: 2px solid $color-brand;
+  }
 }
