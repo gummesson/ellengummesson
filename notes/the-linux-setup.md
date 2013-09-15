@@ -77,6 +77,8 @@ Packages for running and compiling `ncurses`-based software.
 - [irssi](http://packages.debian.org/testing/irssi) as my IRC client.
 - [zathura](http://packages.debian.org/testing/zathura) for viewing PDFs.
 - [mashpodder](https://code.google.com/p/mashpodder) as a simple podcatcher for a couple off oggcasts.
+- [pcmanfm](http://packages.debian.org/testing/pcmanfm) as a graphical file browser.
+    - [Tango](http://packages.debian.org/testing/tango-icon-theme) as the icon theme.
 
 ### Development
 
@@ -88,7 +90,7 @@ Packages for running and compiling `ncurses`-based software.
   - [nws](https://npmjs.org/package/nws) as a simple static server.
   - [JSHint](https://npmjs.org/package/jshint) for hinting JavaScript.
   - [UglifyJS](https://npmjs.org/package/uglify-js) for minimizing JavaScript.
-  - [GruntJS](https://npmjs.org/package/grunt-cli) as a web development task runner.
+  - [Grunt](https://npmjs.org/package/grunt-cli) as a web development task runner.
 
 ### Fonts
 
