@@ -1,0 +1,41 @@
+/*----------
+    Body
+----------*/
+
+* {
+  @include vendor(box-sizing, border-box);
+}
+
+::selection { 
+  background-color: $color-brand;
+  color: $color-background;
+}
+
+::-moz-selection { 
+  background-color: $color-brand;
+  color: $color-background;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 $footer-height;
+  background-color: $color-background;
+  font: $base-font-weight #{$base-font-percent}/#{$base-line-height} $base-font-family;
+  color: $color-primary;
+
+  @include breakpoint("max", $breakpoint-desk) {
+    font-size: 112.5%;
+  }
+
+  @include breakpoint("max", $breakpoint-lap) {
+    font-size: 100%;
+  }
+
+  @include breakpoint("max", $breakpoint-palm) {
+    font-size: 87.5%;
+  }
+}

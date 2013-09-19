@@ -1,0 +1,11 @@
+/*-----------
+    Print
+-----------*/
+
+.print--primary {
+  @extend %text--bold;
+}
+
+.print--expanded {
+  margin-bottom: $base-spacing-unit * 2;
+}

@@ -1,0 +1,31 @@
+/*------------
+    Layout
+------------*/
+
+.l-container {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.l-nav {}
+
+.l-header {}
+
+  .l-logo {
+    font-size: $base-spacing-unit * 2.75;
+    margin: ($base-spacing-unit / 4) 0;
+  }
+
+.l-main {}
+
+  .l-pagination {
+    margin-bottom: $base-spacing-unit;
+  }
+
+.l-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: $footer-height;
+  width: 100%;
+}
