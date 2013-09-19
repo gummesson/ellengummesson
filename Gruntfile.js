@@ -111,25 +111,42 @@ module.exports = function(grunt) {
 
   // For generating the site and copying it to it's local Git repo
   grunt.registerTask('default', [
-    'sass:build', 'jshint', 'uglify', 'copy:img',
-    'shell:encoding', 'shell:build', 'copy:site'
+    'sass:build',
+    'jshint',
+    'uglify',
+    'copy:img',
+    'shell:encoding',
+    'shell:build',
+    'copy:site'
   ]);
 
   // For writing code
   grunt.registerTask('dev', [
-    'sass:debug', 'jshint', 'uglify', 'watch'
+    'sass:debug',
+    'jshint',
+    'uglify',
+    'watch'
   ]);
 
   // For writing blog posts and the like
   grunt.registerTask('serve', [
-    'sass:build', 'jshint', 'uglify', 'copy:img',
-    'shell:encoding', 'shell:watch', 'connect'
+    'sass:build',
+    'jshint',
+    'uglify',
+    'copy:img',
+    'shell:encoding',
+    'shell:watch',
+    'connect'
   ]);
 
   // Linux version of the default task
   grunt.registerTask('nix', [
-    'sass:build', 'jshint', 'uglify', 'copy:img',
-    'shell:build', 'copy:site'
+    'sass:build',
+    'jshint',
+    'uglify',
+    'copy:img',
+    'shell:build',
+    'copy:site'
   ]);
 
 };
