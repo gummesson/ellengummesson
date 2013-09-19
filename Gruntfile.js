@@ -61,7 +61,7 @@ module.exports = function(grunt) {
       watch: {
         command: 'jekyll build --watch',
         options: {
-          async: true 
+          async: true
         }
       }
     },
@@ -109,13 +109,25 @@ module.exports = function(grunt) {
     }
   });
 
-  // For generating the site and copying it to it's local Git repo
-  grunt.registerTask('default', [
+  // For generating the 'assets' folder
+  grunt.registerTask('assets', [
     'sass:build',
     'jshint',
     'uglify',
-    'copy:img',
+    'copy:img'
+  ]);
+
+  // For generating the site and copying it to it's local Git repo
+  grunt.registerTask('default', [
+    'assets',
     'shell:encoding',
+    'shell:build',
+    'copy:site'
+  ]);
+
+  // Linux version of the default task
+  grunt.registerTask('nix', [
+    'assets',
     'shell:build',
     'copy:site'
   ]);
@@ -130,23 +142,10 @@ module.exports = function(grunt) {
 
   // For writing blog posts and the like
   grunt.registerTask('serve', [
-    'sass:build',
-    'jshint',
-    'uglify',
-    'copy:img',
+    'assets',
     'shell:encoding',
     'shell:watch',
     'connect'
-  ]);
-
-  // Linux version of the default task
-  grunt.registerTask('nix', [
-    'sass:build',
-    'jshint',
-    'uglify',
-    'copy:img',
-    'shell:build',
-    'copy:site'
   ]);
 
 };
