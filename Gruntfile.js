@@ -18,7 +18,7 @@ module.exports = function(grunt) {
         },
 
         files: {
-          'assets/css/style.css' : 'assets/sass/style.scss'
+          'assets/css/style.css' : '_assets/sass/style.scss'
         }
       },
 
@@ -27,18 +27,18 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {
-          'assets/css/style.css' : 'assets/sass/style.scss'
+          'assets/css/style.css' : '_assets/sass/style.scss'
         }
       }
     },
 
     jshint: {
-      files: ['assets/js/src/app.js']
+      files: ['_assets/js/*.js']
     },
 
     uglify: {
       build: {
-        src: 'assets/js/src/app.js',
+        src: '_assets/js/app.js',
         dest: 'assets/js/app.js'
       }
     },
@@ -78,18 +78,27 @@ module.exports = function(grunt) {
 
     watch: {
       sass: {
-        files: 'assets/sass/*.scss',
+        files: '_assets/sass/*.scss',
         tasks: ['sass']
       },
 
       js: {
-        files: 'assets/js/src/app.js',
+        files: '_assets/js/*.js',
         tasks: ['jshint', 'uglify']
       }
     },
 
     copy: {
-      main: {
+      img: {
+        files: [{
+          expand: true,
+          cwd:'_assets/img',
+          src: ['**'],
+          dest: 'assets/img'
+        }]
+      },
+
+      site: {
         files: [{
           expand: true,
           cwd:'_site/',
@@ -102,9 +111,9 @@ module.exports = function(grunt) {
 
   // For generating the site and copying it to it's local Git repo
   grunt.registerTask('default', [
-    'sass:build', 'jshint', 'uglify',
+    'sass:build', 'jshint', 'uglify', 'copy:img',
     'shell:encoding', 'shell:build',
-    'copy'
+    'copy:site'
   ]);
 
   // For writing code
@@ -114,7 +123,7 @@ module.exports = function(grunt) {
 
   // For writing blog posts and the like
   grunt.registerTask('serve', [
-    'sass:build', 'jshint', 'uglify',
+    'sass:build', 'jshint', 'uglify', 'copy:img',
     'shell:encoding', 'shell:watch', 'connect'
   ]);
 
