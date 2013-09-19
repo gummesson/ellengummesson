@@ -6,12 +6,12 @@
   @include vendor(box-sizing, border-box);
 }
 
-::selection { 
+::selection {
   background-color: $color-brand;
   color: $color-background;
 }
 
-::-moz-selection { 
+::-moz-selection {
   background-color: $color-brand;
   color: $color-background;
 }
