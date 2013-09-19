@@ -112,8 +112,7 @@ module.exports = function(grunt) {
   // For generating the site and copying it to it's local Git repo
   grunt.registerTask('default', [
     'sass:build', 'jshint', 'uglify', 'copy:img',
-    'shell:encoding', 'shell:build',
-    'copy:site'
+    'shell:encoding', 'shell:build', 'copy:site'
   ]);
 
   // For writing code
@@ -125,6 +124,12 @@ module.exports = function(grunt) {
   grunt.registerTask('serve', [
     'sass:build', 'jshint', 'uglify', 'copy:img',
     'shell:encoding', 'shell:watch', 'connect'
+  ]);
+
+  // Linux version of the default task
+  grunt.registerTask('nix', [
+    'sass:build', 'jshint', 'uglify', 'copy:img',
+    'shell:build', 'copy:site'
   ]);
 
 };
