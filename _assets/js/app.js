@@ -2,7 +2,7 @@
 
   'use strict';
 
-// == Utility functions ========================================================
+  /* Utilities */
 
   var Utils = Utils || {};
 
@@ -25,7 +25,7 @@
     }
   };
 
-// == Mobile navigation ========================================================
+  /* Mobile navigation */
 
   var Nav = Nav || {};
 
@@ -72,7 +72,7 @@
     Nav.watch();
   };
 
-// == App initialization =======================================================
+  /* App */
 
   var App = App || {};
 
