@@ -2,7 +2,11 @@
     Lists
 -----------*/
 
-.list--tags {}
+.list--tags {
+  & li {
+    margin-right: $base-spacing-unit; 
+  }
+}
 
 .list--posts {}
 
