@@ -7,6 +7,7 @@ This is the source of my personal site ([ellengummesson.com](http://ellengummess
 - [Ruby](http://www.ruby-lang.org/)
     - [Sass](http://sass-lang.com/)
     - [Jekyll](http://www.jekyllrb.com/)
+    - [kramdown](http://kramdown.rubyforge.org/)
 - [Node.js](http://nodejs.org/)
     - [Grunt](http://gruntjs.com/)
         - [grunt-contrib-sass](https://npmjs.org/package/grunt-contrib-sass)
