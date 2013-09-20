@@ -72,26 +72,21 @@
     Nav.watch();
   };
 
+  /* Code highlighting */
+
+  var Highlight = Highlight || {};
+
+  Highlight.init = function() {
+    hljs.initHighlighting();
+  };
+
   /* App */
 
   var App = App || {};
 
-  App.highlightCode = function() {
-    hljs.initHighlighting();
-  };
-
-  App.randomPost = function() {
-    var postList = document.querySelectorAll('.js-post-link[href]'),
-        postTarget = document.querySelector('#js-random-post'),
-        postItems = postList.length,
-        postRandom = postList[Math.floor(Math.random() * postItems)];
-    postTarget.setAttribute('href', postRandom);
-  };
-
   App.init = function() {
     Nav.init();
-    App.highlightCode();
-    App.randomPost();
+    Highlight.init();
   };
 
   App.init();

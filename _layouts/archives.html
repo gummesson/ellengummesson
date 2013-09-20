@@ -5,11 +5,8 @@ title: Archives
 
 <article class="page">
 <h1>{{ page.title }}</h1>
-  <p>
-    Down below you'll find this site's full archive, split up in to either tags or monthly sections with links to each and every single post.
-  </p>
   <h2>Tags</h2>
-    <ul class="list--tags">
+    <ul class="nav  list--tags">
       {% for tag in site.tags %}
         <li>
           <a href="/blog/tag/{{ tag[0] }}/" alt="{{ tag[0] }}">{{ tag[0] }}</a>
@@ -17,18 +14,13 @@ title: Archives
       {% endfor %}
     </ul>
   <h2>Posts</h2>
-  <p class="print--expanded">
-    <a class="button button--active" id="js-random-post" href="#" alt="Go to a random post">
-      Random post
-    </a><!-- JS-generated URL -->
-  </p>
   {% for month in page.months %}
   <h3>{{ month | date: "%B" }} {{ month | date: "%Y" }}</h3>
     <ul class="list--posts">
     {% for post in page.posts_by_month[month] %}
       <li>
         <span class="list--posts__date">{{ post.date | date: "%b %e, %Y" }}:</span>
-        <a class="js-post-link" href="{{ post.url }}" alt="{{ post.title }}">{{ post.title }}</a>
+        <a href="{{ post.url }}" alt="{{ post.title }}">{{ post.title }}</a>
       </li>
     {% endfor %}
     </ul>
