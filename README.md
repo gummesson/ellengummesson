@@ -5,6 +5,7 @@ This is the source of my personal site ([ellengummesson.com](http://ellengummess
 ## Dependencies
 
 - [Ruby](http://www.ruby-lang.org/)
+    - [Bundler](http://bundler.io/)
     - [Sass](http://sass-lang.com/)
     - [Jekyll](http://www.jekyllrb.com/)
     - [kramdown](http://kramdown.rubyforge.org/)
