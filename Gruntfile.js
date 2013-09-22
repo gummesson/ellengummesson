@@ -116,7 +116,7 @@ module.exports = function(grunt) {
   // For generating the site and copying it to it's local Git repo
   grunt.registerTask('default', ['assets', 'shell:encoding', 'shell:build', 'copy:site']);
 
-  // Generate the site without copying it
+  // For generating the site without copying it
   grunt.registerTask('build', ['assets', 'shell:encoding', 'shell:build']);
 
   // For writing code
