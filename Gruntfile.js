@@ -1,15 +1,16 @@
 module.exports = function(grunt) {
 
-  grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-shell-spawn');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-connect');
+  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+
+  var projectConfig = {
+    assets: {
+      src: '_assets',
+      dest: 'assets'
+    }
+  };
 
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
+    assets: projectConfig.assets,
 
     sass: {
       build: {
@@ -18,7 +19,7 @@ module.exports = function(grunt) {
         },
 
         files: {
-          'assets/css/style.css' : '_assets/sass/style.scss'
+          '<%= assets.dest %>/css/style.css' : '<%= assets.src %>/sass/style.scss'
         }
       },
 
@@ -27,19 +28,19 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {
-          'assets/css/style.css' : '_assets/sass/style.scss'
+          '<%= assets.dest %>/css/style.css' : '<%= assets.src %>/sass/style.scss'
         }
       }
     },
 
     jshint: {
-      files: ['_assets/js/*.js']
+      files: ['<%= assets.src %>/js/*.js']
     },
 
     uglify: {
       build: {
-        src: '_assets/js/app.js',
-        dest: 'assets/js/app.js'
+        src: '<%= assets.src %>/js/app.js',
+        dest: '<%= assets.dest %>/js/app.js'
       }
     },
 
@@ -78,12 +79,12 @@ module.exports = function(grunt) {
 
     watch: {
       sass: {
-        files: '_assets/sass/*.scss',
+        files: '<%= assets.src %>/sass/*.scss',
         tasks: ['sass']
       },
 
       js: {
-        files: '_assets/js/*.js',
+        files: '<%= assets.src %>/js/*.js',
         tasks: ['jshint', 'uglify']
       }
     },
@@ -92,9 +93,9 @@ module.exports = function(grunt) {
       img: {
         files: [{
           expand: true,
-          cwd:'_assets/img',
+          cwd:'<%= assets.src %>/img',
           src: ['**'],
-          dest: 'assets/img'
+          dest: '<%= assets.dest %>/img'
         }]
       },
 
@@ -110,42 +111,18 @@ module.exports = function(grunt) {
   });
 
   // For generating the 'assets' folder
-  grunt.registerTask('assets', [
-    'sass:build',
-    'jshint',
-    'uglify',
-    'copy:img'
-  ]);
+  grunt.registerTask('assets', ['sass:build', 'jshint', 'uglify', 'copy:img']);
 
   // For generating the site and copying it to it's local Git repo
-  grunt.registerTask('default', [
-    'assets',
-    'shell:encoding',
-    'shell:build',
-    'copy:site'
-  ]);
+  grunt.registerTask('default', ['assets', 'shell:encoding', 'shell:build', 'copy:site']);
 
-  // Linux version of the default task
-  grunt.registerTask('nix', [
-    'assets',
-    'shell:build',
-    'copy:site'
-  ]);
+  // Generate the site without copying it
+  grunt.registerTask('build', ['assets', 'shell:encoding', 'shell:build']);
 
   // For writing code
-  grunt.registerTask('dev', [
-    'sass:debug',
-    'jshint',
-    'uglify',
-    'watch'
-  ]);
+  grunt.registerTask('dev', ['sass:debug', 'jshint', 'uglify', 'watch']);
 
   // For writing blog posts and the like
-  grunt.registerTask('serve', [
-    'assets',
-    'shell:encoding',
-    'shell:watch',
-    'connect'
-  ]);
+  grunt.registerTask('serve', ['assets', 'shell:encoding', 'shell:watch', 'connect']);
 
 };

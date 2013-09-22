@@ -18,6 +18,7 @@ This is the source of my personal site ([ellengummesson.com](http://ellengummess
         - [grunt-shell-spawn](https://npmjs.org/package/grunt-shell-spawn)
         - [grunt-contrib-copy](https://npmjs.org/package/grunt-contrib-copy)
         - [grunt-contrib-connect](https://npmjs.org/package/grunt-contrib-connect)
+        - [matchdep](https://npmjs.org/package/matchdep)
 
 ## License
 
