@@ -9,8 +9,7 @@ layout: default
         {% for tag in post.tags %}
           {% if tag == page.tag %}
             <li>
-              <span class="list--posts__date">{{ post.date | date: "%b %e, %Y" }}:</span>
-              <a class="js-post-link" href="{{ post.url }}" alt="{{ post.title }}">{{ post.title }}</a>
+              <span class="list--posts__date">{{ post.date | date: '%b %e, %Y' }}:</span> <a href="{{ post.url }}" alt="{{ post.title }}">{{ post.title }}</a>
             </li>
           {% endif %}
         {% endfor %}

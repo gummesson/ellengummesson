@@ -4,25 +4,25 @@
           {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
             <li>
-              <a href="/" class="button  button--active" alt="Next">&larr; Next</a>
+              <a class="button  button--active" href="/" alt="Next">&larr; Next</a>
             </li>
             {% else %}
             <li>
-              <a href="/blog/page/{{paginator.previous_page}}" class="button  button--active">&larr; Next</a>
+              <a class="button  button--active" href="/blog/page/{{ paginator.previous_page }}" alt="Next">&larr; Next</a>
             </li>
             {% endif %}
           {% else %}
             <li>
-              <a class="button  button--disabled">&larr; Next</a>
+              <a class="button  button--disabled" alt="">&larr; Next</a>
             </li>
           {% endif %}
           {% if paginator.next_page %}
             <li>
-              <a class="button  button--active" href="/blog/page/{{paginator.next_page}}" alt="Previous">Previous &rarr;</a>
+              <a class="button  button--active" href="/blog/page/{{ paginator.next_page }}" alt="Previous">Previous &rarr;</a>
             </li>
           {% else %}
             <li>
-              <a class="button  button--disabled">Previous &rarr;</a>
+              <a class="button  button--disabled" alt="">Previous &rarr;</a>
             </li>
           {% endif %}
           </ul>

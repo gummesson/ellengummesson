@@ -15,7 +15,7 @@ title: Archives
     </ul>
   <h2>Posts</h2>
   {% for month in page.months %}
-  <h3>{{ month | date: "%B" }} {{ month | date: "%Y" }}</h3>
+  <h3>{{ month | date: '%B' }} {{ month | date: '%Y' }}</h3>
     <ul class="list--posts">
     {% for post in page.posts_by_month[month] %}
       <li>

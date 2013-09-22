@@ -2,38 +2,22 @@
       <div id="js-mobile-nav" class="wrapper  wrapper--centered">
         <ul id="js-nav" class="nav  js-nav">
           <li class="print--primary">
-          {% if page.title == 'Blog' %}
-            <a class="link--hidden  link--current" href="/">
-          {% else %}
-            <a class="link--hidden" href="/">
-          {% endif %}
+          <a class="link--hidden{% if page.title == 'Blog' %}  link--current{% endif %}" href="/" alt="Blog">
               Home
             </a>
           </li>
           <li class="print--primary">
-          {% if page.title == 'About' %}
-            <a class="link--hidden  link--current" href="/about">
-          {% else %}
-            <a class="link--hidden" href="/about">
-          {% endif %}
+            <a class="link--hidden{% if page.title == 'About' %}  link--current{% endif %}" href="/about" alt="About">
               About
             </a>
           </li>
           <li class="print--primary">
-          {% if page.title == 'Archives' %}
-            <a class="link--hidden  link--current" href="/archives">
-          {% else %}
-            <a class="link--hidden" href="/archives">
-          {% endif %}
+            <a class="link--hidden{% if page.title == 'Archives' %}  link--current{% endif %}" href="/archives" alt="Archives">
               Archives
             </a>
           </li>
           <li class="print--primary">
-          {% if page.title == 'Contact' %}
-            <a class="link--hidden  link--current" href="/contact">
-          {% else %}
-            <a class="link--hidden" href="/contact">
-          {% endif %}
+            <a class="link--hidden{% if page.title == 'Contact' %}  link--current{% endif %}" href="/contact" alt="Contact">
               Contact
             </a>
           </li>

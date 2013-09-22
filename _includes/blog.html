@@ -6,7 +6,7 @@
             </a>
           </h1>
           <p class="post__meta">
-            Posted on {{ post.date | date: "%B %e, %Y" }}{% if post.tags %} in {% for tag in post.tags %}<a href="/blog/tag/{{ tag }}" alt="{{ tag }}">{{ tag }}</a>{% if forloop.last %} {% else %}, {% endif %}{% endfor %}{% endif %}<a href="{{ post.url }}" alt="Permalink – {{ post.title }}" class="post__meta--permalink  link--hidden">&infin;</a>
+            Posted on {{ post.date | date: '%B %e, %Y' }}{% if post.tags %} in {% for tag in post.tags %}<a href="/blog/tag/{{ tag }}" alt="{{ tag }}">{{ tag }}</a>{% if forloop.last %} {% else %}, {% endif %}{% endfor %}{% endif %}<a class="post__meta--permalink  link--hidden" href="{{ post.url }}" alt="Permalink – {{ post.title }}">&infin;</a>
           </p>
         {% else %}
           <h1 class="post__title">
@@ -15,7 +15,7 @@
             </a>
           </h1>
           <p class="post__meta">
-            Posted on {{ post.date | date: "%B %e, %Y" }}{% if post.tags %} in {% for tag in post.tags %}<a href="/blog/tag/{{ tag }}" alt="{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}{% endfor %}{% endif %}
+            Posted on {{ post.date | date: '%B %e, %Y' }}{% if post.tags %} in {% for tag in post.tags %}<a href="/blog/tag/{{ tag }}" alt="{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}{% endfor %}{% endif %}
           </p>
         {% endif %}
         {{ post.content }}
