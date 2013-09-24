@@ -9,3 +9,7 @@ layout: page
 - [Oh my Zsh!](/notes/oh-my-zsh)
 - [Tmux](/notes/tmux)
 - [urxvt to Console](/notes/urxvt-to-console)
+
+## Setup
+
+- [Linux](/notes/the-linux-setup)
