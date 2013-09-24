@@ -1,5 +1,5 @@
 ---
-title: "A few quick tips for working with `npm` on Windows"
+title: "A few quick tips for working with npm on Windows"
 tags: ["JavaScript", "Node.js", "npm"]
 layout: post
 comments: true
