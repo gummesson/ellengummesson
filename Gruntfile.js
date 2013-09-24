@@ -80,7 +80,7 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: '<%= assets.src %>/sass/*.scss',
-        tasks: ['sass']
+        tasks: ['sass:debug']
       },
 
       js: {
