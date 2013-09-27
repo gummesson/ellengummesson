@@ -5,11 +5,11 @@ layout: page
 
 ## Installation
 
-A quick guide for installing [ack](http://betterthangrep.com/).
+A quick guide for installing [ack](http://beyondgrep.com/).
 
 ### Windows
 
-1. Download the standalone script from the [official website](http://betterthangrep.com/install/) and save it as `ack`.
+1. Download the standalone script from the [official website](http://beyondgrep.com/install/) and save it as `ack`.
 3. Create a `bat` file and add the following to it: `@"C:\path\to\perl.exe" C:\path\to\ack %*`[^1].
 4. Save the file as `ack.bat` and place it somewhere in your system environment path or create a new folder and add it to said path[^2].
 
