@@ -3,6 +3,7 @@ title: "Notes"
 layout: page
 ---
 
+- [ack](/notes/ack)
 - [Github](/notes/github)
 - [kramdown](/notes/kramdown)
 - [MongoDB](/notes/mongodb)
