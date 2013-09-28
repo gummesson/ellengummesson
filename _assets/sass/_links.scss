@@ -24,3 +24,11 @@ a {
     @extend .link--hidden;
   }
 }
+
+.link--hidden {
+  border-bottom: 1px solid transparent;
+}
+
+.link--current {
+  color: $color-brand;
+}

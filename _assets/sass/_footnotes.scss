@@ -4,8 +4,8 @@
 ----------------*/
 
 .footnotes {
-  @extend %text--italic;
-  @extend %text--tiny;
+  @extend %font--italic;
+  @extend %font--micro;
 }
 
   .footnotes > ol > li {

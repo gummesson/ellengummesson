@@ -2,34 +2,28 @@
     Shared
 ------------*/
 
-/* Typography */
+/* Alignments */
 
-%text--bold {
-  font-weight: bold;
-}
-
-%text--italic {
-  font-style: italic;
-}
-
-%text--centered {
+%text--center {
   text-align: center;
 }
 
-%text--small {
+/* Style */
+
+%font--bold {
+  font-weight: bold;
+}
+
+%font--italic {
+  font-style: italic;
+}
+
+/* Sizes */
+
+%font--milli {
   font-size: $base-font-size * 0.875;
 }
 
-%text--tiny {
+%font--micro {
   font-size: $base-font-size * 0.75;
-}
-
-/* Links */
-
-.link--hidden {
-  border-bottom: 1px solid transparent;
-}
-
-.link--current {
-  color: $color-brand;
 }

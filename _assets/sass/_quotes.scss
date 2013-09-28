@@ -3,8 +3,8 @@
 ------------*/
 
 blockquote {
-  @extend %text--italic;
-  @extend %text--small;
+  @extend %font--italic;
+  @extend %font--milli;
   margin-left: -#{$base-spacing-unit};
   padding: 0 $base-spacing-unit;
   border-left: 4px solid $color-brand;

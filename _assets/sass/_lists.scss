@@ -11,5 +11,5 @@
 .list--posts {}
 
   .list--posts__date {
-    @extend %text--bold;
+    @extend %font--bold;
   }

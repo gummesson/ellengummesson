@@ -3,7 +3,7 @@
 -------------*/
 
 .button {
-  @extend %text--bold;
+  @extend %font--bold;
   padding: ($base-spacing-unit / 2) ($base-spacing-unit);
   white-space: nowrap;
   cursor: pointer;
