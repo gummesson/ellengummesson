@@ -20,12 +20,23 @@ $base-font-size: 1em;
 $base-spacing-unit: 1.2em;
 
 // Layout
-$container-width: 45em;
+$base-container-width: 45em;
 
 // Magic number for the sticky footer... :C
-$footer-height: 8.3em;
+$base-footer-height: 8.3em;
+
+// Vendor prefixes
+$prefixes: (
+  "-webkit-",
+  "-moz-",
+  "-o-",
+  "-ms-",
+  ""
+);
 
 // Breakpoints
-$breakpoint-palm: 30em;
-$breakpoint-lap: 50em;
-$breakpoint-desk: 70em;
+$breakpoints: (
+  ("palm", "(max-width: 30em)"),
+  ("lap", "(max-width: 50em)"),
+  ("desk", "(max-width: 70em)")
+);

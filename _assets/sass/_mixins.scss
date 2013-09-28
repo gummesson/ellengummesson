@@ -4,14 +4,29 @@
 
 // Vendor
 @mixin vendor($property, $value) {
-  -webkit-#{$property}: $value;
-  -moz-#{$property}: $value;
-  #{$property}: $value;
+  @each $prefix in $prefixes {
+    #{$prefix}#{$property}: #{$value};
+  }
 }
 
 // Breakpoint
-@mixin breakpoint($property, $width) {
-  @media only screen and (#{$property}-width: $width) {
-    @content;
+@mixin breakpoint($name) {
+  $breakpoint-found: false;
+
+  @each $breakpoint in $breakpoints {
+    $breakpoint-name: nth($breakpoint, 1);
+    $breakpoint-size: nth($breakpoint, 2);
+
+    @if ($name == $breakpoint-name) {
+      $breakpoint-found: true;
+
+      @media only screen and #{$breakpoint-size} {
+        @content;
+      }
+    }
+  }
+
+  @if ($breakpoint-found == false) {
+    @warn "Unrecognized breakpoint: #{$name}";
   }
 }

@@ -9,7 +9,7 @@ blockquote {
   padding: 0 $base-spacing-unit;
   border-left: 4px solid $color-brand;
 
-  @include breakpoint("max", $breakpoint-lap) {
+  @include breakpoint("lap") {
     margin-left: -#{$base-spacing-unit / 2};
     border-left: 2px solid $color-brand;
   }

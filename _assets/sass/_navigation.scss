@@ -17,7 +17,7 @@
 }
 
 .js-nav {
-  @include breakpoint("max", $breakpoint-palm) {
+  @include breakpoint("palm") {
     display: none;
     visibility: hidden;
   }
@@ -27,7 +27,7 @@
     display: none;
     visibility: hidden;
 
-    @include breakpoint("max", $breakpoint-palm) {
+    @include breakpoint("palm") {
       display: inline-block;
       visibility: visible;
       width: 100%;

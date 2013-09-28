@@ -1,0 +1,22 @@
+/*----------
+    Main
+----------*/
+
+* {
+  @include vendor(box-sizing, border-box);
+}
+
+::selection {
+  background-color: $color-brand;
+  color: $color-background;
+}
+
+::-moz-selection {
+  background-color: $color-brand;
+  color: $color-background;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
