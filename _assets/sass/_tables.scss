@@ -3,8 +3,8 @@
 ------------*/
 
 table {
-  margin-bottom: $base-spacing-unit;
-  width: 100%;
+  @extend %push--bottom;
+  @extend %one--whole;
 }
 
   th {

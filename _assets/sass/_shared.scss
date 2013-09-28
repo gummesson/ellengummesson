@@ -2,6 +2,12 @@
     Shared
 ------------*/
 
+/* Widths */
+
+%one-whole {
+  width: 100%;
+}
+
 /* Alignments */
 
 %text--center {
@@ -26,4 +32,16 @@
 
 %font--micro {
   font-size: $base-font-size * 0.75;
+}
+
+/* Push */
+
+%push--bottom {
+  margin-bottom: $base-spacing-unit;
+}
+
+/* Flush */
+
+%flush--bottom {
+  margin-bottom: 0;
 }

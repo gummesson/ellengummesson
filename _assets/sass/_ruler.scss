@@ -3,7 +3,7 @@
 -----------*/
 
 hr {
-  width: 100%;
+  @extend %one--whole;
   height: 1px;
   background-color: $color-secondary;
   border: none;

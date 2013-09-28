@@ -23,7 +23,7 @@
 .l-main {}
 
   .l-pagination {
-    margin-bottom: $base-spacing-unit;
+    @extend %push--bottom;
 
     & li {
       margin-right: $base-spacing-unit * 2; 
@@ -31,9 +31,9 @@
   }
 
 .l-footer {
+  @extend %one--whole;
   position: absolute;
   left: 0;
   bottom: 0;
   height: $base-footer-height;
-  width: 100%;
 }

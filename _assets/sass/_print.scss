@@ -5,7 +5,3 @@
 .print--primary {
   @extend %font--bold;
 }
-
-.print--expanded {
-  margin-bottom: $base-spacing-unit * 2;
-}

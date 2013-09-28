@@ -7,11 +7,11 @@
 }
 
   .post:last-child {
-    margin-bottom: 0;
+    @extend %flush--bottom;
   }
 
   .post__title {
-    margin-bottom: 0;
+    @extend %flush--bottom;
   }
 
   .post__meta {
