@@ -30,7 +30,7 @@
   var Nav = Nav || {};
 
   Nav.create = function() {
-    var links = document.querySelectorAll('#js-nav li a'),
+    var links = document.querySelectorAll('.js-nav--item'),
         select = document.createElement('select'),
         first = document.createElement('option'),
         fragment = document.createDocumentFragment(),

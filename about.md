@@ -14,5 +14,3 @@ I've also started to learn the programming language [Ruby](http://www.ruby-lang.
 The blog posts are written in [Markdown](http://daringfireball.net/projects/markdown/), scribbled down in [Pop](http://minimaltools.com/), [iA Writer](http://www.iawriter.com/) or [ResophNotes](http://resoph.com/ResophNotes/Welcome.html) before finally ending up and being finished in [FocusWriter](http://gottcode.org/focuswriter/), [Vim](http://www.vim.org/) or occasionally in [MarkdownPad](http://www.mardownpad.com/). [Shotty](http://shotty.devs-on.net/en/Overview.aspx) is used for taking the screenshots. 
 
 The site's content is licensed under [Creative Commons BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) while the source code is licensed under [the MIT license](http://opensource.org/licenses/MIT).
-
-If you want you can subscribe to the site's [RSS feed](/feed.xml).
