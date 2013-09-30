@@ -3,8 +3,8 @@
 -----------*/
 
 hr {
-  @extend %one--whole;
+  @extend %one-whole;
   height: 1px;
   background-color: $color-secondary;
-  border: none;
+  border: 0;
 }

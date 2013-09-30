@@ -2,10 +2,7 @@
     Layout
 ------------*/
 
-.l-container {
-  min-width: 100%;
-  min-height: 100%;
-}
+.l-container {}
 
 .l-nav {
   & li {
@@ -31,7 +28,6 @@
   }
 
 .l-footer {
-  @extend %one--whole;
   position: absolute;
   left: 0;
   bottom: 0;

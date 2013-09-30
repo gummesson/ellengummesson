@@ -7,11 +7,11 @@ Everything: Ellen Gummesson
 
 /* THE SITE */
 
-Last update: 2013/09/28
+Last update: 2013/09/30
   Standards: HTML5 & CSS3
  Components: normalize.css              (http://necolas.github.io/normalize.css/)
              highlight.js               (http://softwaremaniacs.org/soft/highlight/en/)
-             Tomorrow Theme             (http://jmblog.github.io/color-themes-for-highlightjs/tomorrow/)
+             Paraíso Dark               (https://github.com/idleberg/Paraiso-highlight.js)
              html5shiv                  (https://code.google.com/p/html5shiv/)
              Modern Clean Sticky Footer (http://mystrd.at/modern-clean-css-sticky-footer/)
              Font Awesome               (http://fontawesome.io/)

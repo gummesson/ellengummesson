@@ -4,11 +4,11 @@
 
 .post {
   margin-bottom: $base-spacing-unit * 3;
-}
-
-  .post:last-child {
+  
+  &:last-child {
     @extend %flush--bottom;
   }
+}
 
   .post__title {
     @extend %flush--bottom;
@@ -19,6 +19,6 @@
     margin-top: 0;
   }
 
-  .post__meta--permalink {
-    color: $color-secondary;
-  }
+    .post__meta--permalink {
+      color: $color-secondary;
+    }

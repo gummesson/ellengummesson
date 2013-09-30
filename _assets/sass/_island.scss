@@ -7,7 +7,7 @@
 }
 
   .island--banner {
-    width: 100%;
+    @extend %one-whole;
     background-color: $color-brand;
     color: $color-background;
   }
