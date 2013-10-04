@@ -5,6 +5,7 @@ layout: post
 comments: true
 external-url: false
 ---
+
 A few days ago I was having trouble with the executable file for [Severa](https://github.com/gummesson/servera). I couldn't get it to run on my Linux box and after some troubleshooting I realized what the culprit was. It was saved as a `dos` file. That's highly annoying when you're trying to make your code cross-platform. After some digging around I found a few solutions that seems to work:
 
 - Use Unix-style line endings:
