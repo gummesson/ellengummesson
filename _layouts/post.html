@@ -5,7 +5,9 @@ layout: default
 <article class="post">
   {% if page.external-url %}
     <h1 class="post__title">
-      <a class="link--hidden" href="{{ page.external-url }}" alt="{{ page.title }}">{{ page.title }} &rarr;</a>
+      <a class="link--hidden" href="{{ page.external-url }}" alt="{{ page.title }}">
+        {{ page.title }} <span class="post__title--external">&rarr;</span>
+      </a>
     </h1>
   {% else %}
     <h1 class="post__title">

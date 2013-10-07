@@ -2,7 +2,7 @@
         {% if post.external-url %}
           <h1 class="post__title">
             <a class="link--hidden" href="{{ post.external-url }}" alt="{{ post.title }}">
-              {{ post.title }} &rarr;
+              {{ post.title }} <span class="post__title--external">&rarr;</span>
             </a>
           </h1>
           <p class="post__meta">
