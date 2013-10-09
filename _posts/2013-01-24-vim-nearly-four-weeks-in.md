@@ -41,7 +41,7 @@ Resizing your windows in Vim can be a bit of a pain, especially if you want to g
 
 This was one of the features that I like the most about Sublime Text 2 and I'm glad that I can use it in Vim too. If I can't edit a certain filetype I don't want to see it.
 
-***
+* * *
 
 [^20130124-1]: One of the most useful tweaks I've found for writing blog posts was from Peter Provost's [Editing Octopress/Jekyll Posts in Vim](http://peterprovost.org/blog/2012/04/22/editing-octopress-slash-jekyll-posts-in-vim/). The YAML front matter doesn't look like crap anymore, yay!
 [^20130123-2]: [A repository inside another repository](http://git-scm.com/book/en/Git-Tools-Submodules).

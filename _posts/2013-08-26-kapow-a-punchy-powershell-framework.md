@@ -12,7 +12,7 @@ Earlier today I released a new project called [Kapow!](https://github.com/gummes
 
 It's definitively an improvement over the standard look and behaviour. I haven't noticed any slowness at all either, but the plugin library isn't that huge right now. I'm hoping to expanded it a bit more and I'll be happy if anyone wants to contribute!
 
-***
+* * *
 
 [^20130826-1]: It takes about 10 seconds to launch it. No joke.
 [^20130826-2]: I'm also using [Console2](http://sourceforge.net/projects/console/).

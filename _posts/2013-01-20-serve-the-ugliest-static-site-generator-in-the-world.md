@@ -18,7 +18,7 @@ It suddenly clicked for me and I *finally* got "it"[^20130120-2], which is such 
 
 **TL;DR:** Learning stuff is awesome, especially when you notice your own progress.
 
-***
+* * *
 
 [^20130120-1]: I've of course read about them and have an basic understanding of their purpose but actually seeing them in action and implementing them is so much better for my learning experience.
 [^20130120-2]: With "it" I mean how to use them to get them to work with the rest of the code. "Inheritance!" was literally the thing that popped up in my head that made me understand everything. It's funny how the brain works sometimes.

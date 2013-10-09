@@ -14,7 +14,7 @@ Although I'm a big fan of both serif and sans-serifs I've never really been comf
 
 My hunt for something better is finally over and hopefully it'll make me be more productive when it comes to writing. I'd like that.
 
-***
+* * *
 
 [^20121119-1]: The font rendering on Windows is quite horrendous from time to time.
 [^20121119-2]: Another common Windows font rendering problem.

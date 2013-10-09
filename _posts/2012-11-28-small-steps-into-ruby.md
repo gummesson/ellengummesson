@@ -28,7 +28,7 @@ I found the book [Mr. Neighborly's Humble Little Ruby Book](http://www.humblelit
 
 I still have a long way to go, but so far it's been a really fun ride.
 
-***
+* * *
 
 [^20121128-1]: [YAML Ain't Markup Language](http://en.wikipedia.org/wiki/Yaml).
 [^20121128-2]: The `config.yml` file contains a single line, `txt_file:`, where you put the path to the text file in question. 

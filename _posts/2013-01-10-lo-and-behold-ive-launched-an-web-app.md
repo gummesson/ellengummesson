@@ -16,7 +16,7 @@ The day before yesterday I launched my first "web app", [Kramit!](http://kramit.
 
 First of all I think I'm continue to play around with Sinatra and the Ruby language itself a bit more and then maybe look at [Ruby on Rails](http://rubyonrails.org/). It's much more advanced and kind of plays on a whole other field than Sinatra, but it would be fun to learn.
 
-***
+* * *
 
 [^20130110-1]: I like it because it has [MultiMarkdown](http://fletcherpenney.net/multimarkdown/) features like footnotes for examples (this footnote became very meta by the way).
 [^20130110-2]: [Minimum viable product](http://en.wikipedia.org/wiki/Minimum_viable_product).

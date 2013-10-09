@@ -17,6 +17,6 @@ First things first, [Perl](http://www.perl.org/) needs to be install on the syst
 
 You can use the same steps to create a more "sophisticated" way of running any kind of script too. Let's say you have a script called `foo.rb`. You want to run it straight from the command line but you don't necessary want to turn into a full fledged gem. Just change the the first path in the `bat` file so it points to your binary [Ruby](http://www.ruby-lang.org/) file and the second to your actually script and you're all good!
 
-***
+* * *
 
 [^20130221-1]: Which can be modified under "System Properties" &rarr; "Advanced system settings" &rarr; "Advanced" &rarr; "Environment Variables" &rarr; "Path".

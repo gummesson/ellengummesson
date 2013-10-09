@@ -107,6 +107,6 @@ This needs to be configured since `dwm` doesn't use a autostart file by itself. 
 
 Now it's time for you to reboot and press `F1` when the login screen appears to choose which window manager to use. Make sure that you're using `dwm`, log in and you're done!
 
-***
+* * *
 
 [^20130810-1]: To make a file executable, open up the terminal and type `chmod +x file.ext`.

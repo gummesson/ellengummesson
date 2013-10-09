@@ -23,7 +23,7 @@ If you're interested in trying Vim out, I encourage you to look at these website
 - [Vimcasts](http://vimcasts.org/)
 - [Derek Wyatt's Vim tutorial videos](http://www.derekwyatt.org/vim/vim-tutorial-videos/)
 
-***
+* * *
 
 [^20121230-1]: I've noticed that the more I use it the more I like it so maybe it's just a matter of time before I take the plunge and switch over to it fully.
 [^20121230-2]: Vim is like a blank canvas when you start. Literally. Not even the syntax highlighting is on by default. 

@@ -12,6 +12,6 @@ Just a few days ago I stumbled upon a new web based writing app by [Dan Eden](ht
 
 However, right now there's no way to make your documents private. Anyone can access them by guessing the random assigned numbers after the base URL. The ability to make documents private is being developed though. I think it's great that you can actually create public viewable documents, like when you want to share something you've written the doesn't really fit on your blog for example. In all honesty I think that Onword is the finest web-based writing app I've come across and I'll make sure to use it when I feel the urge and need to do so.
 
-***
+* * *
 
 [^20121113-1]: The app uses it to associate your documents with your account.

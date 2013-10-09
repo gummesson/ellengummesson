@@ -10,7 +10,7 @@ Earlier today I look into some simple solution to enable support for footnotes s
 
 So to wrap this short post up, if you're looking for a pretty fast markdown interpreter for Jekyll that has some additional features you should definitively try out kramdown.
 
-***
+* * *
 
 [^20121109-1]: Although forks of Markdown like [Markdown Extra](http://michelf.ca/projects/php-markdown/extra/) and [MultiMarkdown](http://fletcherpenney.net/multimarkdown/) do.
 [^20121109-2]: kramdown is built exclusively with [Ruby](http://en.wikipedia.org/wiki/Ruby_(programming_language)) while rdiscount also uses [C](http://en.wikipedia.org/wiki/C_(programming_language)), which to my understanding makes the whole process faster.

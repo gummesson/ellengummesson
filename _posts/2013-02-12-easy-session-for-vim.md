@@ -18,6 +18,6 @@ An earlier version of it had an `:Sessions` command, but it used [Netrw](http://
 
 I don't know if it's useful for anyone but me, but it was a fun challenge. There's a [Session.vim](http://peterodding.com/code/vim/session/) plugin that has a lof more advanced features than mine do, but I think I'll stick with my own solution for now.
 
-***
+* * *
 
 [^20130212-1]: The "`0`" makes the list start on the first line in the buffer. If just `:read` is used it'll paste the content below the first line.

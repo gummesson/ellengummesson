@@ -20,7 +20,7 @@ Since it exports to rich text format the app also support basic formatting like 
 
 To wrap things up: I think that overall it's a nice app which comes in handy for brainstorming and organsing the work that goes in to writing blog posts among other things. I'm not sure that I'm going to use it all the time but it's nice to have something like it when you're stuck and you need it.
 
-***
+* * *
 
 [^20121122-1]: `Shift + Tab` brings it back up a level.
 [^20121122-2]: [Outline Processor Markup Language](http://en.wikipedia.org/wiki/Opml).

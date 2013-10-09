@@ -30,7 +30,7 @@ Simple and effective!
 - The pink line at the bottom of the site uses the ["James Dean Sticky Footer"](http://mystrd.at/modern-clean-css-sticky-footer/) approach, which is a nice little hack. I love the name too!
 - I tried to change as little as possible when I did the CSS for the media queries. I pratically just changed the font size and some margins. That's it.
 
-***
+* * *
 
 [^20130309-1]: I'm an obsessive commiter.
 [^20130309-2]: I doubt that that will cause any problems. I don't think I know anyone that actually use Internet Explorer.

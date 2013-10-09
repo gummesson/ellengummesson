@@ -16,7 +16,7 @@ I feel like I start to sound like a fantatic when it comes to [Vim](http://www.v
 
 I like using footnotes but I hate having to manually enter the date for each and every one of them[^20130216-2]. At first I used a simple abbreviation to try to tackle the problem but I still had to move around too much for my liking. Now I just need to press `F7` and the date will get added to every footnote automatically. Like *Voutliner* I doubt that many people will use it, but yet again it's extremely useful for me.
 
-***
+* * *
 
 [^20130216-1]: And it's a really bad name.
 [^20130216-2]: I use `YYYYMMDD-#` as a format so that every footnote has an unique set of numbers, which makes it even more tedious.

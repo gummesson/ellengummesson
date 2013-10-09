@@ -21,7 +21,7 @@ The *Jekyll Rake Boilerplate* consists of four tasks: `build`, `post`, `git` and
 
 I also set the default task to `build` so if I'm feeling lazy I only need to type `rake`, hit `Enter` and the site will be generated. I've contemplating about adding some more tasks but for now I'll stick to what I already have. The goal is to keep it as simple and adaptable as possible so that anyone can use it without having to modify it too much unless they want to.
 
-***
+* * *
 
 [^20121226-1]: And the code itself is probably not that good since I'm still learning.
 [^20121226-2]: The settings for some of the tasks needs to be in the `_config.yml` file in order for them to work.

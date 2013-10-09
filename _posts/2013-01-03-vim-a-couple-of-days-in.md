@@ -10,7 +10,7 @@ It's been nearly a week since I started with venturing into [Vim](http://www.vim
 
 I've also started a new project[^20130103-2] and decided that I'll only work on it in Vim just to get a good feel for it and to learn how to actually use all the basic ways to get by atleast. That'll probably prove to be a challenge, but fun nonetheless. I have a lot to learn but I'm equally eager to do that.
 
-***
+* * *
 
 [^20130103-1]: The default way of saving things in Vim.
 [^20130103-2]: Or a thing. The word "project" sounds so serious.

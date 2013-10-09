@@ -42,7 +42,7 @@ Which outputs something like this when you type `.fndi`[^20121115-2]:
 
 You do have to add the footnote number yourself, but that's not too much of a hassle. It'll obviously won't work that great if you're publishing several posts a day, but it could be easily modified to add hours, minutes and seconds to it and so on.
 
-***
+* * *
 
 [^20121115-1]: The cursor will be placed inside the square brackets.
 [^20121115-2]: The cursor will be placed after the hyphen.

@@ -10,6 +10,6 @@ A couple of months back I wrote a blog post called *["The Joys of Writing"](/blo
 
 I realize as I type this out that this blog post has a goodbye vibe written all over it, but fortunately that's not the case. I just need to vent out some of my frustration. I'm going to keep fighting it and I hope that I'll come out of it sooner than later. I guess that in a sense this post is already a step in the right direction.
 
-***
+* * *
 
 [^20121209-1]: [As I've stated before](/blog/2012/09/20/the-joys-of-writing/), I don't use any kind of analytics on this website so I haven't got a clue about the readership.

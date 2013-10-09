@@ -26,7 +26,7 @@ While my goal is to keep the netbook as clean as possible there was one[^2012121
 
 In short I really love this distro. It's fast, light on the resources, highly customizable but at the same just works. The battery life has gone down from around 5 hours to 4.5 hours, which isn't that bad at all. In fact I'm really impressed by that too. I wholeheartedly recommend it to people who want to make the jump to Linux but don't want to use something more resource-heavy, like the current main version of [Ubuntu](http://www.ubuntu.com/), while still maintaining an all-around functionality for most users.
 
-***
+* * *
 
 [^20121214-1]: The system specification is as followed: 1.6 GHz, 1 GB RAM, 160 GB HDD with Windows XP (previously) installed.
 [^20121214-2]: [Abiword](http://www.abisource.com/), [Gnumeric](http://projects.gnome.org/gnumeric/), [xfburn](http://goodies.xfce.org/projects/applications/xfburn) and a few others.

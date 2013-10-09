@@ -12,6 +12,6 @@ I also played around with [Sinatra](http://www.sinatrarb.com/) again and came up
 
 I'm also thinking about extending [Kramit!](http://kramit.ellengummesson.com/) a bit, but we'll see how that goes... I guess I should try to slow myself down a bit since I've launched three new projects this week alone. I'm having fun though!
 
-***
+* * *
 
 [^20130112-1]: That's including blank lines and comments. It's still a pretty big number though. The compiled CSS code is 682 lines long and that's without any additional content besides the basic structure itself.

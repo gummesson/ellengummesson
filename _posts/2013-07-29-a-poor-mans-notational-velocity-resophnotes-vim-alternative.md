@@ -59,6 +59,6 @@ There's really nothing fancy in the above scripts, but the combination of using 
 
 You can of course change the `g:notes_directory` and `g:notes_extension` to whatever you want. You could remove the `if has("unix")` part if you don't plan on using it on different systems too.
 
-***
+* * *
 
 [^20130729-1]: The plugin in itself works flawlessly but Ack doesn't really work all to well on Windows.

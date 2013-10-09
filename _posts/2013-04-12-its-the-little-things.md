@@ -12,6 +12,6 @@ A couple of days ago Chris Coyier [wrote an interesting post](http://css-tricks.
 
 I'm not going to lie, that made me smile[^20130412-1].
 
-***
+* * *
 
 [^20130412-1]: And you can officially file this post under "humble brag".

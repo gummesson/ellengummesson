@@ -24,7 +24,7 @@ After installing the 0.12.1 version of [Jekyll](http://jekyllrb.com/) I started 
 
 The `RbConfig` part is actually a neat trick I found a couple of weeks ago. It apparently works better than using `RUBY_PLATFORM` since it picks up the actual OS rather than the Ruby platform.[^20130303-2] I'm not sure that the `require` part is really necessary but it doesn't hurt either. You can of course just create an alias too if you're only using Unix, ie: `alias jekyll="export LANG=en_EN.UTF-8 && jekyll"` or something like that.
 
-***
+* * *
 
 [^20130303-1]: I actually set my language to `sv_SV.UTF-8`, but I figured that using the english version in an example is better.
 [^20130303-2]: Using `RUBY_PLATFORM` when you're working with other Ruby implementations such as JRuby doesn't quite work, if I understand it correctly.
