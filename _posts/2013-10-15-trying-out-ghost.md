@@ -6,7 +6,9 @@ comments: true
 external-url: false
 ---
 
-[Ghost](http://ghost.org/) finally arrived yesterday and I was eager to try it out. The UI is really amazing and it seems like creating a theme for it can be done in minutes[^20131015-1]. I ran into some common errors so here's a really condensed guide on how to get it up and running. This may not be the perfect thing to do if you're actually planning on using it in production, but more so for just playing around with it.
+***Update:** it seems like the pre-packaged release is now working for me, which is awesome!*
+
+[Ghost](http://ghost.org/) finally arrived yesterday and I was eager to try it out. The UI is really amazing and it seems like creating a theme for it can be done in minutes[^20131015-1]. I ran into some common errors with the pre-packaged release so here's a really condensed guide on how to get it up and running. This may not be the perfect thing to do if you're actually planning on using it in production, but more so for just playing around with it.
 
 ## Prerequisites
 
