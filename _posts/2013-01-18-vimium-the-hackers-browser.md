@@ -1,5 +1,5 @@
 ---
-title: "Vimium: the hacker's browser" 
+title: "Vimium – the hacker's browser" 
 tags: ["Web", "Apps"]
 layout: post
 comments: true

@@ -1,5 +1,5 @@
 ---
-title: "Ferro: The keyboard interface to Chrome"
+title: "Ferro – The keyboard interface to Chrome"
 tags: ["Code", "Web"]
 layout: post
 comments: true

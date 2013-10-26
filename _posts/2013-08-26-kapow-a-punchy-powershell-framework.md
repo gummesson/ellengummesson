@@ -1,5 +1,5 @@
 ---
-title: "Kapow! – a punchy PowerShell framework"
+title: "Kapow!: a punchy PowerShell framework"
 tags: ["Code", "PowerShell", "Console"]
 layout: post
 comments: true
