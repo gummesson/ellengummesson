@@ -5,7 +5,7 @@ module Jekyll
     def initialize(site, base, dir, tag)
       @site = site
       @base = base
-      @dir = dir
+      @dir = dir.downcase.gsub(/\s+/,'-')
       @name = 'index.html'
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'tags.html')

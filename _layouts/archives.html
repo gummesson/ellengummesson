@@ -9,7 +9,7 @@ title: Archives
     <ul class="nav  list--tags">
       {% for tag in site.tags %}
         <li>
-          <a href="/blog/tag/{{ tag[0] }}/" alt="{{ tag[0] }}">{{ tag[0] }}</a>
+          <a href="/blog/tag/{{ tag[0] | downcase | replace:' ','-' }}/" alt="{{ tag[0] }}">{{ tag[0] }}</a>
         </li>
       {% endfor %}
     </ul>
