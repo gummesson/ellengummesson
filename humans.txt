@@ -7,7 +7,7 @@ Everything: Ellen Gummesson
 
 /* THE SITE */
 
-Last update: 2013/11/01
+Last update: 2013/11/04
   Standards: HTML5 & CSS3
  Components: normalize.css              (http://necolas.github.io/normalize.css/)
              highlight.js               (http://softwaremaniacs.org/soft/highlight/en/)
