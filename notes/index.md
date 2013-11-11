@@ -6,6 +6,7 @@ layout: page
 - [ack](/notes/ack)
 - [Github](/notes/github)
 - [kramdown](/notes/kramdown)
+- [LuaRocks](/notes/luarocks)
 - [MongoDB](/notes/mongodb)
 - [Oh my Zsh!](/notes/oh-my-zsh)
 - [Tmux](/notes/tmux)
