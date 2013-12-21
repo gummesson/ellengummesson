@@ -2,24 +2,24 @@
     Layout
 ------------*/
 
-.l-container {}
+.site-container {}
 
-.l-nav {
+.site-nav {
   & li {
     margin-right: $base-spacing-unit * 2; 
   }
 }
 
-.l-header {}
+.site-header {}
 
-  .l-logo {
+  .site-logo {
     font-size: $base-spacing-unit * 2.75;
     margin: ($base-spacing-unit / 4) 0;
   }
 
-.l-main {}
+.site-main {}
 
-  .l-pagination {
+  .site-pagination {
     @extend %push--bottom;
 
     & li {
@@ -27,7 +27,7 @@
     }
   }
 
-.l-footer {
+.site-footer {
   position: absolute;
   left: 0;
   bottom: 0;

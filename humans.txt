@@ -7,11 +7,10 @@ Everything: Ellen Gummesson
 
 /* THE SITE */
 
-Last update: 2013/11/11
+Last update: 2013/12/21
   Standards: HTML5 & CSS3
  Components: normalize.css              (http://necolas.github.io/normalize.css/)
              highlight.js               (http://softwaremaniacs.org/soft/highlight/en/)
-             Paraíso Dark               (https://github.com/idleberg/Paraiso-highlight.js)
              html5shiv                  (https://code.google.com/p/html5shiv/)
              Modern Clean Sticky Footer (http://mystrd.at/modern-clean-css-sticky-footer/)
              Font Awesome               (http://fontawesome.io/)

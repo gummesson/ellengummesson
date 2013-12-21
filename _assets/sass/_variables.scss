@@ -6,24 +6,24 @@
 $color-background: #fdfdfd;
 $color-primary: #444;
 $color-secondary: lighten($color-primary, 50%);
-$color-brand: #9b4c58;
+$color-brand: #268bd2;
 $color-brand-light: lighten($color-brand, 25%);
 
 // Typography
 $base-font-weight: 400;
 $base-font-percent: 125%;
 $base-line-height: 1.5;
-$base-font-family: "Lato", Helvetica, Arial, Sans-serif;
+$base-font-family: "Open Sans", Helvetica, Arial, sans-serif;
 $base-font-size: 1em;
 
 // Spacing
 $base-spacing-unit: 1.2em;
 
 // Layout
-$base-container-width: 45em;
+$base-container-width: 42em;
 
 // Magic number for the sticky footer... :C
-$base-footer-height: 8.3em;
+$base-footer-height: 8.2em;
 
 // Vendor prefixes
 $prefixes: (
