@@ -9,7 +9,7 @@ I've also started to learn the programming language [Ruby](http://www.ruby-lang.
 
 ## Colophon
 
-[This site](http://ellengummesson.com/) is powered by [Jekyll](http://www.jekyllrb.com/) and hosted on [GitHub Pages](http://pages.github.com/). It was built with HTML5, CSS3 and [Sass](http://sass-lang.com/). The code was written by hand in [Vim](http://www.vim.org/). The site makes use of the rather nice looking typeface [Lato](http://www.google.com/webfonts/specimen/Lato), which is provided by [Google Webfonts](http://www.google.com/webfonts).
+[This site](http://ellengummesson.com/) is powered by [Jekyll](http://www.jekyllrb.com/) and hosted on [GitHub Pages](http://pages.github.com/). It was built with HTML5, CSS3 and [Sass](http://sass-lang.com/). The code was written by hand in [Vim](http://www.vim.org/). The site makes use of the rather nice looking typeface [Open Sans](http://www.google.com/webfonts/specimen/Open+Sans), which is provided by [Google Fonts](http://www.google.com/fonts).
 
 The blog posts are written in [Markdown](http://daringfireball.net/projects/markdown/), scribbled down in [Pop](http://minimaltools.com/), [iA Writer](http://www.iawriter.com/) or [ResophNotes](http://resoph.com/ResophNotes/Welcome.html) before finally ending up and being finished in [FocusWriter](http://gottcode.org/focuswriter/), [Vim](http://www.vim.org/) or occasionally in [MarkdownPad](http://www.mardownpad.com/). [Shotty](http://shotty.devs-on.net/en/Overview.aspx) is used for taking the screenshots. 
 
