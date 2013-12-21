@@ -3,9 +3,7 @@ title: "Contact"
 layout: page
 ---
 
-There's several ways to contact and to keep in touch with me. Feel free to use any of the following channels to either read, rant, rave or to simply talk to me.
-
-- Send me an email to ellengummesson[at]gmail[dot]com.
+- Send an email to ellengummesson[at]gmail[dot]com.
 - Follow me on [Twitter](https://twitter.com/pratnarkoman).
 - Look at my photos on [Instagram](http://instagram.com/pratnarkoman/).
 - Check out things I like on [Pinterest](http://www.pinterest.com/gummesson/).
