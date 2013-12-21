@@ -6,7 +6,7 @@
 
 .site-nav {
   & li {
-    margin-right: $base-spacing-unit * 2; 
+    margin-right: $base-spacing-unit * 2.75; 
   }
 }
 
@@ -23,7 +23,7 @@
     @extend %push--bottom;
 
     & li {
-      margin-right: $base-spacing-unit * 2; 
+      margin-right: $base-spacing-unit * 2.75; 
     }
   }
 
