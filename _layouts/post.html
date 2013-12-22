@@ -5,20 +5,16 @@ layout: default
 <article class="post">
   {% if page.external-url %}
     <h1 class="post__title">
-      <a class="link--hidden" href="{{ page.external-url }}" alt="{{ page.title }}">
-        {{ page.title }} <span class="post__title--external">&rarr;</span>
-      </a>
+      <a class="link--hidden" href="{{ page.external-url }}" alt="{{ page.title }}">{{ page.title }} <span class="post__title--external">&rarr;</span></a>
     </h1>
   {% else %}
-    <h1 class="post__title">
-      {{ page.title }}
-    </h1>
+    <h1 class="post__title">{{ page.title }}</h1>
   {% endif %}
     <p class="post__meta">
       Posted on {{ page.date | date: '%B %e, %Y' }}{% if page.tags %} in {% for tag in page.tags %}<a href="/blog/tag/{{ tag | downcase | replace:' ','-' }}" alt="{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}{% endfor %}{% endif %}
     </p>
       {{ content }}
-</article><!-- .post -->
+</article><!-- /post -->
 {% if page.comments %}
   {% include comments.html %}
 {% endif %}

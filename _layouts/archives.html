@@ -20,10 +20,9 @@ title: Archives
     <ul class="list--posts">
     {% for post in page.posts_by_month[month] %}
       <li>
-        <span class="list--posts__date">{{ post.date | date: "%b %e, %Y" }}:</span>
-        <a href="{{ post.url }}" alt="{{ post.title }}">{{ post.title }}</a>
+        <span class="list--posts__date">{{ post.date | date: "%b %e, %Y" }}:</span> <a href="{{ post.url }}" alt="{{ post.title }}">{{ post.title }}</a>
       </li>
     {% endfor %}
     </ul>
   {% endfor %}
-</article><!-- .page -->
+</article><!-- /page -->
