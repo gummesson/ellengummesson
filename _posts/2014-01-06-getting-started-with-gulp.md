@@ -6,7 +6,7 @@ comments: true
 external-url: false
 ---
 
-During the last couple of weeks there's been a lot of buzz around [gulp](http://gulpjs.com/), which is a build system similar to [Grunt](http://gruntjs.com/) but with a different approach. gulp's main feature is that it's using [streams](http://nodejs.org/api/stream.html) and piping for all of the processing.
+During the last couple of weeks there's been a lot of buzz around [gulp](http://gulpjs.com/), which is a build system similar to [Grunt](http://gruntjs.com/) but with a different approach. gulp's main feature is that it's using [streams](http://nodejs.org/api/stream.html) for all of the processing. This generally means better flow control and thus no need for creating temporary files and folders when you're running different tasks.
 
 I won't dwell into how streams work, but if you want to learn more about streams in Node.js work I encourage you to read the "[Stream handbook](https://github.com/substack/stream-handbook)". If you want to learn more about standard streams, try "[Dig Into Unix: Standard Streams](http://gigaom.com/2009/07/01/dig-into-unix-standard-streams/)".
 
